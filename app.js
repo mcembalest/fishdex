@@ -1,3 +1,10 @@
+// ============================================
+// CONFIGURATION
+// ============================================
+const CONFIG = {
+    // Get a free API key from https://www.maptiler.com/cloud/
+    MAPTILER_API_KEY: 'uKW1VenIHpSRLBecotba'
+};
 
 // Convert arrays to lookup objects if data.js provides arrays
 const fishSpeciesLookup = Array.isArray(fishSpecies)
@@ -225,49 +232,21 @@ function initGlobe() {
         .width(containerWidth)
         .height(containerHeight)
 
-        // Globe appearance
-        .globeImageUrl('https://unpkg.com/three-globe/example/img/earth-blue-marble.jpg')
-        .bumpImageUrl('https://unpkg.com/three-globe/example/img/earth-topology.png')
+        // Dynamic tile engine for high-resolution maps (zooms smoothly)
+        .globeTileEngineUrl((x, y, l) =>
+            `https://api.maptiler.com/tiles/satellite-v2/${l}/${x}/${y}.jpg?key=${CONFIG.MAPTILER_API_KEY}`
+        )
         .backgroundImageUrl('https://unpkg.com/three-globe/example/img/night-sky.png')
         .showAtmosphere(true)
         .atmosphereColor('lightskyblue')
-        .atmosphereAltitude(0.2)
+        .atmosphereAltitude(0.15)
 
-        // Points (fishing locations)
-        .pointsData(locationData)
-        .pointLat(d => d.lat)
-        .pointLng(d => d.lng)
-        .pointAltitude(d => 0.02 + (Math.min(d.totalCatches, 10) / 10 * 0.03))
-        .pointRadius(d => {
-            // Increased base radius for easier clicking and hover detection
-            const baseRadius = 0.7 + (Math.min(d.totalCatches, 10) / 10 * 0.5);
-            // Enlarge dramatically when hovered
-            if (appState.hoveredLocationId === d.id) {
-                return baseRadius * 2.8;
-            }
-            return baseRadius;
-        })
-        .pointColor(d => getLocationColor(d.totalCatches))
-        .pointLabel(d => buildLocationTooltip(d))
-        .pointResolution(12)
-
-        // Hover handler for markers
-        .onPointHover((point, prevPoint) => {
-            if (point) {
-                appState.hoveredLocationId = point.id;
-                // Change cursor to pointer when hovering over a point
-                container.style.cursor = 'pointer';
-            } else {
-                appState.hoveredLocationId = null;
-                // Reset cursor when not hovering
-                container.style.cursor = 'grab';
-            }
-            // Trigger update to redraw points with new radius
-            appState.globe.pointsData([...appState.globe.pointsData()]);
-        })
-
-        // Click handler for markers
-        .onPointClick(handleLocationClick)
+        // HTML markers for locations (vector-based, scales perfectly)
+        .htmlElementsData(locationData)
+        .htmlLat(d => d.lat)
+        .htmlLng(d => d.lng)
+        .htmlAltitude(0.01)
+        .htmlElement(d => createMarkerElement(d))
 
         // Initial view
         .pointOfView({ lat: 20, lng: 0, altitude: 2.5 });
@@ -359,6 +338,78 @@ function buildLocationTooltip(location) {
             ${photoGrid}
         </div>
     `;
+}
+
+// ============================================
+// HTML MARKER CREATION
+// ============================================
+function createMarkerElement(location) {
+    const stats = calculateLocationStats(location.id);
+    const tripsHere = userCatchRecords.trips.filter(t => t.locationId === location.id);
+    const totalCatches = tripsHere.reduce((sum, t) => sum + t.catches.length, 0);
+    const color = getLocationColor(totalCatches);
+
+    // Calculate marker size based on catches (24-40px)
+    const baseSize = 24;
+    const maxSize = 40;
+    const size = baseSize + Math.min(totalCatches, 20) / 20 * (maxSize - baseSize);
+
+    const el = document.createElement('div');
+    el.className = 'globe-marker';
+    el.dataset.locationId = location.id;
+
+    // SVG pin marker - scales perfectly at any zoom
+    el.innerHTML = `
+        <svg viewBox="0 0 24 36" width="${size}" height="${size * 1.5}" style="overflow: visible;">
+            <defs>
+                <filter id="shadow-${location.id}" x="-50%" y="-50%" width="200%" height="200%">
+                    <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="rgba(0,0,0,0.5)"/>
+                </filter>
+                <linearGradient id="grad-${location.id}" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" style="stop-color:${lightenColor(color, 30)}" />
+                    <stop offset="100%" style="stop-color:${color}" />
+                </linearGradient>
+            </defs>
+            <path
+                d="M12 0C5.4 0 0 5.4 0 12c0 9 12 24 12 24s12-15 12-24c0-6.6-5.4-12-12-12z"
+                fill="url(#grad-${location.id})"
+                filter="url(#shadow-${location.id})"
+            />
+            <circle cx="12" cy="12" r="6" fill="white" opacity="0.9"/>
+            <text x="12" y="15" text-anchor="middle" font-size="8" font-weight="bold" fill="${color}">
+                ${totalCatches > 99 ? '99+' : totalCatches}
+            </text>
+        </svg>
+    `;
+
+    // Tooltip on hover
+    el.title = `${location.name}\n${stats.caught} species, ${totalCatches} catches`;
+
+    // Hover effect
+    el.addEventListener('mouseenter', () => {
+        el.classList.add('hovered');
+    });
+
+    el.addEventListener('mouseleave', () => {
+        el.classList.remove('hovered');
+    });
+
+    // Click handler
+    el.addEventListener('click', (e) => {
+        e.stopPropagation();
+        handleLocationClick(location);
+    });
+
+    return el;
+}
+
+function lightenColor(color, percent) {
+    const num = parseInt(color.replace('#', ''), 16);
+    const amt = Math.round(2.55 * percent);
+    const R = Math.min(255, (num >> 16) + amt);
+    const G = Math.min(255, ((num >> 8) & 0x00FF) + amt);
+    const B = Math.min(255, (num & 0x0000FF) + amt);
+    return '#' + (0x1000000 + R * 0x10000 + G * 0x100 + B).toString(16).slice(1);
 }
 
 // ============================================
@@ -561,9 +612,18 @@ function setupEventListeners() {
 
 function handleLocationClick(location) {
     appState.globe.controls().autoRotate = false;
-    // Reset hover state after click
-    appState.hoveredLocationId = null;
-    appState.globe.pointsData([...appState.globe.pointsData()]);
+
+    // Remove previous active state from all markers
+    document.querySelectorAll('.globe-marker.active').forEach(el => {
+        el.classList.remove('active');
+    });
+
+    // Add active state to clicked marker
+    const marker = document.querySelector(`.globe-marker[data-location-id="${location.id}"]`);
+    if (marker) {
+        marker.classList.add('active');
+    }
+
     showLocationModal(location);
 }
 
