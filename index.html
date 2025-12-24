@@ -21,10 +21,6 @@
                 <span class="stat-value" id="total-locations">0</span>
                 <span class="stat-label">Locations Fished</span>
             </div>
-            <div class="stat-item">
-                <span class="stat-value" id="biggest-catch">-</span>
-                <span class="stat-label">Biggest Catch</span>
-            </div>
         </div>
     </header>
 
@@ -36,6 +32,7 @@
                 <button class="tab-btn active" data-tab="recent">Recent</button>
                 <button class="tab-btn" data-tab="catalog">Catalog</button>
                 <button class="tab-btn" data-tab="records">Records</button>
+                <button class="tab-btn" data-tab="edit">Edit</button>
             </div>
 
             <!-- Recent Catches Tab -->
@@ -59,6 +56,15 @@
             <div id="tab-records" class="tab-content">
                 <div id="personal-records"></div>
             </div>
+
+            <!-- Edit Tab -->
+            <div id="tab-edit" class="tab-content">
+                <div class="edit-toolbar">
+                    <button id="add-trip-btn" class="action-btn">+ Add Trip</button>
+                    <button id="export-btn" class="action-btn secondary">Export</button>
+                </div>
+                <div id="edit-trips-list"></div>
+            </div>
         </aside>
     </main>
 
@@ -69,7 +75,6 @@
 
             <div class="location-header">
                 <h2 id="location-name"></h2>
-                <p id="location-description"></p>
                 <div class="location-stats">
                     <div class="location-stat-row">
                         <span id="loc-caught">0</span> Species Caught Here
@@ -104,20 +109,10 @@
                         <h2 id="fish-name">???</h2>
                     </div>
                     <p id="fish-scientific" class="scientific-name"></p>
-                    <p id="fish-description" class="fish-desc"></p>
 
                     <div class="fish-stats">
                         <div class="stat-row">
-                            <span class="label">Size Range</span>
-                            <span id="fish-size" class="value"></span>
-                        </div>
-                        <div class="stat-row">
-                            <span class="label">Best Season</span>
-                            <span id="fish-season" class="value"></span>
-                        </div>
-                        <div class="stat-row">
-                            <span class="label">Habitat</span>
-                            <span id="fish-habitat" class="value"></span>
+            
                         </div>
                     </div>
 
@@ -132,15 +127,80 @@
                             <span id="times-caught" class="value"></span>
                         </div>
                         <div class="stat-row">
-                            <span class="label">Personal Best</span>
-                            <span id="personal-best" class="value"></span>
-                        </div>
-                        <div class="stat-row">
                             <span class="label">Caught At</span>
                             <span id="caught-location" class="value"></span>
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Add Trip Modal -->
+    <div id="add-trip-modal" class="modal hidden">
+        <div class="modal-content add-trip-modal-content">
+            <button class="close-btn">&times;</button>
+            <h2>Add New Trip</h2>
+            <div class="form-group">
+                <label for="new-trip-date">Date</label>
+                <input type="date" id="new-trip-date" class="edit-input">
+            </div>
+            <div class="form-group">
+                <label for="new-trip-location">Location</label>
+                <select id="new-trip-location" class="edit-select"></select>
+                <button id="add-location-from-trip-btn" class="link-btn">+ Add New Location</button>
+            </div>
+            <div class="form-group">
+                <label>Catches</label>
+                <div id="new-trip-catches"></div>
+                <button id="add-catch-to-new-trip-btn" class="add-catch-btn">+ Add Catch</button>
+            </div>
+            <div class="form-group">
+                <label for="new-trip-notes">Notes</label>
+                <textarea id="new-trip-notes" class="edit-textarea" placeholder="Optional notes..."></textarea>
+            </div>
+            <div class="modal-actions">
+                <button id="save-new-trip-btn" class="action-btn">Save Trip</button>
+                <button id="cancel-new-trip-btn" class="action-btn secondary">Cancel</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Add Location Modal -->
+    <div id="add-location-modal" class="modal hidden">
+        <div class="modal-content add-location-modal-content">
+            <button class="close-btn">&times;</button>
+            <h2>Add New Location</h2>
+            <div class="form-group">
+                <label for="new-location-name">Location Name</label>
+                <input type="text" id="new-location-name" class="edit-input" placeholder="e.g., Miami, FL">
+            </div>
+            <div class="form-group coords-group">
+                <div>
+                    <label for="new-location-lat">Latitude</label>
+                    <input type="number" id="new-location-lat" class="edit-input" step="0.0001" placeholder="25.7617">
+                </div>
+                <div>
+                    <label for="new-location-lng">Longitude</label>
+                    <input type="number" id="new-location-lng" class="edit-input" step="0.0001" placeholder="-80.1918">
+                </div>
+            </div>
+            <div class="modal-actions">
+                <button id="save-new-location-btn" class="action-btn">Save Location</button>
+                <button id="cancel-new-location-btn" class="action-btn secondary">Cancel</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Export Modal -->
+    <div id="export-modal" class="modal hidden">
+        <div class="modal-content export-modal-content">
+            <button class="close-btn">&times;</button>
+            <h2>Export Data</h2>
+            <div class="export-summary" id="export-summary"></div>
+            <div class="modal-actions">
+                <button id="confirm-export-btn" class="action-btn">Download data.js</button>
+                <button id="cancel-export-btn" class="action-btn secondary">Cancel</button>
             </div>
         </div>
     </div>

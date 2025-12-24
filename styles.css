@@ -14,6 +14,12 @@
     --border-glow: rgba(0, 212, 255, 0.3);
 }
 
+html, body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: var(--bg-dark);
@@ -90,13 +96,18 @@ body {
 .app-container {
     display: flex;
     height: 100vh;
-    width: 100vw;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    position: relative;
 }
 
 #globe-container {
-    flex: 1;
+    flex: 1 1 auto;
+    min-width: 0;
     position: relative;
     cursor: grab;
+    overflow: hidden;
 }
 
 #globe-container:active {
@@ -108,12 +119,16 @@ body {
    ============================================ */
 .side-panel {
     width: 340px;
+    flex-shrink: 0;
+    flex-grow: 0;
     background: var(--bg-panel);
     backdrop-filter: blur(10px);
     border-left: 1px solid var(--border-glow);
     display: flex;
     flex-direction: column;
     padding-top: 5rem;
+    position: relative;
+    z-index: 10;
 }
 
 .panel-tabs {
@@ -214,12 +229,6 @@ body {
     opacity: 0.7;
 }
 
-.catch-weight {
-    font-size: 0.8rem;
-    font-weight: 600;
-    color: var(--accent);
-    white-space: nowrap;
-}
 
 /* ============================================
    FISH CATALOG TAB
@@ -689,13 +698,6 @@ body {
     margin-bottom: 1rem;
 }
 
-.fish-desc {
-    color: var(--text-secondary);
-    font-size: 0.9rem;
-    line-height: 1.5;
-    margin-bottom: 1rem;
-}
-
 .fish-stats {
     padding-top: 1rem;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
@@ -750,6 +752,29 @@ body {
 /* ============================================
    RESPONSIVE
    ============================================ */
+@media (min-width: 769px) {
+    html {
+        overflow-x: hidden;
+    }
+    
+    .app-container {
+        width: 100%;
+        max-width: 100%;
+    }
+    
+    #globe-container {
+        flex: 1 1 0;
+        min-width: 0;
+        max-width: calc(100% - 340px);
+    }
+    
+    .side-panel {
+        flex-shrink: 0;
+        flex-grow: 0;
+        width: 340px;
+    }
+}
+
 @media (max-width: 768px) {
     .app-container {
         flex-direction: column;
@@ -887,4 +912,362 @@ body {
     height: 50px;
     border-radius: 8px;
     object-fit: cover;
+}
+
+/* ============================================
+   EDIT TAB
+   ============================================ */
+.edit-toolbar {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.action-btn {
+    flex: 1;
+    background: var(--accent);
+    color: var(--bg-dark);
+    border: none;
+    padding: 0.6rem;
+    border-radius: 6px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.action-btn:hover {
+    background: var(--accent-hover);
+}
+
+.action-btn.secondary {
+    background: transparent;
+    border: 1px solid var(--border-glow);
+    color: var(--text-secondary);
+}
+
+.action-btn.secondary:hover {
+    border-color: var(--accent);
+    color: var(--text-primary);
+}
+
+/* Trip Edit Card */
+.edit-trip-card {
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin-bottom: 0.5rem;
+    border: 1px solid transparent;
+    overflow: hidden;
+}
+
+.edit-trip-card.has-edits {
+    border-color: #ffa502;
+}
+
+.edit-trip-card.is-new {
+    border-color: #2ed573;
+}
+
+.edit-trip-header {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.75rem;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.edit-trip-header:hover {
+    background: rgba(0, 212, 255, 0.05);
+}
+
+.edit-trip-photo {
+    width: 45px;
+    height: 45px;
+    flex-shrink: 0;
+}
+
+.edit-trip-photo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+.edit-trip-photo .photo-placeholder {
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px dashed rgba(255, 255, 255, 0.3);
+    border-radius: 6px;
+}
+
+.edit-trip-summary {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    min-width: 0;
+}
+
+.edit-trip-summary .edit-trip-date {
+    font-weight: 600;
+    font-size: 0.85rem;
+    color: var(--text-primary);
+}
+
+.edit-trip-summary .edit-trip-location {
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.edit-trip-summary .edit-trip-catches {
+    font-size: 0.7rem;
+    color: var(--text-secondary);
+    opacity: 0.7;
+}
+
+.edit-trip-badges {
+    display: flex;
+    gap: 0.25rem;
+}
+
+.edit-badge {
+    font-size: 0.55rem;
+    padding: 0.15rem 0.4rem;
+    border-radius: 4px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.edit-badge.edited {
+    background: #ffa502;
+    color: var(--bg-dark);
+}
+
+.edit-badge.new {
+    background: #2ed573;
+    color: var(--bg-dark);
+}
+
+.expand-icon {
+    font-size: 1.25rem;
+    color: var(--text-secondary);
+    width: 1.5rem;
+    text-align: center;
+}
+
+/* Edit Form */
+.edit-trip-form {
+    padding: 0.75rem;
+    padding-top: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.form-row {
+    margin-bottom: 0.75rem;
+}
+
+.form-row > label {
+    display: block;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--text-secondary);
+    margin-bottom: 0.35rem;
+}
+
+.edit-input,
+.edit-select,
+.edit-textarea {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: var(--text-primary);
+    padding: 0.5rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-family: inherit;
+}
+
+.edit-input:focus,
+.edit-select:focus,
+.edit-textarea:focus {
+    outline: none;
+    border-color: var(--accent);
+}
+
+.edit-textarea {
+    min-height: 60px;
+    resize: vertical;
+}
+
+.catches-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    margin-bottom: 0.5rem;
+}
+
+.catch-edit-row {
+    display: flex;
+    gap: 0.4rem;
+    align-items: center;
+}
+
+.catch-edit-row.is-new-catch {
+    border-left: 2px solid #2ed573;
+    padding-left: 0.4rem;
+}
+
+.catch-edit-row .edit-select {
+    flex: 2;
+}
+
+.catch-edit-row .edit-input {
+    flex: 1;
+    max-width: 70px;
+}
+
+
+.delete-catch-btn {
+    background: transparent;
+    border: none;
+    color: var(--text-secondary);
+    font-size: 1.1rem;
+    cursor: pointer;
+    padding: 0.25rem;
+    line-height: 1;
+    transition: color 0.2s ease;
+}
+
+.delete-catch-btn:hover {
+    color: #ff6b6b;
+}
+
+.add-catch-btn {
+    background: transparent;
+    border: 1px dashed var(--border-glow);
+    color: var(--text-secondary);
+    padding: 0.4rem;
+    border-radius: 4px;
+    font-size: 0.7rem;
+    cursor: pointer;
+    width: 100%;
+    transition: all 0.2s ease;
+}
+
+.add-catch-btn:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+}
+
+.link-btn {
+    background: transparent;
+    border: none;
+    color: var(--accent);
+    font-size: 0.7rem;
+    cursor: pointer;
+    padding: 0.25rem 0;
+    margin-top: 0.25rem;
+}
+
+.link-btn:hover {
+    text-decoration: underline;
+}
+
+.edit-trip-actions {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 0.75rem;
+    padding-top: 0.75rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.edit-trip-actions .action-btn {
+    flex: 1;
+    padding: 0.5rem;
+    font-size: 0.7rem;
+}
+
+/* ============================================
+   ADD TRIP / ADD LOCATION / EXPORT MODALS
+   ============================================ */
+.add-trip-modal-content,
+.add-location-modal-content,
+.export-modal-content {
+    width: 90%;
+    max-width: 400px;
+    padding: 1.5rem;
+}
+
+.add-trip-modal-content h2,
+.add-location-modal-content h2,
+.export-modal-content h2 {
+    font-size: 1.25rem;
+    color: var(--accent);
+    margin-bottom: 1rem;
+    padding-right: 2rem;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-group > label {
+    display: block;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--text-secondary);
+    margin-bottom: 0.35rem;
+}
+
+.coords-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.75rem;
+}
+
+.coords-group > div > label {
+    display: block;
+    font-size: 0.7rem;
+    color: var(--text-secondary);
+    margin-bottom: 0.25rem;
+}
+
+.modal-actions {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 1.5rem;
+}
+
+.modal-actions .action-btn {
+    flex: 1;
+}
+
+.export-summary {
+    background: rgba(0, 0, 0, 0.3);
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.export-summary p {
+    font-size: 0.85rem;
+    margin-bottom: 0.5rem;
+}
+
+.export-summary ul {
+    list-style: disc;
+    list-style-position: inside;
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+}
+
+.export-summary li {
+    padding: 0.15rem 0;
 }

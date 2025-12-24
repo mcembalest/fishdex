@@ -1,1812 +1,512 @@
 // Fishdex Data - Generated from Instagram content
-// Generated: 2025-12-23T23:17:41.696985
+// Generated: 2025-12-24T13:46:18.232420
 // Source: michaelcembalest Instagram (225 trips, 100 species)
 
-const fishSpecies = {
-  "black-marlin": {
-    "id": "black-marlin",
-    "name": "Black Marlin",
-    "scientificName": "Makaira nigricans",
-    "description": "A legendary pelagic species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Pelagic"
-  },
-  "blue-marlin": {
-    "id": "blue-marlin",
-    "name": "Blue Marlin",
-    "scientificName": "Makaira nigricans",
-    "description": "A legendary pelagic species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Pelagic"
-  },
-  "white-sturgeon": {
-    "id": "white-sturgeon",
-    "name": "White Sturgeon",
-    "scientificName": "Acipenser transmontanus",
-    "description": "A legendary river species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "River"
-  },
-  "atlantic-bluefin-tuna": {
-    "id": "atlantic-bluefin-tuna",
-    "name": "Atlantic Bluefin Tuna",
-    "scientificName": "Thunnus thynnus",
-    "description": "A rare pelagic species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Pelagic"
-  },
-  "bigeye-tuna": {
-    "id": "bigeye-tuna",
-    "name": "Bigeye Tuna",
-    "scientificName": "Thunnus obesus",
-    "description": "A rare pelagic species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Pelagic"
-  },
-  "hammerhead-shark": {
-    "id": "hammerhead-shark",
-    "name": "Hammerhead Shark",
-    "scientificName": "Sphyrna lewini",
-    "description": "A rare pelagic species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Pelagic"
-  },
-  "muskellunge": {
-    "id": "muskellunge",
-    "name": "Muskellunge",
-    "scientificName": "Esox masquinongy",
-    "description": "A rare lake species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Lake"
-  },
-  "roosterfish": {
-    "id": "roosterfish",
-    "name": "Roosterfish",
-    "scientificName": "Nematistius pectoralis",
-    "description": "A rare coastal species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Coastal"
-  },
-  "sailfish": {
-    "id": "sailfish",
-    "name": "Sailfish",
-    "scientificName": "Istiophorus platypterus",
-    "description": "A rare pelagic species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Pelagic"
-  },
-  "tarpon": {
-    "id": "tarpon",
-    "name": "Tarpon",
-    "scientificName": "Megalops atlanticus",
-    "description": "A rare coastal species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Coastal"
-  },
-  "vampire-fish-(payara)": {
-    "id": "vampire-fish-(payara)",
-    "name": "Vampire Fish (Payara)",
-    "scientificName": "Hydrolycus scomberoides",
-    "description": "A rare river species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "River"
-  },
-  "wahoo": {
-    "id": "wahoo",
-    "name": "Wahoo",
-    "scientificName": "Acanthocybium solandri",
-    "description": "A rare pelagic species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Pelagic"
-  },
-  "yellowfin-tuna": {
-    "id": "yellowfin-tuna",
-    "name": "Yellowfin Tuna",
-    "scientificName": "Thunnus albacares",
-    "description": "A rare pelagic species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Pelagic"
-  },
-  "albacore-tuna": {
+const fishSpecies = [
+  {
     "id": "albacore-tuna",
     "name": "Albacore Tuna",
-    "scientificName": "Thunnus alalunga",
-    "description": "A uncommon pelagic species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Pelagic"
+    "scientificName": "Thunnus alalunga"
   },
-  "atlantic-tarpon": {
-    "id": "atlantic-tarpon",
-    "name": "Atlantic Tarpon",
-    "scientificName": "Megalops atlanticus",
-    "description": "A uncommon coastal species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Coastal"
-  },
-  "atlantic-sailfish": {
-    "id": "atlantic-sailfish",
-    "name": "Atlantic sailfish",
-    "scientificName": "Istiophorus albicans",
-    "description": "A uncommon pelagic species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Pelagic"
-  },
-  "bonefish": {
-    "id": "bonefish",
-    "name": "Bonefish",
-    "scientificName": "Albula vulpes",
-    "description": "A uncommon flats species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Flats"
-  },
-  "chinook-salmon": {
-    "id": "chinook-salmon",
-    "name": "Chinook Salmon",
-    "scientificName": "Oncorhynchus tshawytscha",
-    "description": "A uncommon coastal species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Coastal"
-  },
-  "clown-knifefish": {
-    "id": "clown-knifefish",
-    "name": "Clown knifefish",
-    "scientificName": "Chitala ornata",
-    "description": "A uncommon river species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "River"
-  },
-  "cobia": {
-    "id": "cobia",
-    "name": "Cobia",
-    "scientificName": "Rachycentron canadum",
-    "description": "A uncommon coastal species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Coastal"
-  },
-  "common-snook": {
-    "id": "common-snook",
-    "name": "Common Snook",
-    "scientificName": "Centropomus undecimalis",
-    "description": "A uncommon coastal species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Coastal"
-  },
-  "cubera-snapper": {
-    "id": "cubera-snapper",
-    "name": "Cubera Snapper",
-    "scientificName": "Lutjanus cyanopterus",
-    "description": "A uncommon reef species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Reef"
-  },
-  "giant-trevally": {
-    "id": "giant-trevally",
-    "name": "Giant Trevally",
-    "scientificName": "Caranx ignobilis",
-    "description": "A uncommon pelagic species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Pelagic"
-  },
-  "golden-trevally": {
-    "id": "golden-trevally",
-    "name": "Golden Trevally",
-    "scientificName": "Gnathanodon speciosus",
-    "description": "A uncommon reef species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Reef"
-  },
-  "golden-dorado": {
-    "id": "golden-dorado",
-    "name": "Golden dorado",
-    "scientificName": "Salminus brasiliensis",
-    "description": "A uncommon river species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "River"
-  },
-  "mahi-mahi": {
-    "id": "mahi-mahi",
-    "name": "Mahi-Mahi",
-    "scientificName": "Coryphaena hippurus",
-    "description": "A uncommon pelagic species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Pelagic"
-  },
-  "napoleon-wrasse": {
-    "id": "napoleon-wrasse",
-    "name": "Napoleon Wrasse",
-    "scientificName": "Cheilinus undulatus",
-    "description": "A uncommon reef species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Reef"
-  },
-  "peacock-bass": {
-    "id": "peacock-bass",
-    "name": "Peacock Bass",
-    "scientificName": "Cichla ocellaris",
-    "description": "A uncommon river species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "River"
-  },
-  "permit": {
-    "id": "permit",
-    "name": "Permit",
-    "scientificName": "Trachinotus falcatus",
-    "description": "A uncommon flats species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Flats"
-  },
-  "red-drum": {
-    "id": "red-drum",
-    "name": "Red Drum",
-    "scientificName": "Sciaenops ocellatus",
-    "description": "A uncommon coastal species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Coastal"
-  },
-  "red-snapper": {
-    "id": "red-snapper",
-    "name": "Red Snapper",
-    "scientificName": "Lutjanus campechanus",
-    "description": "A uncommon reef species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Reef"
-  },
-  "sea-run-trout": {
-    "id": "sea-run-trout",
-    "name": "Sea-run trout",
-    "scientificName": "Oncorhynchus mykiss",
-    "description": "A uncommon coastal species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Coastal"
-  },
-  "smooth-hammerhead": {
-    "id": "smooth-hammerhead",
-    "name": "Smooth Hammerhead",
-    "scientificName": "Sphyrna zygaena",
-    "description": "A uncommon coastal species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Coastal"
-  },
-  "striped-marlin": {
-    "id": "striped-marlin",
-    "name": "Striped Marlin",
-    "scientificName": "Kajikia audax",
-    "description": "A uncommon pelagic species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Pelagic"
-  },
-  "tiger-fish": {
-    "id": "tiger-fish",
-    "name": "Tiger fish",
-    "scientificName": "Hydrocynus vittatus",
-    "description": "A uncommon river species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "River"
-  },
-  "white-sea-bass": {
-    "id": "white-sea-bass",
-    "name": "White Sea Bass",
-    "scientificName": "Atractoscion nobilis",
-    "description": "A uncommon coastal species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Coastal"
-  },
-  "white-seabass": {
-    "id": "white-seabass",
-    "name": "White Seabass",
-    "scientificName": "Atractoscion nobilis",
-    "description": "A uncommon coastal species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Coastal"
-  },
-  "yellowtail-amberjack": {
-    "id": "yellowtail-amberjack",
-    "name": "Yellowtail Amberjack",
-    "scientificName": "Seriola lalandi",
-    "description": "A uncommon coastal species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Coastal"
-  },
-  "almaco-jack": {
+  {
     "id": "almaco-jack",
     "name": "Almaco Jack",
-    "scientificName": "Seriola rivoliana",
-    "description": "A common pelagic species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Pelagic"
+    "scientificName": "Seriola rivoliana"
   },
-  "amberjack": {
+  {
     "id": "amberjack",
     "name": "Amberjack",
-    "scientificName": "Seriola rivoliana",
-    "description": "A common pelagic species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Pelagic"
+    "scientificName": "Seriola rivoliana"
   },
-  "barracuda": {
+  {
+    "id": "atlantic-bluefin-tuna",
+    "name": "Atlantic Bluefin Tuna",
+    "scientificName": "Thunnus thynnus"
+  },
+  {
+    "id": "atlantic-tarpon",
+    "name": "Atlantic Tarpon",
+    "scientificName": "Megalops atlanticus"
+  },
+  {
+    "id": "atlantic-sailfish",
+    "name": "Atlantic sailfish",
+    "scientificName": "Istiophorus albicans"
+  },
+  {
     "id": "barracuda",
     "name": "Barracuda",
-    "scientificName": "Sphyraena barracuda",
-    "description": "A common coastal species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Coastal"
+    "scientificName": "Sphyraena barracuda"
   },
-  "black-drum": {
+  {
+    "id": "bigeye-tuna",
+    "name": "Bigeye Tuna",
+    "scientificName": "Thunnus obesus"
+  },
+  {
     "id": "black-drum",
     "name": "Black Drum",
-    "scientificName": "Pogonias cromis",
-    "description": "A common coastal species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Coastal"
+    "scientificName": "Pogonias cromis"
   },
-  "blackfin-tuna": {
+  {
+    "id": "black-marlin",
+    "name": "Black Marlin",
+    "scientificName": "Makaira nigricans"
+  },
+  {
     "id": "blackfin-tuna",
     "name": "Blackfin Tuna",
-    "scientificName": "Thunnus atlanticus",
-    "description": "A common pelagic species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Pelagic"
+    "scientificName": "Thunnus atlanticus"
   },
-  "blackfish": {
+  {
     "id": "blackfish",
     "name": "Blackfish",
-    "scientificName": "Tautoga onitis",
-    "description": "A common coastal species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Coastal"
+    "scientificName": "Tautoga onitis"
   },
-  "blackfish-(tautog)": {
+  {
     "id": "blackfish-(tautog)",
     "name": "Blackfish (Tautog)",
-    "scientificName": "Tautoga onitis",
-    "description": "A common coastal species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Coastal"
+    "scientificName": "Tautoga onitis"
   },
-  "blue-trevally": {
+  {
+    "id": "blue-marlin",
+    "name": "Blue Marlin",
+    "scientificName": "Makaira nigricans"
+  },
+  {
     "id": "blue-trevally",
     "name": "Blue Trevally",
-    "scientificName": "Caranx melampygus",
-    "description": "A common reef species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Reef"
+    "scientificName": "Caranx melampygus"
   },
-  "bluefish": {
+  {
     "id": "bluefish",
     "name": "Bluefish",
-    "scientificName": "Pomatomus saltatrix",
-    "description": "A common coastal species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Coastal"
+    "scientificName": "Pomatomus saltatrix"
   },
-  "bonnethead-shark": {
+  {
+    "id": "bonefish",
+    "name": "Bonefish",
+    "scientificName": "Albula vulpes"
+  },
+  {
     "id": "bonnethead-shark",
     "name": "Bonnethead Shark",
-    "scientificName": "Sphyrna tiburo",
-    "description": "A common coastal species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Coastal"
+    "scientificName": "Sphyrna tiburo"
   },
-  "brown-trout": {
+  {
     "id": "brown-trout",
     "name": "Brown Trout",
-    "scientificName": "Salmo trutta",
-    "description": "A common river species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "River"
+    "scientificName": "Salmo trutta"
   },
-  "california-yellowtail": {
+  {
     "id": "california-yellowtail",
     "name": "California Yellowtail",
-    "scientificName": "Seriola dorsalis",
-    "description": "A common coastal species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Coastal"
+    "scientificName": "Seriola dorsalis"
   },
-  "chain-pickerel": {
+  {
     "id": "chain-pickerel",
     "name": "Chain Pickerel",
-    "scientificName": "Esox niger",
-    "description": "A common lake species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Lake"
+    "scientificName": "Esox niger"
   },
-  "chum-salmon": {
+  {
+    "id": "chinook-salmon",
+    "name": "Chinook Salmon",
+    "scientificName": "Oncorhynchus tshawytscha"
+  },
+  {
     "id": "chum-salmon",
     "name": "Chum Salmon",
-    "scientificName": "Oncorhynchus keta",
-    "description": "A common river species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "River"
+    "scientificName": "Oncorhynchus keta"
   },
-  "coho-salmon": {
+  {
+    "id": "clown-knifefish",
+    "name": "Clown knifefish",
+    "scientificName": "Chitala ornata"
+  },
+  {
+    "id": "cobia",
+    "name": "Cobia",
+    "scientificName": "Rachycentron canadum"
+  },
+  {
     "id": "coho-salmon",
     "name": "Coho Salmon",
-    "scientificName": "Oncorhynchus kisutch",
-    "description": "A common river species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "River"
+    "scientificName": "Oncorhynchus kisutch"
   },
-  "coral-trout": {
+  {
+    "id": "common-snook",
+    "name": "Common Snook",
+    "scientificName": "Centropomus undecimalis"
+  },
+  {
     "id": "coral-trout",
     "name": "Coral Trout",
-    "scientificName": "Plectropomus maculatus",
-    "description": "A common reef species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Reef"
+    "scientificName": "Plectropomus maculatus"
   },
-  "crevalle-jack": {
+  {
     "id": "crevalle-jack",
     "name": "Crevalle jack",
-    "scientificName": "Caranx hippos",
-    "description": "A common coastal species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Coastal"
+    "scientificName": "Caranx hippos"
   },
-  "cutthroat-trout": {
+  {
+    "id": "cubera-snapper",
+    "name": "Cubera Snapper",
+    "scientificName": "Lutjanus cyanopterus"
+  },
+  {
     "id": "cutthroat-trout",
     "name": "Cutthroat Trout",
-    "scientificName": "Oncorhynchus clarkii",
-    "description": "A common river species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "River"
+    "scientificName": "Oncorhynchus clarkii"
   },
-  "dorado": {
+  {
     "id": "dorado",
     "name": "Dorado",
-    "scientificName": "Coryphaena hippurus",
-    "description": "A common pelagic species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Pelagic"
+    "scientificName": "Coryphaena hippurus"
   },
-  "false-albacore": {
+  {
     "id": "false-albacore",
     "name": "False Albacore",
-    "scientificName": "Euthynnus alletteratus",
-    "description": "A common coastal species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Coastal"
+    "scientificName": "Euthynnus alletteratus"
   },
-  "florida-gar": {
+  {
     "id": "florida-gar",
     "name": "Florida Gar",
-    "scientificName": "Lepisosteus platyrhincus",
-    "description": "A common river species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "River"
+    "scientificName": "Lepisosteus platyrhincus"
   },
-  "flowery-cod": {
+  {
     "id": "flowery-cod",
     "name": "Flowery Cod",
-    "scientificName": "Plectropomus laevis",
-    "description": "A common reef species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Reef"
+    "scientificName": "Plectropomus laevis"
   },
-  "gray-triggerfish": {
+  {
+    "id": "giant-trevally",
+    "name": "Giant Trevally",
+    "scientificName": "Caranx ignobilis"
+  },
+  {
+    "id": "golden-trevally",
+    "name": "Golden Trevally",
+    "scientificName": "Gnathanodon speciosus"
+  },
+  {
+    "id": "golden-dorado",
+    "name": "Golden dorado",
+    "scientificName": "Salminus brasiliensis"
+  },
+  {
     "id": "gray-triggerfish",
     "name": "Gray Triggerfish",
-    "scientificName": "Balistes capriscus",
-    "description": "A common reef species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Reef"
+    "scientificName": "Balistes capriscus"
   },
-  "great-barracuda": {
+  {
     "id": "great-barracuda",
     "name": "Great Barracuda",
-    "scientificName": "Sphyraena barracuda",
-    "description": "A common coastal species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Coastal"
+    "scientificName": "Sphyraena barracuda"
   },
-  "greater-amberjack": {
+  {
     "id": "greater-amberjack",
     "name": "Greater Amberjack",
-    "scientificName": "Seriola dumerili",
-    "description": "A common reef species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Reef"
+    "scientificName": "Seriola dumerili"
   },
-  "grey-triggerfish": {
+  {
     "id": "grey-triggerfish",
     "name": "Grey Triggerfish",
-    "scientificName": "Balistes capriscus",
-    "description": "A common coastal species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Coastal"
+    "scientificName": "Balistes capriscus"
   },
-  "grouper": {
+  {
     "id": "grouper",
     "name": "Grouper",
-    "scientificName": "Mycteroperca microlepis",
-    "description": "A common reef species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Reef"
+    "scientificName": "Mycteroperca microlepis"
   },
-  "hogfish": {
+  {
+    "id": "hammerhead-shark",
+    "name": "Hammerhead Shark",
+    "scientificName": "Sphyrna lewini"
+  },
+  {
     "id": "hogfish",
     "name": "Hogfish",
-    "scientificName": "Lachnolaimus maximus",
-    "description": "A common reef species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Reef"
+    "scientificName": "Lachnolaimus maximus"
   },
-  "horse-eye-jack": {
+  {
     "id": "horse-eye-jack",
     "name": "Horse-eye Jack",
-    "scientificName": "Caranx caninus",
-    "description": "A common coastal species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Coastal"
+    "scientificName": "Caranx caninus"
   },
-  "houndfish": {
+  {
     "id": "houndfish",
     "name": "Houndfish",
-    "scientificName": "Tylosurus crocodilus",
-    "description": "A common coastal species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Coastal"
+    "scientificName": "Tylosurus crocodilus"
   },
-  "jack-crevalle": {
+  {
     "id": "jack-crevalle",
     "name": "Jack Crevalle",
-    "scientificName": "Caranx hippos",
-    "description": "A common coastal species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Coastal"
+    "scientificName": "Caranx hippos"
   },
-  "king-mackerel": {
+  {
     "id": "king-mackerel",
     "name": "King Mackerel",
-    "scientificName": "Scomberomorus cavalla",
-    "description": "A common coastal species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Coastal"
+    "scientificName": "Scomberomorus cavalla"
   },
-  "lemon-shark": {
+  {
     "id": "lemon-shark",
     "name": "Lemon Shark",
-    "scientificName": "Negaprion brevirostris",
-    "description": "A common coastal species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Coastal"
+    "scientificName": "Negaprion brevirostris"
   },
-  "lingcod": {
+  {
     "id": "lingcod",
     "name": "Lingcod",
-    "scientificName": "Ophiodon elongatus",
-    "description": "A common coastal species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Coastal"
+    "scientificName": "Ophiodon elongatus"
   },
-  "little-tunny": {
+  {
     "id": "little-tunny",
     "name": "Little Tunny",
-    "scientificName": "Euthynnus alletteratus",
-    "description": "A common pelagic species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Pelagic"
+    "scientificName": "Euthynnus alletteratus"
   },
-  "mackerel": {
+  {
     "id": "mackerel",
     "name": "Mackerel",
-    "scientificName": "Scomberomorus sierra",
-    "description": "A common coastal species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Coastal"
+    "scientificName": "Scomberomorus sierra"
   },
-  "malabar-grouper": {
+  {
+    "id": "mahi-mahi",
+    "name": "Mahi-Mahi",
+    "scientificName": "Coryphaena hippurus"
+  },
+  {
     "id": "malabar-grouper",
     "name": "Malabar Grouper",
-    "scientificName": "Epinephelus malabaricus",
-    "description": "A common reef species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Reef"
+    "scientificName": "Epinephelus malabaricus"
   },
-  "northern-pike": {
+  {
+    "id": "muskellunge",
+    "name": "Muskellunge",
+    "scientificName": "Esox masquinongy"
+  },
+  {
+    "id": "napoleon-wrasse",
+    "name": "Napoleon Wrasse",
+    "scientificName": "Cheilinus undulatus"
+  },
+  {
     "id": "northern-pike",
     "name": "Northern Pike",
-    "scientificName": "Esox lucius",
-    "description": "A common lake species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Lake"
+    "scientificName": "Esox lucius"
   },
-  "nurse-shark": {
+  {
     "id": "nurse-shark",
     "name": "Nurse Shark",
-    "scientificName": "Ginglymostoma cirratum",
-    "description": "A common reef species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Reef"
+    "scientificName": "Ginglymostoma cirratum"
   },
-  "orange-spotted-grouper": {
+  {
     "id": "orange-spotted-grouper",
     "name": "Orange-spotted Grouper",
-    "scientificName": "Epinephelus coioides",
-    "description": "A common reef species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Reef"
+    "scientificName": "Epinephelus coioides"
   },
-  "pacific-halibut": {
+  {
     "id": "pacific-halibut",
     "name": "Pacific Halibut",
-    "scientificName": "Hippoglossus stenolepis",
-    "description": "A common coastal species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Coastal"
+    "scientificName": "Hippoglossus stenolepis"
   },
-  "pacific-sierra": {
+  {
     "id": "pacific-sierra",
     "name": "Pacific Sierra",
-    "scientificName": "Scomberomorus sierra",
-    "description": "A common coastal species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Coastal"
+    "scientificName": "Scomberomorus sierra"
   },
-  "peacock-grouper": {
+  {
+    "id": "peacock-bass",
+    "name": "Peacock Bass",
+    "scientificName": "Cichla ocellaris"
+  },
+  {
     "id": "peacock-grouper",
     "name": "Peacock Grouper",
-    "scientificName": "Cephalopholis argus",
-    "description": "A common reef species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Reef"
+    "scientificName": "Cephalopholis argus"
   },
-  "pink-salmon": {
+  {
+    "id": "permit",
+    "name": "Permit",
+    "scientificName": "Trachinotus falcatus"
+  },
+  {
     "id": "pink-salmon",
     "name": "Pink Salmon",
-    "scientificName": "Oncorhynchus gorbuscha",
-    "description": "A common coastal species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Coastal"
+    "scientificName": "Oncorhynchus gorbuscha"
   },
-  "rainbow-trout": {
+  {
     "id": "rainbow-trout",
     "name": "Rainbow Trout",
-    "scientificName": "Oncorhynchus mykiss",
-    "description": "A common river species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "River"
+    "scientificName": "Oncorhynchus mykiss"
   },
-  "red-bass": {
+  {
     "id": "red-bass",
     "name": "Red Bass",
-    "scientificName": "Lutjanus bohar",
-    "description": "A common reef species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Reef"
+    "scientificName": "Lutjanus bohar"
   },
-  "red-grouper": {
+  {
+    "id": "red-drum",
+    "name": "Red Drum",
+    "scientificName": "Sciaenops ocellatus"
+  },
+  {
     "id": "red-grouper",
     "name": "Red Grouper",
-    "scientificName": "Epinephelus morio",
-    "description": "A common reef species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Reef"
+    "scientificName": "Epinephelus morio"
   },
-  "red-hind-grouper": {
+  {
     "id": "red-hind-grouper",
     "name": "Red Hind Grouper",
-    "scientificName": "Epinephelus guttatus",
-    "description": "A common reef species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Reef"
+    "scientificName": "Epinephelus guttatus"
   },
-  "scup": {
+  {
+    "id": "red-snapper",
+    "name": "Red Snapper",
+    "scientificName": "Lutjanus campechanus"
+  },
+  {
+    "id": "roosterfish",
+    "name": "Roosterfish",
+    "scientificName": "Nematistius pectoralis"
+  },
+  {
+    "id": "sailfish",
+    "name": "Sailfish",
+    "scientificName": "Istiophorus platypterus"
+  },
+  {
     "id": "scup",
     "name": "Scup",
-    "scientificName": "Stenotomus chrysops",
-    "description": "A common coastal species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Coastal"
+    "scientificName": "Stenotomus chrysops"
   },
-  "smallmouth-bass": {
+  {
+    "id": "sea-run-trout",
+    "name": "Sea-run trout",
+    "scientificName": "Oncorhynchus mykiss"
+  },
+  {
     "id": "smallmouth-bass",
     "name": "Smallmouth Bass",
-    "scientificName": "Micropterus nigricans",
-    "description": "A common lake species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Lake"
+    "scientificName": "Micropterus nigricans"
   },
-  "southern-flounder": {
+  {
+    "id": "smooth-hammerhead",
+    "name": "Smooth Hammerhead",
+    "scientificName": "Sphyrna zygaena"
+  },
+  {
     "id": "southern-flounder",
     "name": "Southern Flounder",
-    "scientificName": "Paralichthys lethostigma",
-    "description": "A common coastal species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Coastal"
+    "scientificName": "Paralichthys lethostigma"
   },
-  "southern-stingray": {
+  {
     "id": "southern-stingray",
     "name": "Southern stingray",
-    "scientificName": "Hypanus americanus",
-    "description": "A common coastal species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Coastal"
+    "scientificName": "Hypanus americanus"
   },
-  "striped-bass": {
+  {
     "id": "striped-bass",
     "name": "Striped Bass",
-    "scientificName": "Morone saxatilis",
-    "description": "A common coastal species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Coastal"
+    "scientificName": "Morone saxatilis"
   },
-  "summer-flounder": {
+  {
+    "id": "striped-marlin",
+    "name": "Striped Marlin",
+    "scientificName": "Kajikia audax"
+  },
+  {
     "id": "summer-flounder",
     "name": "Summer Flounder",
-    "scientificName": "Paralichthys dentatus",
-    "description": "A common coastal species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Coastal"
+    "scientificName": "Paralichthys dentatus"
   },
-  "summer-fluke": {
+  {
     "id": "summer-fluke",
     "name": "Summer Fluke",
-    "scientificName": "Paralichthys dentatus",
-    "description": "A common coastal species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Coastal"
+    "scientificName": "Paralichthys dentatus"
   },
-  "tararira": {
+  {
     "id": "tararira",
     "name": "Tararira",
-    "scientificName": "Hoplias malabaricus",
-    "description": "A common river species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "River"
+    "scientificName": "Hoplias malabaricus"
   },
-  "tiger-rockfish": {
+  {
+    "id": "tarpon",
+    "name": "Tarpon",
+    "scientificName": "Megalops atlanticus"
+  },
+  {
     "id": "tiger-rockfish",
     "name": "Tiger Rockfish",
-    "scientificName": "Sebastes nigrocinctus",
-    "description": "A common reef species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Reef"
+    "scientificName": "Sebastes nigrocinctus"
   },
-  "trevally": {
+  {
+    "id": "tiger-fish",
+    "name": "Tiger fish",
+    "scientificName": "Hydrocynus vittatus"
+  },
+  {
     "id": "trevally",
     "name": "Trevally",
-    "scientificName": "Caranx spp.",
-    "description": "A common reef species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Reef"
+    "scientificName": "Caranx spp."
   },
-  "triggerfish": {
+  {
     "id": "triggerfish",
     "name": "Triggerfish",
-    "scientificName": "Balistes capriscus",
-    "description": "A common reef species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Reef"
+    "scientificName": "Balistes capriscus"
   },
-  "tuna": {
+  {
     "id": "tuna",
     "name": "Tuna",
-    "scientificName": "Thunnus spp.",
-    "description": "A common pelagic species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Pelagic"
+    "scientificName": "Thunnus spp."
   },
-  "yellow-perch": {
+  {
+    "id": "vampire-fish-(payara)",
+    "name": "Vampire Fish (Payara)",
+    "scientificName": "Hydrolycus scomberoides"
+  },
+  {
+    "id": "wahoo",
+    "name": "Wahoo",
+    "scientificName": "Acanthocybium solandri"
+  },
+  {
+    "id": "white-sea-bass",
+    "name": "White Sea Bass",
+    "scientificName": "Atractoscion nobilis"
+  },
+  {
+    "id": "white-seabass",
+    "name": "White Seabass",
+    "scientificName": "Atractoscion nobilis"
+  },
+  {
+    "id": "white-sturgeon",
+    "name": "White Sturgeon",
+    "scientificName": "Acipenser transmontanus"
+  },
+  {
     "id": "yellow-perch",
     "name": "Yellow Perch",
-    "scientificName": "Perca flavescens",
-    "description": "A common lake species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Lake"
+    "scientificName": "Perca flavescens"
   },
-  "yellowtail": {
+  {
+    "id": "yellowfin-tuna",
+    "name": "Yellowfin Tuna",
+    "scientificName": "Thunnus albacares"
+  },
+  {
     "id": "yellowtail",
     "name": "Yellowtail",
-    "scientificName": "Seriola lalandi",
-    "description": "A common coastal species.",
-    "sizeRange": {
-      "min": 5,
-      "max": 50,
-      "unit": "lbs"
-    },
-    "bestSeason": [
-      "spring",
-      "summer",
-      "fall",
-      "winter"
-    ],
-    "habitat": "Coastal"
+    "scientificName": "Seriola lalandi"
+  },
+  {
+    "id": "yellowtail-amberjack",
+    "name": "Yellowtail Amberjack",
+    "scientificName": "Seriola lalandi"
   }
-};
+];
 
-const fishingLocations = {
-  "akumal-mexico": {
+const fishingLocations = [
+  {
     "id": "akumal-mexico",
     "name": "Akumal, Mexico",
     "lat": 20.3951,
@@ -1819,7 +519,7 @@ const fishingLocations = {
       "red-hind-grouper"
     ]
   },
-  "akumal-quintana-roo-mexico": {
+  {
     "id": "akumal-quintana-roo-mexico",
     "name": "Akumal, Quintana Roo, Mexico",
     "lat": 20.3948,
@@ -1831,7 +531,7 @@ const fishingLocations = {
       "greater-amberjack"
     ]
   },
-  "akumal-sian-ka'an-mexico": {
+  {
     "id": "akumal-sian-ka'an-mexico",
     "name": "Akumal, Sian Ka'an, Mexico",
     "lat": 20.3947,
@@ -1845,17 +545,17 @@ const fishingLocations = {
       "nurse-shark"
     ]
   },
-  "amazon-river-colombia": {
+  {
     "id": "amazon-river-colombia",
     "name": "Amazon River, Colombia",
     "lat": -0.5,
-    "lng": -70,
+    "lng": -70.0,
     "description": "Fishing destination: Amazon River, Colombia",
     "availableFish": [
       "vampire-fish-(payara)"
     ]
   },
-  "ascension-bay-quintana-roo-mexico": {
+  {
     "id": "ascension-bay-quintana-roo-mexico",
     "name": "Ascension Bay, Quintana Roo, Mexico",
     "lat": 19.8,
@@ -1865,7 +565,7 @@ const fishingLocations = {
       "bonefish"
     ]
   },
-  "bahia-honda-florida-usa": {
+  {
     "id": "bahia-honda-florida-usa",
     "name": "Bahia Honda, Florida, USA",
     "lat": 24.6648,
@@ -1875,7 +575,7 @@ const fishingLocations = {
       "tarpon"
     ]
   },
-  "bal-harbour-miami-florida-usa": {
+  {
     "id": "bal-harbour-miami-florida-usa",
     "name": "Bal Harbour, Miami, Florida, USA",
     "lat": 25.8918,
@@ -1885,7 +585,7 @@ const fishingLocations = {
       "common-snook"
     ]
   },
-  "bermuda": {
+  {
     "id": "bermuda",
     "name": "Bermuda",
     "lat": 32.3078,
@@ -1896,7 +596,7 @@ const fishingLocations = {
       "wahoo"
     ]
   },
-  "biscayne-bay-miami-florida-usa": {
+  {
     "id": "biscayne-bay-miami-florida-usa",
     "name": "Biscayne Bay, Miami, Florida, USA",
     "lat": 25.7617,
@@ -1906,7 +606,7 @@ const fishingLocations = {
       "common-snook"
     ]
   },
-  "boca-paila-mexico": {
+  {
     "id": "boca-paila-mexico",
     "name": "Boca Paila, Mexico",
     "lat": 20.2,
@@ -1916,7 +616,7 @@ const fishingLocations = {
       "great-barracuda"
     ]
   },
-  "boca-paila-quintana-roo-mexico": {
+  {
     "id": "boca-paila-quintana-roo-mexico",
     "name": "Boca Paila, Quintana Roo, Mexico",
     "lat": 19.9167,
@@ -1927,27 +627,27 @@ const fishingLocations = {
       "great-barracuda"
     ]
   },
-  "bocas-del-dragón-trinidad": {
-    "id": "bocas-del-dragón-trinidad",
-    "name": "Bocas del Dragón, Trinidad",
+  {
+    "id": "bocas-del-drag\u00f3n-trinidad",
+    "name": "Bocas del Drag\u00f3n, Trinidad",
     "lat": 10.6918,
     "lng": -61.2225,
-    "description": "Fishing destination: Bocas del Dragón, Trinidad",
+    "description": "Fishing destination: Bocas del Drag\u00f3n, Trinidad",
     "availableFish": [
       "tarpon"
     ]
   },
-  "bocas-del-dragón-trinidad-and-tobago": {
-    "id": "bocas-del-dragón-trinidad-and-tobago",
-    "name": "Bocas del Dragón, Trinidad and Tobago",
+  {
+    "id": "bocas-del-drag\u00f3n-trinidad-and-tobago",
+    "name": "Bocas del Drag\u00f3n, Trinidad and Tobago",
     "lat": 10.6918,
     "lng": -61.2225,
-    "description": "Fishing destination: Bocas del Dragón, Trinidad and Tobago",
+    "description": "Fishing destination: Bocas del Drag\u00f3n, Trinidad and Tobago",
     "availableFish": [
       "tarpon"
     ]
   },
-  "boynton-beach-florida-usa": {
+  {
     "id": "boynton-beach-florida-usa",
     "name": "Boynton Beach, Florida, USA",
     "lat": 26.5253,
@@ -1958,7 +658,7 @@ const fishingLocations = {
       "sailfish"
     ]
   },
-  "boynton-beach-florida-united-states": {
+  {
     "id": "boynton-beach-florida-united-states",
     "name": "Boynton Beach, Florida, United States",
     "lat": 26.5253,
@@ -1970,7 +670,7 @@ const fishingLocations = {
       "sailfish"
     ]
   },
-  "cebaco-bay-panama": {
+  {
     "id": "cebaco-bay-panama",
     "name": "Cebaco Bay, Panama",
     "lat": 8.538,
@@ -1989,7 +689,7 @@ const fishingLocations = {
       "amberjack"
     ]
   },
-  "challenger-bank-bermuda": {
+  {
     "id": "challenger-bank-bermuda",
     "name": "Challenger Bank, Bermuda",
     "lat": 32.3,
@@ -1999,7 +699,7 @@ const fishingLocations = {
       "wahoo"
     ]
   },
-  "colombia": {
+  {
     "id": "colombia",
     "name": "Colombia",
     "lat": 0,
@@ -2015,7 +715,7 @@ const fishingLocations = {
       "jack-crevalle"
     ]
   },
-  "costa-rica": {
+  {
     "id": "costa-rica",
     "name": "Costa Rica",
     "lat": 9.7489,
@@ -2026,7 +726,7 @@ const fishingLocations = {
       "atlantic-bluefin-tuna"
     ]
   },
-  "cudjoe-key-florida-keys-florida-usa": {
+  {
     "id": "cudjoe-key-florida-keys-florida-usa",
     "name": "Cudjoe Key, Florida Keys, Florida, USA",
     "lat": 24.6534,
@@ -2037,7 +737,7 @@ const fishingLocations = {
       "lemon-shark"
     ]
   },
-  "delray-beach-florida-usa": {
+  {
     "id": "delray-beach-florida-usa",
     "name": "Delray Beach, Florida, USA",
     "lat": 26.4614625,
@@ -2047,7 +747,7 @@ const fishingLocations = {
       "peacock-bass"
     ]
   },
-  "driftwood-beach-sea-island-georgia-usa": {
+  {
     "id": "driftwood-beach-sea-island-georgia-usa",
     "name": "Driftwood Beach, Sea Island, Georgia, USA",
     "lat": 31.1344,
@@ -2058,7 +758,7 @@ const fishingLocations = {
       "black-drum"
     ]
   },
-  "fanning-island-kiribati": {
+  {
     "id": "fanning-island-kiribati",
     "name": "Fanning Island, Kiribati",
     "lat": 3.8667,
@@ -2074,15 +774,15 @@ const fishingLocations = {
       "yellowfin-tuna"
     ]
   },
-  "florida-keys-florida-usa": {
+  {
     "id": "florida-keys-florida-usa",
     "name": "Florida Keys, Florida, USA",
     "lat": 24.7,
-    "lng": -81,
+    "lng": -81.0,
     "description": "Fishing destination: Florida Keys, Florida, USA",
     "availableFish": []
   },
-  "florida-usa": {
+  {
     "id": "florida-usa",
     "name": "Florida, USA",
     "lat": 27.6648,
@@ -2094,7 +794,7 @@ const fishingLocations = {
       "clown-knifefish"
     ]
   },
-  "fraser-river-lodge-british-columbia-canada": {
+  {
     "id": "fraser-river-lodge-british-columbia-canada",
     "name": "Fraser River Lodge, British Columbia, Canada",
     "lat": 49.1666,
@@ -2105,7 +805,7 @@ const fishingLocations = {
       "chum-salmon"
     ]
   },
-  "fraser-river-british-columbia-canada": {
+  {
     "id": "fraser-river-british-columbia-canada",
     "name": "Fraser River, British Columbia, Canada",
     "lat": 49.1666,
@@ -2117,7 +817,7 @@ const fishingLocations = {
       "chum-salmon"
     ]
   },
-  "fraser-river-canada": {
+  {
     "id": "fraser-river-canada",
     "name": "Fraser River, Canada",
     "lat": 49.1666,
@@ -2128,7 +828,7 @@ const fishingLocations = {
       "white-sturgeon"
     ]
   },
-  "fraser-river-vancouver-british-columbia-canada": {
+  {
     "id": "fraser-river-vancouver-british-columbia-canada",
     "name": "Fraser River, Vancouver, British Columbia, Canada",
     "lat": 49.2827,
@@ -2138,7 +838,7 @@ const fishingLocations = {
       "white-sturgeon"
     ]
   },
-  "great-barrier-reef-australia": {
+  {
     "id": "great-barrier-reef-australia",
     "name": "Great Barrier Reef, Australia",
     "lat": -16.2839,
@@ -2157,7 +857,7 @@ const fishingLocations = {
       "peacock-grouper"
     ]
   },
-  "hampton-bays-ny-usa": {
+  {
     "id": "hampton-bays-ny-usa",
     "name": "Hampton Bays, NY, USA",
     "lat": 40.869,
@@ -2167,7 +867,7 @@ const fishingLocations = {
       "striped-bass"
     ]
   },
-  "hampton-bays-new-york-usa": {
+  {
     "id": "hampton-bays-new-york-usa",
     "name": "Hampton Bays, New York, USA",
     "lat": 40.8684,
@@ -2180,7 +880,7 @@ const fishingLocations = {
       "tarpon"
     ]
   },
-  "hampton-bays-new-york-united-states": {
+  {
     "id": "hampton-bays-new-york-united-states",
     "name": "Hampton Bays, New York, United States",
     "lat": 40.8684,
@@ -2191,7 +891,7 @@ const fishingLocations = {
       "striped-bass"
     ]
   },
-  "hampton-bays-shinnecock-bay-new-york-usa": {
+  {
     "id": "hampton-bays-shinnecock-bay-new-york-usa",
     "name": "Hampton Bays, Shinnecock Bay, New York, USA",
     "lat": 40.8684,
@@ -2201,7 +901,7 @@ const fishingLocations = {
       "bluefish"
     ]
   },
-  "hamptons-long-island-ny-usa": {
+  {
     "id": "hamptons-long-island-ny-usa",
     "name": "Hamptons, Long Island, NY, USA",
     "lat": 40.9634,
@@ -2209,7 +909,7 @@ const fishingLocations = {
     "description": "Fishing destination: Hamptons, Long Island, NY, USA",
     "availableFish": []
   },
-  "haulover-beach-miami-florida-usa": {
+  {
     "id": "haulover-beach-miami-florida-usa",
     "name": "Haulover Beach, Miami, Florida, USA",
     "lat": 25.9067,
@@ -2219,7 +919,7 @@ const fishingLocations = {
       "tarpon"
     ]
   },
-  "hilton-head-south-carolina-usa": {
+  {
     "id": "hilton-head-south-carolina-usa",
     "name": "Hilton Head, South Carolina, USA",
     "lat": 32.2163,
@@ -2230,7 +930,7 @@ const fishingLocations = {
       "southern-stingray"
     ]
   },
-  "isla-parida-panama": {
+  {
     "id": "isla-parida-panama",
     "name": "Isla Parida, Panama",
     "lat": 7.9167,
@@ -2240,7 +940,7 @@ const fishingLocations = {
       "yellowfin-tuna"
     ]
   },
-  "jackson-hole-wyoming-usa": {
+  {
     "id": "jackson-hole-wyoming-usa",
     "name": "Jackson Hole, Wyoming, USA",
     "lat": 43.4799,
@@ -2250,7 +950,7 @@ const fishingLocations = {
       "cutthroat-trout"
     ]
   },
-  "jackson-hole-wyoming-united-states": {
+  {
     "id": "jackson-hole-wyoming-united-states",
     "name": "Jackson Hole, Wyoming, United States",
     "lat": 43.4799,
@@ -2260,7 +960,7 @@ const fishingLocations = {
       "cutthroat-trout"
     ]
   },
-  "key-west-florida-usa": {
+  {
     "id": "key-west-florida-usa",
     "name": "Key West, Florida, USA",
     "lat": 24.5551,
@@ -2271,7 +971,7 @@ const fishingLocations = {
       "cobia"
     ]
   },
-  "key-west-florida-united-states": {
+  {
     "id": "key-west-florida-united-states",
     "name": "Key West, Florida, United States",
     "lat": 24.5551,
@@ -2281,7 +981,7 @@ const fishingLocations = {
       "smooth-hammerhead"
     ]
   },
-  "la-jolla-ca-usa": {
+  {
     "id": "la-jolla-ca-usa",
     "name": "La Jolla, CA, USA",
     "lat": 32.8328,
@@ -2291,7 +991,7 @@ const fishingLocations = {
       "yellowtail-amberjack"
     ]
   },
-  "la-jolla-california-usa": {
+  {
     "id": "la-jolla-california-usa",
     "name": "La Jolla, California, USA",
     "lat": 32.8328,
@@ -2303,7 +1003,7 @@ const fishingLocations = {
       "yellowtail"
     ]
   },
-  "la-jolla-california-united-states": {
+  {
     "id": "la-jolla-california-united-states",
     "name": "La Jolla, California, United States",
     "lat": 32.8328,
@@ -2315,7 +1015,7 @@ const fishingLocations = {
       "white-sea-bass"
     ]
   },
-  "lafitte-louisiana-usa": {
+  {
     "id": "lafitte-louisiana-usa",
     "name": "Lafitte, Louisiana, USA",
     "lat": 29.6646,
@@ -2325,7 +1025,7 @@ const fishingLocations = {
       "red-drum"
     ]
   },
-  "lake-st.-clair-ontario-canada": {
+  {
     "id": "lake-st.-clair-ontario-canada",
     "name": "Lake St. Clair, Ontario, Canada",
     "lat": 42.4167,
@@ -2335,7 +1035,7 @@ const fishingLocations = {
       "muskellunge"
     ]
   },
-  "lamu-kenya": {
+  {
     "id": "lamu-kenya",
     "name": "Lamu, Kenya",
     "lat": -2.2717,
@@ -2346,7 +1046,7 @@ const fishingLocations = {
       "orange-spotted-grouper"
     ]
   },
-  "long-island-new-york-usa": {
+  {
     "id": "long-island-new-york-usa",
     "name": "Long Island, New York, USA",
     "lat": 40.7891,
@@ -2357,7 +1057,7 @@ const fishingLocations = {
       "bluefish"
     ]
   },
-  "mexico": {
+  {
     "id": "mexico",
     "name": "Mexico",
     "lat": 23.6345,
@@ -2368,7 +1068,7 @@ const fishingLocations = {
       "crevalle-jack"
     ]
   },
-  "miami-florida-usa": {
+  {
     "id": "miami-florida-usa",
     "name": "Miami, Florida, USA",
     "lat": 25.7617,
@@ -2378,7 +1078,7 @@ const fishingLocations = {
       "king-mackerel"
     ]
   },
-  "montauk-ny-usa": {
+  {
     "id": "montauk-ny-usa",
     "name": "Montauk, NY, USA",
     "lat": 41.0359,
@@ -2390,7 +1090,7 @@ const fishingLocations = {
       "striped-bass"
     ]
   },
-  "montauk-ny-united-states": {
+  {
     "id": "montauk-ny-united-states",
     "name": "Montauk, NY, United States",
     "lat": 41.0359,
@@ -2400,7 +1100,7 @@ const fishingLocations = {
       "bigeye-tuna"
     ]
   },
-  "multiple-locations-(montauk-ny-fanning-island-kiribati-parana-river)": {
+  {
     "id": "multiple-locations-(montauk-ny-fanning-island-kiribati-parana-river)",
     "name": "Multiple locations (Montauk NY, Fanning Island Kiribati, Parana River)",
     "lat": 0,
@@ -2419,7 +1119,7 @@ const fishingLocations = {
       "bonnethead-shark"
     ]
   },
-  "north-fork-long-island-new-york-usa": {
+  {
     "id": "north-fork-long-island-new-york-usa",
     "name": "North Fork, Long Island, New York, USA",
     "lat": 41.1043,
@@ -2432,7 +1132,7 @@ const fishingLocations = {
       "bluefish"
     ]
   },
-  "orient-point-long-island-ny-usa": {
+  {
     "id": "orient-point-long-island-ny-usa",
     "name": "Orient Point, Long Island, NY, USA",
     "lat": 40.7891,
@@ -2442,7 +1142,7 @@ const fishingLocations = {
       "blackfish-(tautog)"
     ]
   },
-  "orient-point-new-york-usa": {
+  {
     "id": "orient-point-new-york-usa",
     "name": "Orient Point, New York, USA",
     "lat": 41.1645,
@@ -2453,7 +1153,7 @@ const fishingLocations = {
       "blackfish-(tautog)"
     ]
   },
-  "orient-point-peconic-bay-hampton-bays-new-york-usa": {
+  {
     "id": "orient-point-peconic-bay-hampton-bays-new-york-usa",
     "name": "Orient Point, Peconic Bay, Hampton Bays, New York, USA",
     "lat": 40.9898,
@@ -2465,7 +1165,7 @@ const fishingLocations = {
       "bluefish"
     ]
   },
-  "osa-peninsula-costa-rica": {
+  {
     "id": "osa-peninsula-costa-rica",
     "name": "Osa Peninsula, Costa Rica",
     "lat": 8.5,
@@ -2476,7 +1176,7 @@ const fishingLocations = {
       "roosterfish"
     ]
   },
-  "panama": {
+  {
     "id": "panama",
     "name": "Panama",
     "lat": 8.538,
@@ -2502,18 +1202,18 @@ const fishingLocations = {
       "dorado"
     ]
   },
-  "paraná-river-argentina": {
-    "id": "paraná-river-argentina",
-    "name": "Paraná River, Argentina",
+  {
+    "id": "paran\u00e1-river-argentina",
+    "name": "Paran\u00e1 River, Argentina",
     "lat": -32.3,
     "lng": -60.2,
-    "description": "Fishing destination: Paraná River, Argentina",
+    "description": "Fishing destination: Paran\u00e1 River, Argentina",
     "availableFish": [
       "tararira",
       "golden-dorado"
     ]
   },
-  "peconic-bay-hampton-bays-new-york-usa": {
+  {
     "id": "peconic-bay-hampton-bays-new-york-usa",
     "name": "Peconic Bay, Hampton Bays, New York, USA",
     "lat": 40.8637,
@@ -2524,7 +1224,7 @@ const fishingLocations = {
       "bluefish"
     ]
   },
-  "peconic-bay-new-york-usa": {
+  {
     "id": "peconic-bay-new-york-usa",
     "name": "Peconic Bay, New York, USA",
     "lat": 40.9167,
@@ -2535,7 +1235,7 @@ const fishingLocations = {
       "striped-bass"
     ]
   },
-  "pedasi-panama": {
+  {
     "id": "pedasi-panama",
     "name": "Pedasi, Panama",
     "lat": 7.5289,
@@ -2545,17 +1245,17 @@ const fishingLocations = {
       "yellowfin-tuna"
     ]
   },
-  "pedasí-panama": {
-    "id": "pedasí-panama",
-    "name": "Pedasí, Panama",
+  {
+    "id": "pedas\u00ed-panama",
+    "name": "Pedas\u00ed, Panama",
     "lat": 7.5319,
     "lng": -80.0289,
-    "description": "Fishing destination: Pedasí, Panama",
+    "description": "Fishing destination: Pedas\u00ed, Panama",
     "availableFish": [
       "roosterfish"
     ]
   },
-  "ponquogue-bridge-hampton-bays-new-york-usa": {
+  {
     "id": "ponquogue-bridge-hampton-bays-new-york-usa",
     "name": "Ponquogue Bridge, Hampton Bays, New York, USA",
     "lat": 40.8386,
@@ -2563,7 +1263,7 @@ const fishingLocations = {
     "description": "Fishing destination: Ponquogue Bridge, Hampton Bays, New York, USA",
     "availableFish": []
   },
-  "puerto-aventuras-quintana-roo-mexico": {
+  {
     "id": "puerto-aventuras-quintana-roo-mexico",
     "name": "Puerto Aventuras, Quintana Roo, Mexico",
     "lat": 20.4167,
@@ -2573,7 +1273,7 @@ const fishingLocations = {
       "mahi-mahi"
     ]
   },
-  "puerto-rico": {
+  {
     "id": "puerto-rico",
     "name": "Puerto Rico",
     "lat": 18.2208,
@@ -2584,7 +1284,7 @@ const fishingLocations = {
       "tarpon"
     ]
   },
-  "puerto-rico-united-states": {
+  {
     "id": "puerto-rico-united-states",
     "name": "Puerto Rico, United States",
     "lat": 18.2208,
@@ -2594,7 +1294,7 @@ const fishingLocations = {
       "tarpon"
     ]
   },
-  "quintana-roo-mexico": {
+  {
     "id": "quintana-roo-mexico",
     "name": "Quintana Roo, Mexico",
     "lat": 20.2114,
@@ -2608,7 +1308,7 @@ const fishingLocations = {
       "triggerfish"
     ]
   },
-  "red-cedar-point": {
+  {
     "id": "red-cedar-point",
     "name": "Red Cedar Point",
     "lat": 0,
@@ -2616,7 +1316,7 @@ const fishingLocations = {
     "description": "Fishing destination: Red Cedar Point",
     "availableFish": []
   },
-  "red-cedar-point-hampton-bays-new-york-usa": {
+  {
     "id": "red-cedar-point-hampton-bays-new-york-usa",
     "name": "Red Cedar Point, Hampton Bays, New York, USA",
     "lat": 40.8697,
@@ -2626,19 +1326,19 @@ const fishingLocations = {
       "striped-bass"
     ]
   },
-  "san-cristóbal-ecuador": {
-    "id": "san-cristóbal-ecuador",
-    "name": "San Cristóbal, Ecuador",
+  {
+    "id": "san-crist\u00f3bal-ecuador",
+    "name": "San Crist\u00f3bal, Ecuador",
     "lat": -0.9,
     "lng": -89.6,
-    "description": "Fishing destination: San Cristóbal, Ecuador",
+    "description": "Fishing destination: San Crist\u00f3bal, Ecuador",
     "availableFish": [
       "striped-marlin",
       "almaco-jack",
       "hogfish"
     ]
   },
-  "sea-island-georgia-usa": {
+  {
     "id": "sea-island-georgia-usa",
     "name": "Sea Island, Georgia, USA",
     "lat": 31.1318,
@@ -2651,7 +1351,7 @@ const fishingLocations = {
       "atlantic-tarpon"
     ]
   },
-  "sea-island-georgia-united-states": {
+  {
     "id": "sea-island-georgia-united-states",
     "name": "Sea Island, Georgia, United States",
     "lat": 31.1315,
@@ -2662,7 +1362,7 @@ const fishingLocations = {
       "black-drum"
     ]
   },
-  "sea-island-golden-isles-georgia-usa": {
+  {
     "id": "sea-island-golden-isles-georgia-usa",
     "name": "Sea Island, Golden Isles, Georgia, USA",
     "lat": 31.2154,
@@ -2672,7 +1372,7 @@ const fishingLocations = {
       "red-drum"
     ]
   },
-  "shinnecock-bay-hampton-bays-new-york-usa": {
+  {
     "id": "shinnecock-bay-hampton-bays-new-york-usa",
     "name": "Shinnecock Bay, Hampton Bays, New York, USA",
     "lat": 40.8634,
@@ -2684,7 +1384,7 @@ const fishingLocations = {
       "bluefish"
     ]
   },
-  "shinnecock-bay-new-york-usa": {
+  {
     "id": "shinnecock-bay-new-york-usa",
     "name": "Shinnecock Bay, New York, USA",
     "lat": 40.8547,
@@ -2695,7 +1395,7 @@ const fishingLocations = {
       "grey-triggerfish"
     ]
   },
-  "shinnecock-inlet-new-york-usa": {
+  {
     "id": "shinnecock-inlet-new-york-usa",
     "name": "Shinnecock Inlet, New York, USA",
     "lat": 40.8425,
@@ -2705,7 +1405,7 @@ const fishingLocations = {
       "southern-flounder"
     ]
   },
-  "sitka-alaska-usa": {
+  {
     "id": "sitka-alaska-usa",
     "name": "Sitka, Alaska, USA",
     "lat": 57.0531,
@@ -2718,7 +1418,7 @@ const fishingLocations = {
       "tiger-rockfish"
     ]
   },
-  "st.-john-u.s.-virgin-islands": {
+  {
     "id": "st.-john-u.s.-virgin-islands",
     "name": "St. John, U.S. Virgin Islands",
     "lat": 18.3358,
@@ -2728,7 +1428,7 @@ const fishingLocations = {
       "nurse-shark"
     ]
   },
-  "st.-john-us-virgin-islands": {
+  {
     "id": "st.-john-us-virgin-islands",
     "name": "St. John, US Virgin Islands",
     "lat": 18.3358,
@@ -2739,7 +1439,7 @@ const fishingLocations = {
       "tarpon"
     ]
   },
-  "st.-john-us-virgin-islands-united-states": {
+  {
     "id": "st.-john-us-virgin-islands-united-states",
     "name": "St. John, US Virgin Islands, United States",
     "lat": 18.3358,
@@ -2749,7 +1449,7 @@ const fishingLocations = {
       "tarpon"
     ]
   },
-  "tanzania": {
+  {
     "id": "tanzania",
     "name": "Tanzania",
     "lat": -6.369028,
@@ -2757,7 +1457,7 @@ const fishingLocations = {
     "description": "Fishing destination: Tanzania",
     "availableFish": []
   },
-  "torres-del-paine-chile": {
+  {
     "id": "torres-del-paine-chile",
     "name": "Torres del Paine, Chile",
     "lat": -50.9423,
@@ -2767,7 +1467,7 @@ const fishingLocations = {
       "chinook-salmon"
     ]
   },
-  "torres-del-paine-patagonia-chile": {
+  {
     "id": "torres-del-paine-patagonia-chile",
     "name": "Torres del Paine, Patagonia, Chile",
     "lat": -50.9423,
@@ -2778,7 +1478,7 @@ const fishingLocations = {
       "sea-run-trout"
     ]
   },
-  "trinidad": {
+  {
     "id": "trinidad",
     "name": "Trinidad",
     "lat": 10.6918,
@@ -2796,7 +1496,7 @@ const fishingLocations = {
       "giant-trevally"
     ]
   },
-  "utah-united-states": {
+  {
     "id": "utah-united-states",
     "name": "Utah, United States",
     "lat": 39.321,
@@ -2807,7 +1507,7 @@ const fishingLocations = {
       "yellow-perch"
     ]
   },
-  "wausaukee-club-wisconsin-usa": {
+  {
     "id": "wausaukee-club-wisconsin-usa",
     "name": "Wausaukee Club, Wisconsin, USA",
     "lat": 45.3836,
@@ -2817,7 +1517,7 @@ const fishingLocations = {
       "northern-pike"
     ]
   },
-  "wausaukee-wisconsin-usa": {
+  {
     "id": "wausaukee-wisconsin-usa",
     "name": "Wausaukee, Wisconsin, USA",
     "lat": 45.3905,
@@ -2828,7 +1528,7 @@ const fishingLocations = {
       "brown-trout"
     ]
   },
-  "wisconsin-united-states": {
+  {
     "id": "wisconsin-united-states",
     "name": "Wisconsin, United States",
     "lat": 44.2619,
@@ -2838,7 +1538,7 @@ const fishingLocations = {
       "northern-pike"
     ]
   },
-  "zambezi-river-zambia": {
+  {
     "id": "zambezi-river-zambia",
     "name": "Zambezi River, Zambia",
     "lat": -15.8277,
@@ -2848,7 +1548,7 @@ const fishingLocations = {
       "tiger-fish"
     ]
   },
-  "zancudo-lodge-costa-rica": {
+  {
     "id": "zancudo-lodge-costa-rica",
     "name": "Zancudo Lodge, Costa Rica",
     "lat": 8.3897,
@@ -2861,7 +1561,7 @@ const fishingLocations = {
       "roosterfish"
     ]
   },
-  "zancudo-lodge-osa-peninsula-costa-rica": {
+  {
     "id": "zancudo-lodge-osa-peninsula-costa-rica",
     "name": "Zancudo Lodge, Osa Peninsula, Costa Rica",
     "lat": 8.4094,
@@ -2877,7 +1577,7 @@ const fishingLocations = {
       "jack-crevalle"
     ]
   },
-  "zancudo-costa-rica": {
+  {
     "id": "zancudo-costa-rica",
     "name": "Zancudo, Costa Rica",
     "lat": 8.3904,
@@ -2888,7 +1588,7 @@ const fishingLocations = {
       "yellowfin-tuna"
     ]
   }
-};
+];
 
 const userCatchRecords = {
   "species": {
@@ -2896,21 +1596,13 @@ const userCatchRecords = {
       "caught": true,
       "firstCatchDate": "2016-07-09",
       "totalCaught": 13,
-      "personalBest": {
-        "weight": 100,
-        "date": "2016-07-12",
-        "locationId": "panama"
-      }
+      "personalBest": null
     },
     "yellowfin-tuna": {
       "caught": true,
       "firstCatchDate": "2016-07-09",
       "totalCaught": 19,
-      "personalBest": {
-        "weight": 450,
-        "date": "2019-08-17",
-        "locationId": "cebaco-bay-panama"
-      }
+      "personalBest": null
     },
     "red-snapper": {
       "caught": true,
@@ -3006,11 +1698,7 @@ const userCatchRecords = {
       "caught": true,
       "firstCatchDate": "2016-07-09",
       "totalCaught": 9,
-      "personalBest": {
-        "weight": 450,
-        "date": "2019-08-17",
-        "locationId": "cebaco-bay-panama"
-      }
+      "personalBest": null
     },
     "lemon-shark": {
       "caught": true,
@@ -3274,11 +1962,7 @@ const userCatchRecords = {
       "caught": true,
       "firstCatchDate": "2017-08-11",
       "totalCaught": 1,
-      "personalBest": {
-        "weight": 100,
-        "date": "2017-08-11",
-        "locationId": "sea-island-georgia-usa"
-      }
+      "personalBest": null
     },
     "muskellunge": {
       "caught": true,
@@ -3428,21 +2112,13 @@ const userCatchRecords = {
       "caught": true,
       "firstCatchDate": "2019-08-17",
       "totalCaught": 1,
-      "personalBest": {
-        "weight": 450,
-        "date": "2019-08-17",
-        "locationId": "cebaco-bay-panama"
-      }
+      "personalBest": null
     },
     "amberjack": {
       "caught": true,
       "firstCatchDate": "2019-08-17",
       "totalCaught": 3,
-      "personalBest": {
-        "weight": 450,
-        "date": "2019-08-17",
-        "locationId": "cebaco-bay-panama"
-      }
+      "personalBest": null
     },
     "permit": {
       "caught": true,
@@ -3524,8 +2200,7 @@ const userCatchRecords = {
       "date": "2025-12-13",
       "catches": [
         {
-          "speciesId": "tarpon",
-          "weight": 0
+          "speciesId": "tarpon"
         }
       ],
       "photoUrl": "michaelcembalest/2025-12-13_14-18-42_UTC.jpg",
@@ -3537,8 +2212,7 @@ const userCatchRecords = {
       "date": "2025-09-07",
       "catches": [
         {
-          "speciesId": "white-sturgeon",
-          "weight": 0
+          "speciesId": "white-sturgeon"
         }
       ],
       "photoUrl": "michaelcembalest/2025-09-07_19-35-40_UTC.jpg",
@@ -3550,12 +2224,10 @@ const userCatchRecords = {
       "date": "2025-06-28",
       "catches": [
         {
-          "speciesId": "cubera-snapper",
-          "weight": 0
+          "speciesId": "cubera-snapper"
         },
         {
-          "speciesId": "dorado",
-          "weight": 0
+          "speciesId": "dorado"
         }
       ],
       "photoUrl": "michaelcembalest/2025-06-28_12-21-10_UTC.jpg",
@@ -3567,8 +2239,7 @@ const userCatchRecords = {
       "date": "2025-03-29",
       "catches": [
         {
-          "speciesId": "vampire-fish-(payara)",
-          "weight": 0
+          "speciesId": "vampire-fish-(payara)"
         }
       ],
       "photoUrl": "michaelcembalest/2025-03-29_17-51-50_UTC.jpg",
@@ -3580,8 +2251,7 @@ const userCatchRecords = {
       "date": "2024-12-31",
       "catches": [
         {
-          "speciesId": "giant-trevally",
-          "weight": 0
+          "speciesId": "giant-trevally"
         }
       ],
       "photoUrl": "michaelcembalest/2024-12-31_14-43-01_UTC.jpg",
@@ -3593,8 +2263,7 @@ const userCatchRecords = {
       "date": "2024-08-29",
       "catches": [
         {
-          "speciesId": "tarpon",
-          "weight": 0
+          "speciesId": "tarpon"
         }
       ],
       "photoUrl": "michaelcembalest/2024-08-29_13-10-09_UTC.jpg",
@@ -3606,12 +2275,10 @@ const userCatchRecords = {
       "date": "2024-06-23",
       "catches": [
         {
-          "speciesId": "striped-bass",
-          "weight": 0
+          "speciesId": "striped-bass"
         },
         {
-          "speciesId": "bluefish",
-          "weight": 0
+          "speciesId": "bluefish"
         }
       ],
       "photoUrl": "michaelcembalest/2024-06-23_14-41-07_UTC_9.jpg",
@@ -3623,8 +2290,7 @@ const userCatchRecords = {
       "date": "2024-05-25",
       "catches": [
         {
-          "speciesId": "bluefish",
-          "weight": 0
+          "speciesId": "bluefish"
         }
       ],
       "photoUrl": "michaelcembalest/2024-05-25_13-41-04_UTC.jpg",
@@ -3636,8 +2302,7 @@ const userCatchRecords = {
       "date": "2024-03-16",
       "catches": [
         {
-          "speciesId": "giant-trevally",
-          "weight": 0
+          "speciesId": "giant-trevally"
         }
       ],
       "photoUrl": "michaelcembalest/2024-03-16_16-03-32_UTC_6.jpg",
@@ -3649,40 +2314,31 @@ const userCatchRecords = {
       "date": "2023-12-29",
       "catches": [
         {
-          "speciesId": "white-sturgeon",
-          "weight": 0
+          "speciesId": "white-sturgeon"
         },
         {
-          "speciesId": "giant-trevally",
-          "weight": 0
+          "speciesId": "giant-trevally"
         },
         {
-          "speciesId": "tarpon",
-          "weight": 0
+          "speciesId": "tarpon"
         },
         {
-          "speciesId": "yellowfin-tuna",
-          "weight": 0
+          "speciesId": "yellowfin-tuna"
         },
         {
-          "speciesId": "roosterfish",
-          "weight": 0
+          "speciesId": "roosterfish"
         },
         {
-          "speciesId": "striped-bass",
-          "weight": 0
+          "speciesId": "striped-bass"
         },
         {
-          "speciesId": "bluefish",
-          "weight": 0
+          "speciesId": "bluefish"
         },
         {
-          "speciesId": "rainbow-trout",
-          "weight": 0
+          "speciesId": "rainbow-trout"
         },
         {
-          "speciesId": "pink-salmon",
-          "weight": 0
+          "speciesId": "pink-salmon"
         }
       ],
       "photoUrl": "michaelcembalest/2023-12-29_21-54-37_UTC_2.jpg",
@@ -3694,12 +2350,10 @@ const userCatchRecords = {
       "date": "2023-11-18",
       "catches": [
         {
-          "speciesId": "giant-trevally",
-          "weight": 0
+          "speciesId": "giant-trevally"
         },
         {
-          "speciesId": "orange-spotted-grouper",
-          "weight": 0
+          "speciesId": "orange-spotted-grouper"
         }
       ],
       "photoUrl": "michaelcembalest/2023-11-18_12-35-48_UTC_5.jpg",
@@ -3711,8 +2365,7 @@ const userCatchRecords = {
       "date": "2023-10-15",
       "catches": [
         {
-          "speciesId": "tarpon",
-          "weight": 0
+          "speciesId": "tarpon"
         }
       ],
       "photoUrl": "michaelcembalest/2023-10-15_21-58-43_UTC_profile_pic.jpg",
@@ -3724,8 +2377,7 @@ const userCatchRecords = {
       "date": "2023-10-13",
       "catches": [
         {
-          "speciesId": "tarpon",
-          "weight": 0
+          "speciesId": "tarpon"
         }
       ],
       "photoUrl": "michaelcembalest/2023-10-13_23-02-44_UTC.jpg",
@@ -3737,8 +2389,7 @@ const userCatchRecords = {
       "date": "2023-09-10",
       "catches": [
         {
-          "speciesId": "white-sturgeon",
-          "weight": 0
+          "speciesId": "white-sturgeon"
         }
       ],
       "photoUrl": "michaelcembalest/2023-09-10_14-46-33_UTC.jpg",
@@ -3750,12 +2401,10 @@ const userCatchRecords = {
       "date": "2023-06-04",
       "catches": [
         {
-          "speciesId": "striped-bass",
-          "weight": 0
+          "speciesId": "striped-bass"
         },
         {
-          "speciesId": "bluefish",
-          "weight": 0
+          "speciesId": "bluefish"
         }
       ],
       "photoUrl": "michaelcembalest/2023-06-04_19-04-29_UTC.jpg",
@@ -3767,12 +2416,10 @@ const userCatchRecords = {
       "date": "2023-04-29",
       "catches": [
         {
-          "speciesId": "roosterfish",
-          "weight": 0
+          "speciesId": "roosterfish"
         },
         {
-          "speciesId": "yellowfin-tuna",
-          "weight": 0
+          "speciesId": "yellowfin-tuna"
         }
       ],
       "photoUrl": "michaelcembalest/2023-04-29_13-20-51_UTC.jpg",
@@ -3784,20 +2431,16 @@ const userCatchRecords = {
       "date": "2023-03-12",
       "catches": [
         {
-          "speciesId": "roosterfish",
-          "weight": 0
+          "speciesId": "roosterfish"
         },
         {
-          "speciesId": "yellowfin-tuna",
-          "weight": 0
+          "speciesId": "yellowfin-tuna"
         },
         {
-          "speciesId": "red-snapper",
-          "weight": 0
+          "speciesId": "red-snapper"
         },
         {
-          "speciesId": "wahoo",
-          "weight": 0
+          "speciesId": "wahoo"
         }
       ],
       "photoUrl": "michaelcembalest/2023-03-12_15-17-58_UTC.jpg",
@@ -3809,8 +2452,7 @@ const userCatchRecords = {
       "date": "2023-03-09",
       "catches": [
         {
-          "speciesId": "yellowfin-tuna",
-          "weight": 180
+          "speciesId": "yellowfin-tuna"
         }
       ],
       "photoUrl": "michaelcembalest/2023-03-09_20-32-12_UTC_8.jpg",
@@ -3822,12 +2464,10 @@ const userCatchRecords = {
       "date": "2023-01-28",
       "catches": [
         {
-          "speciesId": "rainbow-trout",
-          "weight": 0
+          "speciesId": "rainbow-trout"
         },
         {
-          "speciesId": "yellow-perch",
-          "weight": 0
+          "speciesId": "yellow-perch"
         }
       ],
       "photoUrl": "michaelcembalest/2023-01-28_16-12-32_UTC.jpg",
@@ -3839,36 +2479,28 @@ const userCatchRecords = {
       "date": "2022-12-30",
       "catches": [
         {
-          "speciesId": "tarpon",
-          "weight": 0
+          "speciesId": "tarpon"
         },
         {
-          "speciesId": "striped-bass",
-          "weight": 0
+          "speciesId": "striped-bass"
         },
         {
-          "speciesId": "blackfish",
-          "weight": 0
+          "speciesId": "blackfish"
         },
         {
-          "speciesId": "sailfish",
-          "weight": 0
+          "speciesId": "sailfish"
         },
         {
-          "speciesId": "yellowfin-tuna",
-          "weight": 0
+          "speciesId": "yellowfin-tuna"
         },
         {
-          "speciesId": "amberjack",
-          "weight": 0
+          "speciesId": "amberjack"
         },
         {
-          "speciesId": "mackerel",
-          "weight": 0
+          "speciesId": "mackerel"
         },
         {
-          "speciesId": "mahi-mahi",
-          "weight": 0
+          "speciesId": "mahi-mahi"
         }
       ],
       "photoUrl": "michaelcembalest/2022-12-30_16-34-34_UTC_7.jpg",
@@ -3880,8 +2512,7 @@ const userCatchRecords = {
       "date": "2022-11-27",
       "catches": [
         {
-          "speciesId": "tarpon",
-          "weight": 0
+          "speciesId": "tarpon"
         }
       ],
       "photoUrl": "michaelcembalest/2022-11-27_16-58-25_UTC.jpg",
@@ -3893,8 +2524,7 @@ const userCatchRecords = {
       "date": "2022-11-06",
       "catches": [
         {
-          "speciesId": "blackfish-(tautog)",
-          "weight": 0
+          "speciesId": "blackfish-(tautog)"
         }
       ],
       "photoUrl": "michaelcembalest/2022-11-06_17-55-19_UTC.jpg",
@@ -3906,8 +2536,7 @@ const userCatchRecords = {
       "date": "2022-09-10",
       "catches": [
         {
-          "speciesId": "bluefish",
-          "weight": 0
+          "speciesId": "bluefish"
         }
       ],
       "photoUrl": "michaelcembalest/2022-09-10_13-09-46_UTC.jpg",
@@ -3919,8 +2548,7 @@ const userCatchRecords = {
       "date": "2022-06-10",
       "catches": [
         {
-          "speciesId": "striped-bass",
-          "weight": 0
+          "speciesId": "striped-bass"
         }
       ],
       "photoUrl": "michaelcembalest/2022-06-10_23-50-07_UTC.jpg",
@@ -3932,8 +2560,7 @@ const userCatchRecords = {
       "date": "2022-05-13",
       "catches": [
         {
-          "speciesId": "sailfish",
-          "weight": 0
+          "speciesId": "sailfish"
         }
       ],
       "photoUrl": "michaelcembalest/2022-05-13_18-02-45_UTC.jpg",
@@ -3945,8 +2572,7 @@ const userCatchRecords = {
       "date": "2022-04-16",
       "catches": [
         {
-          "speciesId": "tarpon",
-          "weight": 0
+          "speciesId": "tarpon"
         }
       ],
       "photoUrl": "michaelcembalest/2022-04-16_20-51-19_UTC.jpg",
@@ -3958,8 +2584,7 @@ const userCatchRecords = {
       "date": "2022-04-09",
       "catches": [
         {
-          "speciesId": "tarpon",
-          "weight": 0
+          "speciesId": "tarpon"
         }
       ],
       "photoUrl": "michaelcembalest/2022-04-09_14-13-39_UTC.jpg",
@@ -3971,32 +2596,25 @@ const userCatchRecords = {
       "date": "2022-03-19",
       "catches": [
         {
-          "speciesId": "yellowfin-tuna",
-          "weight": 0
+          "speciesId": "yellowfin-tuna"
         },
         {
-          "speciesId": "mahi-mahi",
-          "weight": 0
+          "speciesId": "mahi-mahi"
         },
         {
-          "speciesId": "cubera-snapper",
-          "weight": 0
+          "speciesId": "cubera-snapper"
         },
         {
-          "speciesId": "blue-trevally",
-          "weight": 0
+          "speciesId": "blue-trevally"
         },
         {
-          "speciesId": "pacific-sierra",
-          "weight": 0
+          "speciesId": "pacific-sierra"
         },
         {
-          "speciesId": "amberjack",
-          "weight": 0
+          "speciesId": "amberjack"
         },
         {
-          "speciesId": "jack-crevalle",
-          "weight": 0
+          "speciesId": "jack-crevalle"
         }
       ],
       "photoUrl": "michaelcembalest/2022-03-19_16-52-07_UTC_8.jpg",
@@ -4008,8 +2626,7 @@ const userCatchRecords = {
       "date": "2021-12-29",
       "catches": [
         {
-          "speciesId": "tarpon",
-          "weight": 0
+          "speciesId": "tarpon"
         }
       ],
       "photoUrl": "michaelcembalest/2021-12-29_14-27-48_UTC.jpg",
@@ -4021,8 +2638,7 @@ const userCatchRecords = {
       "date": "2021-11-10",
       "catches": [
         {
-          "speciesId": "striped-bass",
-          "weight": 0
+          "speciesId": "striped-bass"
         }
       ],
       "photoUrl": "michaelcembalest/2021-11-10_00-57-26_UTC.jpg",
@@ -4034,8 +2650,7 @@ const userCatchRecords = {
       "date": "2021-10-10",
       "catches": [
         {
-          "speciesId": "tarpon",
-          "weight": 0
+          "speciesId": "tarpon"
         }
       ],
       "photoUrl": "michaelcembalest/2021-10-10_14-47-31_UTC.jpg",
@@ -4047,8 +2662,7 @@ const userCatchRecords = {
       "date": "2021-09-03",
       "catches": [
         {
-          "speciesId": "white-sturgeon",
-          "weight": 0
+          "speciesId": "white-sturgeon"
         }
       ],
       "photoUrl": "michaelcembalest/2021-09-03_15-07-36_UTC.jpg",
@@ -4060,8 +2674,7 @@ const userCatchRecords = {
       "date": "2021-07-29",
       "catches": [
         {
-          "speciesId": "bigeye-tuna",
-          "weight": 0
+          "speciesId": "bigeye-tuna"
         }
       ],
       "photoUrl": "michaelcembalest/2021-07-29_23-45-13_UTC_8.jpg",
@@ -4073,12 +2686,10 @@ const userCatchRecords = {
       "date": "2021-05-15",
       "catches": [
         {
-          "speciesId": "bluefish",
-          "weight": 0
+          "speciesId": "bluefish"
         },
         {
-          "speciesId": "striped-bass",
-          "weight": 0
+          "speciesId": "striped-bass"
         }
       ],
       "photoUrl": "michaelcembalest/2021-05-15_12-41-06_UTC.jpg",
@@ -4090,8 +2701,7 @@ const userCatchRecords = {
       "date": "2021-05-09",
       "catches": [
         {
-          "speciesId": "striped-bass",
-          "weight": 0
+          "speciesId": "striped-bass"
         }
       ],
       "photoUrl": "michaelcembalest/2021-05-09_13-09-03_UTC.jpg",
@@ -4103,8 +2713,7 @@ const userCatchRecords = {
       "date": "2021-05-01",
       "catches": [
         {
-          "speciesId": "red-drum",
-          "weight": 0
+          "speciesId": "red-drum"
         }
       ],
       "photoUrl": "michaelcembalest/2021-05-01_11-49-55_UTC.jpg",
@@ -4116,8 +2725,7 @@ const userCatchRecords = {
       "date": "2021-04-24",
       "catches": [
         {
-          "speciesId": "black-drum",
-          "weight": 0
+          "speciesId": "black-drum"
         }
       ],
       "photoUrl": "michaelcembalest/2021-04-24_13-32-12_UTC.jpg",
@@ -4129,32 +2737,25 @@ const userCatchRecords = {
       "date": "2021-02-09",
       "catches": [
         {
-          "speciesId": "striped-bass",
-          "weight": 0
+          "speciesId": "striped-bass"
         },
         {
-          "speciesId": "sailfish",
-          "weight": 0
+          "speciesId": "sailfish"
         },
         {
-          "speciesId": "giant-trevally",
-          "weight": 0
+          "speciesId": "giant-trevally"
         },
         {
-          "speciesId": "tarpon",
-          "weight": 0
+          "speciesId": "tarpon"
         },
         {
-          "speciesId": "white-sturgeon",
-          "weight": 0
+          "speciesId": "white-sturgeon"
         },
         {
-          "speciesId": "red-drum",
-          "weight": 0
+          "speciesId": "red-drum"
         },
         {
-          "speciesId": "roosterfish",
-          "weight": 0
+          "speciesId": "roosterfish"
         }
       ],
       "photoUrl": "michaelcembalest/2021-02-09_00-45-50_UTC_6.jpg",
@@ -4166,20 +2767,16 @@ const userCatchRecords = {
       "date": "2020-10-15",
       "catches": [
         {
-          "speciesId": "striped-bass",
-          "weight": 0
+          "speciesId": "striped-bass"
         },
         {
-          "speciesId": "albacore-tuna",
-          "weight": 0
+          "speciesId": "albacore-tuna"
         },
         {
-          "speciesId": "false-albacore",
-          "weight": 0
+          "speciesId": "false-albacore"
         },
         {
-          "speciesId": "bluefish",
-          "weight": 0
+          "speciesId": "bluefish"
         }
       ],
       "photoUrl": "michaelcembalest/2020-10-15_12-57-15_UTC.jpg",
@@ -4191,8 +2788,7 @@ const userCatchRecords = {
       "date": "2020-09-06",
       "catches": [
         {
-          "speciesId": "striped-bass",
-          "weight": 0
+          "speciesId": "striped-bass"
         }
       ],
       "photoUrl": "michaelcembalest/2020-09-06_14-10-05_UTC.jpg",
@@ -4204,12 +2800,10 @@ const userCatchRecords = {
       "date": "2020-07-24",
       "catches": [
         {
-          "speciesId": "striped-bass",
-          "weight": 0
+          "speciesId": "striped-bass"
         },
         {
-          "speciesId": "gray-triggerfish",
-          "weight": 0
+          "speciesId": "gray-triggerfish"
         }
       ],
       "photoUrl": "michaelcembalest/2020-07-24_19-18-30_UTC.jpg",
@@ -4221,8 +2815,7 @@ const userCatchRecords = {
       "date": "2020-06-26",
       "catches": [
         {
-          "speciesId": "striped-bass",
-          "weight": 0
+          "speciesId": "striped-bass"
         }
       ],
       "photoUrl": "michaelcembalest/2020-06-26_13-12-35_UTC.jpg",
@@ -4234,8 +2827,7 @@ const userCatchRecords = {
       "date": "2020-06-07",
       "catches": [
         {
-          "speciesId": "striped-bass",
-          "weight": 0
+          "speciesId": "striped-bass"
         }
       ],
       "photoUrl": "michaelcembalest/2020-06-07_15-51-46_UTC.jpg",
@@ -4247,12 +2839,10 @@ const userCatchRecords = {
       "date": "2020-05-30",
       "catches": [
         {
-          "speciesId": "striped-bass",
-          "weight": 0
+          "speciesId": "striped-bass"
         },
         {
-          "speciesId": "bluefish",
-          "weight": 0
+          "speciesId": "bluefish"
         }
       ],
       "photoUrl": "michaelcembalest/2020-05-30_15-31-49_UTC.jpg",
@@ -4264,12 +2854,10 @@ const userCatchRecords = {
       "date": "2020-05-23",
       "catches": [
         {
-          "speciesId": "bluefish",
-          "weight": 0
+          "speciesId": "bluefish"
         },
         {
-          "speciesId": "striped-bass",
-          "weight": 0
+          "speciesId": "striped-bass"
         }
       ],
       "photoUrl": "michaelcembalest/2020-05-23_22-51-13_UTC.jpg",
@@ -4281,8 +2869,7 @@ const userCatchRecords = {
       "date": "2020-05-03",
       "catches": [
         {
-          "speciesId": "striped-bass",
-          "weight": 0
+          "speciesId": "striped-bass"
         }
       ],
       "photoUrl": "michaelcembalest/2020-05-03_21-43-40_UTC_1.jpg",
@@ -4294,12 +2881,10 @@ const userCatchRecords = {
       "date": "2020-04-21",
       "catches": [
         {
-          "speciesId": "smallmouth-bass",
-          "weight": 0
+          "speciesId": "smallmouth-bass"
         },
         {
-          "speciesId": "chain-pickerel",
-          "weight": 0
+          "speciesId": "chain-pickerel"
         }
       ],
       "photoUrl": "michaelcembalest/2020-04-21_01-45-55_UTC_1.jpg",
@@ -4311,12 +2896,10 @@ const userCatchRecords = {
       "date": "2020-03-18",
       "catches": [
         {
-          "speciesId": "striped-bass",
-          "weight": 0
+          "speciesId": "striped-bass"
         },
         {
-          "speciesId": "bluefish",
-          "weight": 0
+          "speciesId": "bluefish"
         }
       ],
       "photoUrl": "michaelcembalest/2020-03-18_15-22-57_UTC_2.jpg",
@@ -4328,8 +2911,7 @@ const userCatchRecords = {
       "date": "2020-02-16",
       "catches": [
         {
-          "speciesId": "tarpon",
-          "weight": 0
+          "speciesId": "tarpon"
         }
       ],
       "photoUrl": "michaelcembalest/2020-02-16_13-53-05_UTC.jpg",
@@ -4341,36 +2923,28 @@ const userCatchRecords = {
       "date": "2020-01-01",
       "catches": [
         {
-          "speciesId": "yellowfin-tuna",
-          "weight": 0
+          "speciesId": "yellowfin-tuna"
         },
         {
-          "speciesId": "striped-bass",
-          "weight": 0
+          "speciesId": "striped-bass"
         },
         {
-          "speciesId": "bluefish",
-          "weight": 0
+          "speciesId": "bluefish"
         },
         {
-          "speciesId": "red-grouper",
-          "weight": 0
+          "speciesId": "red-grouper"
         },
         {
-          "speciesId": "jack-crevalle",
-          "weight": 0
+          "speciesId": "jack-crevalle"
         },
         {
-          "speciesId": "tarpon",
-          "weight": 0
+          "speciesId": "tarpon"
         },
         {
-          "speciesId": "cubera-snapper",
-          "weight": 0
+          "speciesId": "cubera-snapper"
         },
         {
-          "speciesId": "blue-marlin",
-          "weight": 0
+          "speciesId": "blue-marlin"
         }
       ],
       "photoUrl": "michaelcembalest/2020-01-01_21-57-29_UTC_9.jpg",
@@ -4382,24 +2956,19 @@ const userCatchRecords = {
       "date": "2019-12-26",
       "catches": [
         {
-          "speciesId": "permit",
-          "weight": 0
+          "speciesId": "permit"
         },
         {
-          "speciesId": "bonefish",
-          "weight": 0
+          "speciesId": "bonefish"
         },
         {
-          "speciesId": "triggerfish",
-          "weight": 0
+          "speciesId": "triggerfish"
         },
         {
-          "speciesId": "barracuda",
-          "weight": 0
+          "speciesId": "barracuda"
         },
         {
-          "speciesId": "nurse-shark",
-          "weight": 0
+          "speciesId": "nurse-shark"
         }
       ],
       "photoUrl": "michaelcembalest/2019-12-26_23-46-56_UTC_10.jpg",
@@ -4411,8 +2980,7 @@ const userCatchRecords = {
       "date": "2019-10-19",
       "catches": [
         {
-          "speciesId": "tarpon",
-          "weight": 0
+          "speciesId": "tarpon"
         }
       ],
       "photoUrl": "michaelcembalest/2019-10-19_12-38-16_UTC.jpg",
@@ -4424,8 +2992,7 @@ const userCatchRecords = {
       "date": "2019-10-11",
       "catches": [
         {
-          "speciesId": "tarpon",
-          "weight": 0
+          "speciesId": "tarpon"
         }
       ],
       "photoUrl": "michaelcembalest/2019-10-11_00-33-07_UTC.jpg",
@@ -4437,32 +3004,25 @@ const userCatchRecords = {
       "date": "2019-08-17",
       "catches": [
         {
-          "speciesId": "yellowfin-tuna",
-          "weight": 0
+          "speciesId": "yellowfin-tuna"
         },
         {
-          "speciesId": "roosterfish",
-          "weight": 0
+          "speciesId": "roosterfish"
         },
         {
-          "speciesId": "cubera-snapper",
-          "weight": 0
+          "speciesId": "cubera-snapper"
         },
         {
-          "speciesId": "jack-crevalle",
-          "weight": 0
+          "speciesId": "jack-crevalle"
         },
         {
-          "speciesId": "blue-trevally",
-          "weight": 0
+          "speciesId": "blue-trevally"
         },
         {
-          "speciesId": "false-albacore",
-          "weight": 0
+          "speciesId": "false-albacore"
         },
         {
-          "speciesId": "grouper",
-          "weight": 0
+          "speciesId": "grouper"
         }
       ],
       "photoUrl": "michaelcembalest/2019-08-17_20-53-44_UTC_8.jpg",
@@ -4474,20 +3034,16 @@ const userCatchRecords = {
       "date": "2019-08-17",
       "catches": [
         {
-          "speciesId": "yellowfin-tuna",
-          "weight": 450
+          "speciesId": "yellowfin-tuna"
         },
         {
-          "speciesId": "black-marlin",
-          "weight": 450
+          "speciesId": "black-marlin"
         },
         {
-          "speciesId": "mahi-mahi",
-          "weight": 450
+          "speciesId": "mahi-mahi"
         },
         {
-          "speciesId": "amberjack",
-          "weight": 450
+          "speciesId": "amberjack"
         }
       ],
       "photoUrl": "michaelcembalest/2019-08-17_22-10-17_UTC_7.jpg",
@@ -4499,8 +3055,7 @@ const userCatchRecords = {
       "date": "2019-07-27",
       "catches": [
         {
-          "speciesId": "tarpon",
-          "weight": 0
+          "speciesId": "tarpon"
         }
       ],
       "photoUrl": "michaelcembalest/2019-07-27_14-03-54_UTC.jpg",
@@ -4512,8 +3067,7 @@ const userCatchRecords = {
       "date": "2019-07-24",
       "catches": [
         {
-          "speciesId": "tarpon",
-          "weight": 0
+          "speciesId": "tarpon"
         }
       ],
       "photoUrl": "michaelcembalest/2019-07-24_13-27-53_UTC.jpg",
@@ -4525,8 +3079,7 @@ const userCatchRecords = {
       "date": "2019-07-07",
       "catches": [
         {
-          "speciesId": "striped-bass",
-          "weight": 0
+          "speciesId": "striped-bass"
         }
       ],
       "photoUrl": "michaelcembalest/2019-07-07_15-21-58_UTC_6.jpg",
@@ -4538,8 +3091,7 @@ const userCatchRecords = {
       "date": "2019-07-04",
       "catches": [
         {
-          "speciesId": "striped-bass",
-          "weight": 0
+          "speciesId": "striped-bass"
         }
       ],
       "photoUrl": "michaelcembalest/2019-07-04_17-42-35_UTC.jpg",
@@ -4551,8 +3103,7 @@ const userCatchRecords = {
       "date": "2019-05-29",
       "catches": [
         {
-          "speciesId": "bluefish",
-          "weight": 0
+          "speciesId": "bluefish"
         }
       ],
       "photoUrl": "michaelcembalest/2019-05-29_13-38-01_UTC.jpg",
@@ -4564,8 +3115,7 @@ const userCatchRecords = {
       "date": "2019-05-26",
       "catches": [
         {
-          "speciesId": "bluefish",
-          "weight": 0
+          "speciesId": "bluefish"
         }
       ],
       "photoUrl": "michaelcembalest/2019-05-26_23-42-13_UTC_8.jpg",
@@ -4577,8 +3127,7 @@ const userCatchRecords = {
       "date": "2019-05-07",
       "catches": [
         {
-          "speciesId": "striped-bass",
-          "weight": 0
+          "speciesId": "striped-bass"
         }
       ],
       "photoUrl": "michaelcembalest/2019-05-07_00-09-47_UTC_1.jpg",
@@ -4590,24 +3139,19 @@ const userCatchRecords = {
       "date": "2019-03-30",
       "catches": [
         {
-          "speciesId": "bonefish",
-          "weight": 0
+          "speciesId": "bonefish"
         },
         {
-          "speciesId": "great-barracuda",
-          "weight": 0
+          "speciesId": "great-barracuda"
         },
         {
-          "speciesId": "jack-crevalle",
-          "weight": 0
+          "speciesId": "jack-crevalle"
         },
         {
-          "speciesId": "red-grouper",
-          "weight": 0
+          "speciesId": "red-grouper"
         },
         {
-          "speciesId": "triggerfish",
-          "weight": 0
+          "speciesId": "triggerfish"
         }
       ],
       "photoUrl": "michaelcembalest/2019-03-30_14-11-30_UTC_8.jpg",
@@ -4619,8 +3163,7 @@ const userCatchRecords = {
       "date": "2019-03-02",
       "catches": [
         {
-          "speciesId": "striped-marlin",
-          "weight": 0
+          "speciesId": "striped-marlin"
         }
       ],
       "photoUrl": "michaelcembalest/2019-03-02_15-26-28_UTC.jpg",
@@ -4632,16 +3175,13 @@ const userCatchRecords = {
       "date": "2019-03-02",
       "catches": [
         {
-          "speciesId": "striped-marlin",
-          "weight": 0
+          "speciesId": "striped-marlin"
         },
         {
-          "speciesId": "almaco-jack",
-          "weight": 0
+          "speciesId": "almaco-jack"
         },
         {
-          "speciesId": "hogfish",
-          "weight": 0
+          "speciesId": "hogfish"
         }
       ],
       "photoUrl": "michaelcembalest/2019-03-02_18-29-00_UTC_9.jpg",
@@ -4653,32 +3193,25 @@ const userCatchRecords = {
       "date": "2018-12-30",
       "catches": [
         {
-          "speciesId": "roosterfish",
-          "weight": 0
+          "speciesId": "roosterfish"
         },
         {
-          "speciesId": "tarpon",
-          "weight": 0
+          "speciesId": "tarpon"
         },
         {
-          "speciesId": "red-drum",
-          "weight": 0
+          "speciesId": "red-drum"
         },
         {
-          "speciesId": "striped-bass",
-          "weight": 0
+          "speciesId": "striped-bass"
         },
         {
-          "speciesId": "yellowfin-tuna",
-          "weight": 0
+          "speciesId": "yellowfin-tuna"
         },
         {
-          "speciesId": "mahi-mahi",
-          "weight": 0
+          "speciesId": "mahi-mahi"
         },
         {
-          "speciesId": "false-albacore",
-          "weight": 0
+          "speciesId": "false-albacore"
         }
       ],
       "photoUrl": "michaelcembalest/2018-12-30_19-27-50_UTC_2.jpg",
@@ -4690,8 +3223,7 @@ const userCatchRecords = {
       "date": "2018-11-03",
       "catches": [
         {
-          "speciesId": "red-drum",
-          "weight": 0
+          "speciesId": "red-drum"
         }
       ],
       "photoUrl": "michaelcembalest/2018-11-03_17-28-12_UTC.jpg",
@@ -4703,8 +3235,7 @@ const userCatchRecords = {
       "date": "2018-10-14",
       "catches": [
         {
-          "speciesId": "false-albacore",
-          "weight": 0
+          "speciesId": "false-albacore"
         }
       ],
       "photoUrl": "michaelcembalest/2018-10-14_22-09-03_UTC.jpg",
@@ -4716,32 +3247,25 @@ const userCatchRecords = {
       "date": "2018-10-06",
       "catches": [
         {
-          "speciesId": "red-bass",
-          "weight": 0
+          "speciesId": "red-bass"
         },
         {
-          "speciesId": "malabar-grouper",
-          "weight": 0
+          "speciesId": "malabar-grouper"
         },
         {
-          "speciesId": "coral-trout",
-          "weight": 0
+          "speciesId": "coral-trout"
         },
         {
-          "speciesId": "napoleon-wrasse",
-          "weight": 0
+          "speciesId": "napoleon-wrasse"
         },
         {
-          "speciesId": "coral-trout",
-          "weight": 0
+          "speciesId": "coral-trout"
         },
         {
-          "speciesId": "flowery-cod",
-          "weight": 0
+          "speciesId": "flowery-cod"
         },
         {
-          "speciesId": "peacock-grouper",
-          "weight": 0
+          "speciesId": "peacock-grouper"
         }
       ],
       "photoUrl": "michaelcembalest/2018-10-06_22-31-59_UTC_5.jpg",
@@ -4753,20 +3277,16 @@ const userCatchRecords = {
       "date": "2018-09-29",
       "catches": [
         {
-          "speciesId": "giant-trevally",
-          "weight": 0
+          "speciesId": "giant-trevally"
         },
         {
-          "speciesId": "yellowfin-tuna",
-          "weight": 0
+          "speciesId": "yellowfin-tuna"
         },
         {
-          "speciesId": "little-tunny",
-          "weight": 0
+          "speciesId": "little-tunny"
         },
         {
-          "speciesId": "golden-trevally",
-          "weight": 0
+          "speciesId": "golden-trevally"
         }
       ],
       "photoUrl": "michaelcembalest/2018-09-29_21-22-04_UTC_9.jpg",
@@ -4778,8 +3298,7 @@ const userCatchRecords = {
       "date": "2018-08-23",
       "catches": [
         {
-          "speciesId": "tiger-fish",
-          "weight": 0
+          "speciesId": "tiger-fish"
         }
       ],
       "photoUrl": "michaelcembalest/2018-08-23_19-28-20_UTC.jpg",
@@ -4791,8 +3310,7 @@ const userCatchRecords = {
       "date": "2018-08-13",
       "catches": [
         {
-          "speciesId": "tiger-fish",
-          "weight": 0
+          "speciesId": "tiger-fish"
         }
       ],
       "photoUrl": "michaelcembalest/2018-08-13_17-57-06_UTC_7.jpg",
@@ -4804,8 +3322,7 @@ const userCatchRecords = {
       "date": "2018-07-28",
       "catches": [
         {
-          "speciesId": "grey-triggerfish",
-          "weight": 0
+          "speciesId": "grey-triggerfish"
         }
       ],
       "photoUrl": "michaelcembalest/2018-07-28_20-19-01_UTC_1.jpg",
@@ -4817,8 +3334,7 @@ const userCatchRecords = {
       "date": "2018-07-08",
       "catches": [
         {
-          "speciesId": "summer-flounder",
-          "weight": 0
+          "speciesId": "summer-flounder"
         }
       ],
       "photoUrl": "michaelcembalest/2018-07-08_21-44-39_UTC_3.jpg",
@@ -4830,12 +3346,10 @@ const userCatchRecords = {
       "date": "2018-06-12",
       "catches": [
         {
-          "speciesId": "bluefish",
-          "weight": 0
+          "speciesId": "bluefish"
         },
         {
-          "speciesId": "striped-bass",
-          "weight": 0
+          "speciesId": "striped-bass"
         }
       ],
       "photoUrl": "michaelcembalest/2018-06-12_01-45-41_UTC.jpg",
@@ -4847,12 +3361,10 @@ const userCatchRecords = {
       "date": "2018-05-26",
       "catches": [
         {
-          "speciesId": "striped-bass",
-          "weight": 0
+          "speciesId": "striped-bass"
         },
         {
-          "speciesId": "bluefish",
-          "weight": 0
+          "speciesId": "bluefish"
         }
       ],
       "photoUrl": "michaelcembalest/2018-05-26_15-32-42_UTC_6.jpg",
@@ -4864,8 +3376,7 @@ const userCatchRecords = {
       "date": "2018-05-18",
       "catches": [
         {
-          "speciesId": "bluefish",
-          "weight": 0
+          "speciesId": "bluefish"
         }
       ],
       "photoUrl": "michaelcembalest/2018-05-18_15-20-33_UTC.jpg",
@@ -4877,8 +3388,7 @@ const userCatchRecords = {
       "date": "2018-05-12",
       "catches": [
         {
-          "speciesId": "striped-bass",
-          "weight": 0
+          "speciesId": "striped-bass"
         }
       ],
       "photoUrl": "michaelcembalest/2018-05-12_18-18-52_UTC.jpg",
@@ -4890,8 +3400,7 @@ const userCatchRecords = {
       "date": "2018-04-28",
       "catches": [
         {
-          "speciesId": "yellowtail-amberjack",
-          "weight": 0
+          "speciesId": "yellowtail-amberjack"
         }
       ],
       "photoUrl": "michaelcembalest/2018-04-28_17-29-54_UTC_4.jpg",
@@ -4903,20 +3412,16 @@ const userCatchRecords = {
       "date": "2018-03-24",
       "catches": [
         {
-          "speciesId": "almaco-jack",
-          "weight": 0
+          "speciesId": "almaco-jack"
         },
         {
-          "speciesId": "king-mackerel",
-          "weight": 0
+          "speciesId": "king-mackerel"
         },
         {
-          "speciesId": "gray-triggerfish",
-          "weight": 0
+          "speciesId": "gray-triggerfish"
         },
         {
-          "speciesId": "red-hind-grouper",
-          "weight": 0
+          "speciesId": "red-hind-grouper"
         }
       ],
       "photoUrl": "michaelcembalest/2018-03-24_21-09-18_UTC_5.jpg",
@@ -4928,8 +3433,7 @@ const userCatchRecords = {
       "date": "2018-02-11",
       "catches": [
         {
-          "speciesId": "tarpon",
-          "weight": 0
+          "speciesId": "tarpon"
         }
       ],
       "photoUrl": "michaelcembalest/2018-02-11_16-52-31_UTC_1.jpg",
@@ -4941,16 +3445,13 @@ const userCatchRecords = {
       "date": "2018-01-23",
       "catches": [
         {
-          "speciesId": "yellowfin-tuna",
-          "weight": 0
+          "speciesId": "yellowfin-tuna"
         },
         {
-          "speciesId": "jack-crevalle",
-          "weight": 0
+          "speciesId": "jack-crevalle"
         },
         {
-          "speciesId": "roosterfish",
-          "weight": 0
+          "speciesId": "roosterfish"
         }
       ],
       "photoUrl": "michaelcembalest/2018-01-23_12-59-32_UTC.jpg",
@@ -4962,12 +3463,10 @@ const userCatchRecords = {
       "date": "2018-01-17",
       "catches": [
         {
-          "speciesId": "yellowfin-tuna",
-          "weight": 0
+          "speciesId": "yellowfin-tuna"
         },
         {
-          "speciesId": "blue-marlin",
-          "weight": 0
+          "speciesId": "blue-marlin"
         }
       ],
       "photoUrl": "michaelcembalest/2018-01-17_13-45-10_UTC.jpg",
@@ -4979,32 +3478,25 @@ const userCatchRecords = {
       "date": "2018-01-17",
       "catches": [
         {
-          "speciesId": "roosterfish",
-          "weight": 0
+          "speciesId": "roosterfish"
         },
         {
-          "speciesId": "blue-marlin",
-          "weight": 0
+          "speciesId": "blue-marlin"
         },
         {
-          "speciesId": "yellowfin-tuna",
-          "weight": 0
+          "speciesId": "yellowfin-tuna"
         },
         {
-          "speciesId": "sailfish",
-          "weight": 0
+          "speciesId": "sailfish"
         },
         {
-          "speciesId": "mahi-mahi",
-          "weight": 0
+          "speciesId": "mahi-mahi"
         },
         {
-          "speciesId": "hammerhead-shark",
-          "weight": 0
+          "speciesId": "hammerhead-shark"
         },
         {
-          "speciesId": "jack-crevalle",
-          "weight": 0
+          "speciesId": "jack-crevalle"
         }
       ],
       "photoUrl": "michaelcembalest/2018-01-17_23-17-01_UTC_7.jpg",
@@ -5016,44 +3508,34 @@ const userCatchRecords = {
       "date": "2017-12-30",
       "catches": [
         {
-          "speciesId": "giant-trevally",
-          "weight": 0
+          "speciesId": "giant-trevally"
         },
         {
-          "speciesId": "sailfish",
-          "weight": 0
+          "speciesId": "sailfish"
         },
         {
-          "speciesId": "red-drum",
-          "weight": 0
+          "speciesId": "red-drum"
         },
         {
-          "speciesId": "golden-dorado",
-          "weight": 0
+          "speciesId": "golden-dorado"
         },
         {
-          "speciesId": "striped-bass",
-          "weight": 0
+          "speciesId": "striped-bass"
         },
         {
-          "speciesId": "muskellunge",
-          "weight": 0
+          "speciesId": "muskellunge"
         },
         {
-          "speciesId": "wahoo",
-          "weight": 0
+          "speciesId": "wahoo"
         },
         {
-          "speciesId": "peacock-bass",
-          "weight": 0
+          "speciesId": "peacock-bass"
         },
         {
-          "speciesId": "common-snook",
-          "weight": 0
+          "speciesId": "common-snook"
         },
         {
-          "speciesId": "bonnethead-shark",
-          "weight": 0
+          "speciesId": "bonnethead-shark"
         }
       ],
       "photoUrl": "michaelcembalest/2017-12-30_19-33-23_UTC_6.jpg",
@@ -5065,8 +3547,7 @@ const userCatchRecords = {
       "date": "2017-11-19",
       "catches": [
         {
-          "speciesId": "golden-dorado",
-          "weight": 0
+          "speciesId": "golden-dorado"
         }
       ],
       "photoUrl": "michaelcembalest/2017-11-19_00-18-24_UTC.jpg",
@@ -5078,8 +3559,7 @@ const userCatchRecords = {
       "date": "2017-11-16",
       "catches": [
         {
-          "speciesId": "tararira",
-          "weight": 0
+          "speciesId": "tararira"
         }
       ],
       "photoUrl": "michaelcembalest/2017-11-16_21-11-04_UTC.jpg",
@@ -5091,16 +3571,13 @@ const userCatchRecords = {
       "date": "2017-10-21",
       "catches": [
         {
-          "speciesId": "false-albacore",
-          "weight": 0
+          "speciesId": "false-albacore"
         },
         {
-          "speciesId": "striped-bass",
-          "weight": 0
+          "speciesId": "striped-bass"
         },
         {
-          "speciesId": "bluefish",
-          "weight": 0
+          "speciesId": "bluefish"
         }
       ],
       "photoUrl": "michaelcembalest/2017-10-21_23-11-29_UTC_3.jpg",
@@ -5112,8 +3589,7 @@ const userCatchRecords = {
       "date": "2017-10-15",
       "catches": [
         {
-          "speciesId": "false-albacore",
-          "weight": 0
+          "speciesId": "false-albacore"
         }
       ],
       "photoUrl": "michaelcembalest/2017-10-15_03-28-25_UTC.jpg",
@@ -5125,8 +3601,7 @@ const userCatchRecords = {
       "date": "2017-09-27",
       "catches": [
         {
-          "speciesId": "muskellunge",
-          "weight": 0
+          "speciesId": "muskellunge"
         }
       ],
       "photoUrl": "michaelcembalest/2017-09-27_21-31-21_UTC_2.jpg",
@@ -5138,8 +3613,7 @@ const userCatchRecords = {
       "date": "2017-09-11",
       "catches": [
         {
-          "speciesId": "striped-bass",
-          "weight": 0
+          "speciesId": "striped-bass"
         }
       ],
       "photoUrl": "michaelcembalest/2017-09-11_14-19-32_UTC.jpg",
@@ -5151,8 +3625,7 @@ const userCatchRecords = {
       "date": "2017-08-25",
       "catches": [
         {
-          "speciesId": "striped-bass",
-          "weight": 0
+          "speciesId": "striped-bass"
         }
       ],
       "photoUrl": "michaelcembalest/2017-08-25_22-46-21_UTC_6.jpg",
@@ -5164,8 +3637,7 @@ const userCatchRecords = {
       "date": "2017-08-11",
       "catches": [
         {
-          "speciesId": "atlantic-tarpon",
-          "weight": 100
+          "speciesId": "atlantic-tarpon"
         }
       ],
       "photoUrl": "michaelcembalest/2017-08-11_14-32-17_UTC.jpg",
@@ -5177,8 +3649,7 @@ const userCatchRecords = {
       "date": "2017-08-08",
       "catches": [
         {
-          "speciesId": "bonnethead-shark",
-          "weight": 0
+          "speciesId": "bonnethead-shark"
         }
       ],
       "photoUrl": "michaelcembalest/2017-08-08_22-34-54_UTC_2.jpg",
@@ -5190,12 +3661,10 @@ const userCatchRecords = {
       "date": "2017-08-01",
       "catches": [
         {
-          "speciesId": "yellowfin-tuna",
-          "weight": 0
+          "speciesId": "yellowfin-tuna"
         },
         {
-          "speciesId": "bonefish",
-          "weight": 0
+          "speciesId": "bonefish"
         }
       ],
       "photoUrl": "michaelcembalest/2017-08-01_19-23-06_UTC.jpg",
@@ -5207,12 +3676,10 @@ const userCatchRecords = {
       "date": "2017-07-26",
       "catches": [
         {
-          "speciesId": "mahi-mahi",
-          "weight": 0
+          "speciesId": "mahi-mahi"
         },
         {
-          "speciesId": "wahoo",
-          "weight": 0
+          "speciesId": "wahoo"
         }
       ],
       "photoUrl": "michaelcembalest/2017-07-26_12-48-17_UTC.jpg",
@@ -5224,28 +3691,22 @@ const userCatchRecords = {
       "date": "2017-07-14",
       "catches": [
         {
-          "speciesId": "tuna",
-          "weight": 0
+          "speciesId": "tuna"
         },
         {
-          "speciesId": "wahoo",
-          "weight": 0
+          "speciesId": "wahoo"
         },
         {
-          "speciesId": "giant-trevally",
-          "weight": 0
+          "speciesId": "giant-trevally"
         },
         {
-          "speciesId": "mahi-mahi",
-          "weight": 0
+          "speciesId": "mahi-mahi"
         },
         {
-          "speciesId": "bonefish",
-          "weight": 0
+          "speciesId": "bonefish"
         },
         {
-          "speciesId": "trevally",
-          "weight": 0
+          "speciesId": "trevally"
         }
       ],
       "photoUrl": "michaelcembalest/2017-07-14_22-21-43_UTC.jpg",
@@ -5257,8 +3718,7 @@ const userCatchRecords = {
       "date": "2017-07-13",
       "catches": [
         {
-          "speciesId": "giant-trevally",
-          "weight": 0
+          "speciesId": "giant-trevally"
         }
       ],
       "photoUrl": "michaelcembalest/2017-07-13_14-47-17_UTC.jpg",
@@ -5270,8 +3730,7 @@ const userCatchRecords = {
       "date": "2017-07-03",
       "catches": [
         {
-          "speciesId": "giant-trevally",
-          "weight": 0
+          "speciesId": "giant-trevally"
         }
       ],
       "photoUrl": "michaelcembalest/2017-07-03_18-17-26_UTC_4.jpg",
@@ -5283,8 +3742,7 @@ const userCatchRecords = {
       "date": "2017-06-18",
       "catches": [
         {
-          "speciesId": "striped-bass",
-          "weight": 0
+          "speciesId": "striped-bass"
         }
       ],
       "photoUrl": "michaelcembalest/2017-06-18_21-35-25_UTC.jpg",
@@ -5296,8 +3754,7 @@ const userCatchRecords = {
       "date": "2017-06-18",
       "catches": [
         {
-          "speciesId": "striped-bass",
-          "weight": 0
+          "speciesId": "striped-bass"
         }
       ],
       "photoUrl": "michaelcembalest/2017-06-18_21-41-23_UTC.jpg",
@@ -5309,8 +3766,7 @@ const userCatchRecords = {
       "date": "2017-05-29",
       "catches": [
         {
-          "speciesId": "striped-bass",
-          "weight": 0
+          "speciesId": "striped-bass"
         }
       ],
       "photoUrl": "michaelcembalest/2017-05-29_23-23-27_UTC.jpg",
@@ -5322,12 +3778,10 @@ const userCatchRecords = {
       "date": "2017-05-29",
       "catches": [
         {
-          "speciesId": "striped-bass",
-          "weight": 0
+          "speciesId": "striped-bass"
         },
         {
-          "speciesId": "bluefish",
-          "weight": 0
+          "speciesId": "bluefish"
         }
       ],
       "photoUrl": "michaelcembalest/2017-05-29_23-33-18_UTC.jpg",
@@ -5339,12 +3793,10 @@ const userCatchRecords = {
       "date": "2017-05-06",
       "catches": [
         {
-          "speciesId": "red-drum",
-          "weight": 0
+          "speciesId": "red-drum"
         },
         {
-          "speciesId": "black-drum",
-          "weight": 0
+          "speciesId": "black-drum"
         }
       ],
       "photoUrl": "michaelcembalest/2017-05-06_19-58-11_UTC_4.jpg",
@@ -5356,8 +3808,7 @@ const userCatchRecords = {
       "date": "2017-05-06",
       "catches": [
         {
-          "speciesId": "red-drum",
-          "weight": 0
+          "speciesId": "red-drum"
         }
       ],
       "photoUrl": "michaelcembalest/2017-05-06_20-04-41_UTC.jpg",
@@ -5369,8 +3820,7 @@ const userCatchRecords = {
       "date": "2017-04-06",
       "catches": [
         {
-          "speciesId": "sailfish",
-          "weight": 0
+          "speciesId": "sailfish"
         }
       ],
       "photoUrl": "michaelcembalest/2017-04-06_01-52-39_UTC.jpg",
@@ -5382,8 +3832,7 @@ const userCatchRecords = {
       "date": "2017-04-04",
       "catches": [
         {
-          "speciesId": "florida-gar",
-          "weight": 0
+          "speciesId": "florida-gar"
         }
       ],
       "photoUrl": "michaelcembalest/2017-04-04_01-20-12_UTC.jpg",
@@ -5395,8 +3844,7 @@ const userCatchRecords = {
       "date": "2017-04-04",
       "catches": [
         {
-          "speciesId": "peacock-bass",
-          "weight": 0
+          "speciesId": "peacock-bass"
         }
       ],
       "photoUrl": "michaelcembalest/2017-04-04_01-21-32_UTC.jpg",
@@ -5408,8 +3856,7 @@ const userCatchRecords = {
       "date": "2017-04-04",
       "catches": [
         {
-          "speciesId": "clown-knifefish",
-          "weight": 0
+          "speciesId": "clown-knifefish"
         }
       ],
       "photoUrl": "michaelcembalest/2017-04-04_01-27-23_UTC.jpg",
@@ -5421,8 +3868,7 @@ const userCatchRecords = {
       "date": "2017-04-04",
       "catches": [
         {
-          "speciesId": "sailfish",
-          "weight": 0
+          "speciesId": "sailfish"
         }
       ],
       "photoUrl": "michaelcembalest/2017-04-04_01-29-37_UTC.jpg",
@@ -5434,8 +3880,7 @@ const userCatchRecords = {
       "date": "2017-04-02",
       "catches": [
         {
-          "speciesId": "atlantic-sailfish",
-          "weight": 0
+          "speciesId": "atlantic-sailfish"
         }
       ],
       "photoUrl": "michaelcembalest/2017-04-02_19-10-49_UTC.jpg",
@@ -5447,8 +3892,7 @@ const userCatchRecords = {
       "date": "2017-03-29",
       "catches": [
         {
-          "speciesId": "bonefish",
-          "weight": 0
+          "speciesId": "bonefish"
         }
       ],
       "photoUrl": "michaelcembalest/2017-03-29_20-23-48_UTC.jpg",
@@ -5460,8 +3904,7 @@ const userCatchRecords = {
       "date": "2017-03-29",
       "catches": [
         {
-          "speciesId": "lemon-shark",
-          "weight": 0
+          "speciesId": "lemon-shark"
         }
       ],
       "photoUrl": "michaelcembalest/2017-03-29_20-32-50_UTC.jpg",
@@ -5473,8 +3916,7 @@ const userCatchRecords = {
       "date": "2017-03-29",
       "catches": [
         {
-          "speciesId": "lemon-shark",
-          "weight": 0
+          "speciesId": "lemon-shark"
         }
       ],
       "photoUrl": "michaelcembalest/2017-03-29_20-33-34_UTC.jpg",
@@ -5486,8 +3928,7 @@ const userCatchRecords = {
       "date": "2017-02-10",
       "catches": [
         {
-          "speciesId": "peacock-bass",
-          "weight": 0
+          "speciesId": "peacock-bass"
         }
       ],
       "photoUrl": "michaelcembalest/2017-02-10_22-16-32_UTC.jpg",
@@ -5499,8 +3940,7 @@ const userCatchRecords = {
       "date": "2017-02-10",
       "catches": [
         {
-          "speciesId": "king-mackerel",
-          "weight": 0
+          "speciesId": "king-mackerel"
         }
       ],
       "photoUrl": "michaelcembalest/2017-02-10_22-18-05_UTC.jpg",
@@ -5512,8 +3952,7 @@ const userCatchRecords = {
       "date": "2017-02-10",
       "catches": [
         {
-          "speciesId": "common-snook",
-          "weight": 0
+          "speciesId": "common-snook"
         }
       ],
       "photoUrl": "michaelcembalest/2017-02-10_22-23-03_UTC.jpg",
@@ -5525,8 +3964,7 @@ const userCatchRecords = {
       "date": "2017-01-07",
       "catches": [
         {
-          "speciesId": "common-snook",
-          "weight": 0
+          "speciesId": "common-snook"
         }
       ],
       "photoUrl": "michaelcembalest/2017-01-07_19-01-30_UTC.jpg",
@@ -5538,8 +3976,7 @@ const userCatchRecords = {
       "date": "2016-12-25",
       "catches": [
         {
-          "speciesId": "almaco-jack",
-          "weight": 0
+          "speciesId": "almaco-jack"
         }
       ],
       "photoUrl": "michaelcembalest/2016-12-25_13-13-09_UTC.jpg",
@@ -5551,8 +3988,7 @@ const userCatchRecords = {
       "date": "2016-12-01",
       "catches": [
         {
-          "speciesId": "rainbow-trout",
-          "weight": 0
+          "speciesId": "rainbow-trout"
         }
       ],
       "photoUrl": "michaelcembalest/2016-12-01_14-13-27_UTC.jpg",
@@ -5564,8 +4000,7 @@ const userCatchRecords = {
       "date": "2016-12-01",
       "catches": [
         {
-          "speciesId": "red-drum",
-          "weight": 0
+          "speciesId": "red-drum"
         }
       ],
       "photoUrl": "michaelcembalest/2016-12-01_14-15-47_UTC.jpg",
@@ -5577,8 +4012,7 @@ const userCatchRecords = {
       "date": "2016-12-01",
       "catches": [
         {
-          "speciesId": "red-drum",
-          "weight": 0
+          "speciesId": "red-drum"
         }
       ],
       "photoUrl": "michaelcembalest/2016-12-01_14-16-54_UTC.jpg",
@@ -5590,8 +4024,7 @@ const userCatchRecords = {
       "date": "2016-10-21",
       "catches": [
         {
-          "speciesId": "red-drum",
-          "weight": 0
+          "speciesId": "red-drum"
         }
       ],
       "photoUrl": "michaelcembalest/2016-10-21_22-07-34_UTC.jpg",
@@ -5603,8 +4036,7 @@ const userCatchRecords = {
       "date": "2016-10-21",
       "catches": [
         {
-          "speciesId": "red-drum",
-          "weight": 0
+          "speciesId": "red-drum"
         }
       ],
       "photoUrl": "michaelcembalest/2016-10-21_22-08-28_UTC.jpg",
@@ -5616,8 +4048,7 @@ const userCatchRecords = {
       "date": "2016-10-21",
       "catches": [
         {
-          "speciesId": "red-drum",
-          "weight": 0
+          "speciesId": "red-drum"
         }
       ],
       "photoUrl": "michaelcembalest/2016-10-21_22-10-20_UTC.jpg",
@@ -5629,12 +4060,10 @@ const userCatchRecords = {
       "date": "2016-10-10",
       "catches": [
         {
-          "speciesId": "blackfin-tuna",
-          "weight": 0
+          "speciesId": "blackfin-tuna"
         },
         {
-          "speciesId": "wahoo",
-          "weight": 0
+          "speciesId": "wahoo"
         }
       ],
       "photoUrl": "michaelcembalest/2016-10-10_18-37-07_UTC.jpg",
@@ -5646,8 +4075,7 @@ const userCatchRecords = {
       "date": "2016-10-09",
       "catches": [
         {
-          "speciesId": "wahoo",
-          "weight": 0
+          "speciesId": "wahoo"
         }
       ],
       "photoUrl": "michaelcembalest/2016-10-09_21-08-11_UTC.jpg",
@@ -5659,8 +4087,7 @@ const userCatchRecords = {
       "date": "2016-10-09",
       "catches": [
         {
-          "speciesId": "blackfin-tuna",
-          "weight": 0
+          "speciesId": "blackfin-tuna"
         }
       ],
       "photoUrl": "michaelcembalest/2016-10-09_21-13-12_UTC.jpg",
@@ -5672,8 +4099,7 @@ const userCatchRecords = {
       "date": "2016-09-18",
       "catches": [
         {
-          "speciesId": "red-drum",
-          "weight": 0
+          "speciesId": "red-drum"
         }
       ],
       "photoUrl": "michaelcembalest/2016-09-18_00-08-30_UTC.jpg",
@@ -5685,8 +4111,7 @@ const userCatchRecords = {
       "date": "2016-09-16",
       "catches": [
         {
-          "speciesId": "red-drum",
-          "weight": 0
+          "speciesId": "red-drum"
         }
       ],
       "photoUrl": "michaelcembalest/2016-09-16_02-58-08_UTC.jpg",
@@ -5698,12 +4123,10 @@ const userCatchRecords = {
       "date": "2016-09-02",
       "catches": [
         {
-          "speciesId": "bluefish",
-          "weight": 0
+          "speciesId": "bluefish"
         },
         {
-          "speciesId": "striped-bass",
-          "weight": 0
+          "speciesId": "striped-bass"
         }
       ],
       "photoUrl": "michaelcembalest/2016-09-02_19-44-29_UTC.jpg",
@@ -5715,8 +4138,7 @@ const userCatchRecords = {
       "date": "2016-08-31",
       "catches": [
         {
-          "speciesId": "summer-flounder",
-          "weight": 0
+          "speciesId": "summer-flounder"
         }
       ],
       "photoUrl": "michaelcembalest/2016-08-31_22-35-56_UTC.jpg",
@@ -5728,8 +4150,7 @@ const userCatchRecords = {
       "date": "2016-08-22",
       "catches": [
         {
-          "speciesId": "cutthroat-trout",
-          "weight": 0
+          "speciesId": "cutthroat-trout"
         }
       ],
       "photoUrl": "michaelcembalest/2016-08-22_17-28-34_UTC.jpg",
@@ -5741,8 +4162,7 @@ const userCatchRecords = {
       "date": "2016-08-22",
       "catches": [
         {
-          "speciesId": "horse-eye-jack",
-          "weight": 0
+          "speciesId": "horse-eye-jack"
         }
       ],
       "photoUrl": "michaelcembalest/2016-08-22_17-31-24_UTC.jpg",
@@ -5754,8 +4174,7 @@ const userCatchRecords = {
       "date": "2016-08-22",
       "catches": [
         {
-          "speciesId": "roosterfish",
-          "weight": 0
+          "speciesId": "roosterfish"
         }
       ],
       "photoUrl": "michaelcembalest/2016-08-22_17-37-17_UTC.jpg",
@@ -5767,8 +4186,7 @@ const userCatchRecords = {
       "date": "2016-08-22",
       "catches": [
         {
-          "speciesId": "blue-marlin",
-          "weight": 0
+          "speciesId": "blue-marlin"
         }
       ],
       "photoUrl": "michaelcembalest/2016-08-22_17-47-02_UTC.jpg",
@@ -5780,8 +4198,7 @@ const userCatchRecords = {
       "date": "2016-08-22",
       "catches": [
         {
-          "speciesId": "great-barracuda",
-          "weight": 0
+          "speciesId": "great-barracuda"
         }
       ],
       "photoUrl": "michaelcembalest/2016-08-22_18-08-45_UTC.jpg",
@@ -5793,8 +4210,7 @@ const userCatchRecords = {
       "date": "2016-08-22",
       "catches": [
         {
-          "speciesId": "southern-stingray",
-          "weight": 0
+          "speciesId": "southern-stingray"
         }
       ],
       "photoUrl": "michaelcembalest/2016-08-22_18-21-05_UTC.jpg",
@@ -5806,8 +4222,7 @@ const userCatchRecords = {
       "date": "2016-08-22",
       "catches": [
         {
-          "speciesId": "yellowtail-amberjack",
-          "weight": 0
+          "speciesId": "yellowtail-amberjack"
         }
       ],
       "photoUrl": "michaelcembalest/2016-08-22_18-25-32_UTC.jpg",
@@ -5819,8 +4234,7 @@ const userCatchRecords = {
       "date": "2016-08-18",
       "catches": [
         {
-          "speciesId": "striped-bass",
-          "weight": 0
+          "speciesId": "striped-bass"
         }
       ],
       "photoUrl": "michaelcembalest/2016-08-18_00-15-01_UTC.jpg",
@@ -5832,8 +4246,7 @@ const userCatchRecords = {
       "date": "2016-08-09",
       "catches": [
         {
-          "speciesId": "cutthroat-trout",
-          "weight": 0
+          "speciesId": "cutthroat-trout"
         }
       ],
       "photoUrl": "michaelcembalest/2016-08-09_23-48-53_UTC.jpg",
@@ -5845,8 +4258,7 @@ const userCatchRecords = {
       "date": "2016-08-09",
       "catches": [
         {
-          "speciesId": "cutthroat-trout",
-          "weight": 0
+          "speciesId": "cutthroat-trout"
         }
       ],
       "photoUrl": "michaelcembalest/2016-08-09_23-50-59_UTC.jpg",
@@ -5858,8 +4270,7 @@ const userCatchRecords = {
       "date": "2016-08-09",
       "catches": [
         {
-          "speciesId": "cutthroat-trout",
-          "weight": 0
+          "speciesId": "cutthroat-trout"
         }
       ],
       "photoUrl": "michaelcembalest/2016-08-09_23-52-18_UTC.jpg",
@@ -5871,8 +4282,7 @@ const userCatchRecords = {
       "date": "2016-08-04",
       "catches": [
         {
-          "speciesId": "white-sturgeon",
-          "weight": 0
+          "speciesId": "white-sturgeon"
         }
       ],
       "photoUrl": "michaelcembalest/2016-08-04_00-43-59_UTC.jpg",
@@ -5884,8 +4294,7 @@ const userCatchRecords = {
       "date": "2016-08-04",
       "catches": [
         {
-          "speciesId": "yellowtail",
-          "weight": 0
+          "speciesId": "yellowtail"
         }
       ],
       "photoUrl": "michaelcembalest/2016-08-04_00-49-26_UTC.jpg",
@@ -5897,12 +4306,10 @@ const userCatchRecords = {
       "date": "2016-07-25",
       "catches": [
         {
-          "speciesId": "summer-fluke",
-          "weight": 0
+          "speciesId": "summer-fluke"
         },
         {
-          "speciesId": "scup",
-          "weight": 0
+          "speciesId": "scup"
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-25_13-18-45_UTC.jpg",
@@ -5914,8 +4321,7 @@ const userCatchRecords = {
       "date": "2016-07-15",
       "catches": [
         {
-          "speciesId": "southern-flounder",
-          "weight": 0
+          "speciesId": "southern-flounder"
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-15_00-57-16_UTC.jpg",
@@ -5927,8 +4333,7 @@ const userCatchRecords = {
       "date": "2016-07-15",
       "catches": [
         {
-          "speciesId": "houndfish",
-          "weight": 0
+          "speciesId": "houndfish"
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-15_01-00-07_UTC.jpg",
@@ -5940,8 +4345,7 @@ const userCatchRecords = {
       "date": "2016-07-15",
       "catches": [
         {
-          "speciesId": "horse-eye-jack",
-          "weight": 0
+          "speciesId": "horse-eye-jack"
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-15_01-00-55_UTC.jpg",
@@ -5953,8 +4357,7 @@ const userCatchRecords = {
       "date": "2016-07-15",
       "catches": [
         {
-          "speciesId": "nurse-shark",
-          "weight": 0
+          "speciesId": "nurse-shark"
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-15_01-02-02_UTC.jpg",
@@ -5966,8 +4369,7 @@ const userCatchRecords = {
       "date": "2016-07-15",
       "catches": [
         {
-          "speciesId": "tarpon",
-          "weight": 0
+          "speciesId": "tarpon"
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-15_01-03-40_UTC.jpg",
@@ -5979,8 +4381,7 @@ const userCatchRecords = {
       "date": "2016-07-15",
       "catches": [
         {
-          "speciesId": "tiger-rockfish",
-          "weight": 0
+          "speciesId": "tiger-rockfish"
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-15_01-06-49_UTC.jpg",
@@ -5992,8 +4393,7 @@ const userCatchRecords = {
       "date": "2016-07-15",
       "catches": [
         {
-          "speciesId": "white-sturgeon",
-          "weight": 0
+          "speciesId": "white-sturgeon"
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-15_01-08-45_UTC.jpg",
@@ -6005,8 +4405,7 @@ const userCatchRecords = {
       "date": "2016-07-15",
       "catches": [
         {
-          "speciesId": "chum-salmon",
-          "weight": 0
+          "speciesId": "chum-salmon"
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-15_01-10-21_UTC.jpg",
@@ -6018,8 +4417,7 @@ const userCatchRecords = {
       "date": "2016-07-15",
       "catches": [
         {
-          "speciesId": "bonefish",
-          "weight": 0
+          "speciesId": "bonefish"
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-15_01-12-33_UTC.jpg",
@@ -6031,8 +4429,7 @@ const userCatchRecords = {
       "date": "2016-07-15",
       "catches": [
         {
-          "speciesId": "yellowfin-tuna",
-          "weight": 0
+          "speciesId": "yellowfin-tuna"
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-15_01-15-58_UTC.jpg",
@@ -6044,8 +4441,7 @@ const userCatchRecords = {
       "date": "2016-07-15",
       "catches": [
         {
-          "speciesId": "white-sturgeon",
-          "weight": 0
+          "speciesId": "white-sturgeon"
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-15_01-18-19_UTC.jpg",
@@ -6057,8 +4453,7 @@ const userCatchRecords = {
       "date": "2016-07-15",
       "catches": [
         {
-          "speciesId": "northern-pike",
-          "weight": 0
+          "speciesId": "northern-pike"
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-15_01-22-46_UTC.jpg",
@@ -6070,8 +4465,7 @@ const userCatchRecords = {
       "date": "2016-07-15",
       "catches": [
         {
-          "speciesId": "chinook-salmon",
-          "weight": 0
+          "speciesId": "chinook-salmon"
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-15_01-25-31_UTC.jpg",
@@ -6083,8 +4477,7 @@ const userCatchRecords = {
       "date": "2016-07-15",
       "catches": [
         {
-          "speciesId": "atlantic-sailfish",
-          "weight": 0
+          "speciesId": "atlantic-sailfish"
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-15_01-50-05_UTC.jpg",
@@ -6096,8 +4489,7 @@ const userCatchRecords = {
       "date": "2016-07-14",
       "catches": [
         {
-          "speciesId": "red-snapper",
-          "weight": 0
+          "speciesId": "red-snapper"
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-14_03-09-28_UTC.jpg",
@@ -6109,8 +4501,7 @@ const userCatchRecords = {
       "date": "2016-07-14",
       "catches": [
         {
-          "speciesId": "bluefish",
-          "weight": 0
+          "speciesId": "bluefish"
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-14_03-10-18_UTC.jpg",
@@ -6122,8 +4513,7 @@ const userCatchRecords = {
       "date": "2016-07-14",
       "catches": [
         {
-          "speciesId": "tarpon",
-          "weight": 0
+          "speciesId": "tarpon"
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-14_03-12-00_UTC.jpg",
@@ -6135,8 +4525,7 @@ const userCatchRecords = {
       "date": "2016-07-14",
       "catches": [
         {
-          "speciesId": "atlantic-sailfish",
-          "weight": 0
+          "speciesId": "atlantic-sailfish"
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-14_03-15-24_UTC.jpg",
@@ -6148,8 +4537,7 @@ const userCatchRecords = {
       "date": "2016-07-14",
       "catches": [
         {
-          "speciesId": "chum-salmon",
-          "weight": 0
+          "speciesId": "chum-salmon"
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-14_03-16-17_UTC.jpg",
@@ -6161,8 +4549,7 @@ const userCatchRecords = {
       "date": "2016-07-14",
       "catches": [
         {
-          "speciesId": "california-yellowtail",
-          "weight": 0
+          "speciesId": "california-yellowtail"
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-14_03-19-04_UTC.jpg",
@@ -6174,8 +4561,7 @@ const userCatchRecords = {
       "date": "2016-07-14",
       "catches": [
         {
-          "speciesId": "rainbow-trout",
-          "weight": 0
+          "speciesId": "rainbow-trout"
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-14_12-12-49_UTC.jpg",
@@ -6187,8 +4573,7 @@ const userCatchRecords = {
       "date": "2016-07-14",
       "catches": [
         {
-          "speciesId": "brown-trout",
-          "weight": 0
+          "speciesId": "brown-trout"
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-14_12-14-47_UTC.jpg",
@@ -6200,8 +4585,7 @@ const userCatchRecords = {
       "date": "2016-07-14",
       "catches": [
         {
-          "speciesId": "tarpon",
-          "weight": 0
+          "speciesId": "tarpon"
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-14_12-15-25_UTC.jpg",
@@ -6213,8 +4597,7 @@ const userCatchRecords = {
       "date": "2016-07-14",
       "catches": [
         {
-          "speciesId": "striped-bass",
-          "weight": 0
+          "speciesId": "striped-bass"
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-14_12-16-25_UTC.jpg",
@@ -6226,8 +4609,7 @@ const userCatchRecords = {
       "date": "2016-07-12",
       "catches": [
         {
-          "speciesId": "roosterfish",
-          "weight": 100
+          "speciesId": "roosterfish"
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-12_01-59-05_UTC.jpg",
@@ -6239,8 +4621,7 @@ const userCatchRecords = {
       "date": "2016-07-12",
       "catches": [
         {
-          "speciesId": "bluefish",
-          "weight": 0
+          "speciesId": "bluefish"
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-12_02-00-18_UTC.jpg",
@@ -6252,8 +4633,7 @@ const userCatchRecords = {
       "date": "2016-07-12",
       "catches": [
         {
-          "speciesId": "red-snapper",
-          "weight": 0
+          "speciesId": "red-snapper"
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-12_02-01-32_UTC.jpg",
@@ -6265,8 +4645,7 @@ const userCatchRecords = {
       "date": "2016-07-12",
       "catches": [
         {
-          "speciesId": "white-sturgeon",
-          "weight": 0
+          "speciesId": "white-sturgeon"
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-12_02-10-34_UTC.jpg",
@@ -6278,8 +4657,7 @@ const userCatchRecords = {
       "date": "2016-07-12",
       "catches": [
         {
-          "speciesId": "smooth-hammerhead",
-          "weight": 0
+          "speciesId": "smooth-hammerhead"
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-12_22-03-44_UTC.jpg",
@@ -6291,8 +4669,7 @@ const userCatchRecords = {
       "date": "2016-07-10",
       "catches": [
         {
-          "speciesId": "mahi-mahi",
-          "weight": 0
+          "speciesId": "mahi-mahi"
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-10_03-13-24_UTC.jpg",
@@ -6304,8 +4681,7 @@ const userCatchRecords = {
       "date": "2016-07-10",
       "catches": [
         {
-          "speciesId": "bonefish",
-          "weight": 0
+          "speciesId": "bonefish"
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-10_03-14-06_UTC.jpg",
@@ -6317,8 +4693,7 @@ const userCatchRecords = {
       "date": "2016-07-10",
       "catches": [
         {
-          "speciesId": "chum-salmon",
-          "weight": 0
+          "speciesId": "chum-salmon"
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-10_03-14-57_UTC.jpg",
@@ -6330,8 +4705,7 @@ const userCatchRecords = {
       "date": "2016-07-10",
       "catches": [
         {
-          "speciesId": "coho-salmon",
-          "weight": 0
+          "speciesId": "coho-salmon"
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-10_03-15-52_UTC.jpg",
@@ -6343,8 +4717,7 @@ const userCatchRecords = {
       "date": "2016-07-10",
       "catches": [
         {
-          "speciesId": "white-sturgeon",
-          "weight": 0
+          "speciesId": "white-sturgeon"
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-10_03-16-47_UTC.jpg",
@@ -6356,8 +4729,7 @@ const userCatchRecords = {
       "date": "2016-07-10",
       "catches": [
         {
-          "speciesId": "great-barracuda",
-          "weight": 0
+          "speciesId": "great-barracuda"
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-10_07-07-30_UTC.jpg",
@@ -6369,8 +4741,7 @@ const userCatchRecords = {
       "date": "2016-07-10",
       "catches": [
         {
-          "speciesId": "white-sturgeon",
-          "weight": 0
+          "speciesId": "white-sturgeon"
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-10_07-08-20_UTC.jpg",
@@ -6382,8 +4753,7 @@ const userCatchRecords = {
       "date": "2016-07-10",
       "catches": [
         {
-          "speciesId": "bigeye-tuna",
-          "weight": 0
+          "speciesId": "bigeye-tuna"
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-10_07-09-09_UTC.jpg",
@@ -6395,8 +4765,7 @@ const userCatchRecords = {
       "date": "2016-07-10",
       "catches": [
         {
-          "speciesId": "brown-trout",
-          "weight": 0
+          "speciesId": "brown-trout"
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-10_07-12-10_UTC.jpg",
@@ -6408,8 +4777,7 @@ const userCatchRecords = {
       "date": "2016-07-10",
       "catches": [
         {
-          "speciesId": "sea-run-trout",
-          "weight": 0
+          "speciesId": "sea-run-trout"
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-10_07-14-03_UTC.jpg",
@@ -6421,8 +4789,7 @@ const userCatchRecords = {
       "date": "2016-07-10",
       "catches": [
         {
-          "speciesId": "blackfish-(tautog)",
-          "weight": 0
+          "speciesId": "blackfish-(tautog)"
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-10_07-14-56_UTC.jpg",
@@ -6434,8 +4801,7 @@ const userCatchRecords = {
       "date": "2016-07-10",
       "catches": [
         {
-          "speciesId": "yellowfin-tuna",
-          "weight": 0
+          "speciesId": "yellowfin-tuna"
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-10_07-16-16_UTC.jpg",
@@ -6447,8 +4813,7 @@ const userCatchRecords = {
       "date": "2016-07-10",
       "catches": [
         {
-          "speciesId": "northern-pike",
-          "weight": 0
+          "speciesId": "northern-pike"
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-10_07-16-56_UTC.jpg",
@@ -6460,8 +4825,7 @@ const userCatchRecords = {
       "date": "2016-07-10",
       "catches": [
         {
-          "speciesId": "blue-marlin",
-          "weight": 0
+          "speciesId": "blue-marlin"
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-10_07-17-58_UTC.jpg",
@@ -6473,12 +4837,10 @@ const userCatchRecords = {
       "date": "2016-07-10",
       "catches": [
         {
-          "speciesId": "yellowfin-tuna",
-          "weight": 0
+          "speciesId": "yellowfin-tuna"
         },
         {
-          "speciesId": "atlantic-bluefin-tuna",
-          "weight": 0
+          "speciesId": "atlantic-bluefin-tuna"
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-10_07-19-15_UTC.jpg",
@@ -6490,8 +4852,7 @@ const userCatchRecords = {
       "date": "2016-07-10",
       "catches": [
         {
-          "speciesId": "striped-bass",
-          "weight": 0
+          "speciesId": "striped-bass"
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-10_07-20-07_UTC.jpg",
@@ -6503,12 +4864,10 @@ const userCatchRecords = {
       "date": "2016-07-10",
       "catches": [
         {
-          "speciesId": "blackfin-tuna",
-          "weight": 0
+          "speciesId": "blackfin-tuna"
         },
         {
-          "speciesId": "crevalle-jack",
-          "weight": 0
+          "speciesId": "crevalle-jack"
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-10_07-25-20_UTC.jpg",
@@ -6520,8 +4879,7 @@ const userCatchRecords = {
       "date": "2016-07-10",
       "catches": [
         {
-          "speciesId": "roosterfish",
-          "weight": 0
+          "speciesId": "roosterfish"
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-10_07-26-04_UTC.jpg",
@@ -6533,8 +4891,7 @@ const userCatchRecords = {
       "date": "2016-07-10",
       "catches": [
         {
-          "speciesId": "white-sea-bass",
-          "weight": 0
+          "speciesId": "white-sea-bass"
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-10_07-38-37_UTC.jpg",
@@ -6546,8 +4903,7 @@ const userCatchRecords = {
       "date": "2016-07-10",
       "catches": [
         {
-          "speciesId": "cobia",
-          "weight": 0
+          "speciesId": "cobia"
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-10_07-40-24_UTC.jpg",
@@ -6559,8 +4915,7 @@ const userCatchRecords = {
       "date": "2016-07-10",
       "catches": [
         {
-          "speciesId": "yellowtail-amberjack",
-          "weight": 0
+          "speciesId": "yellowtail-amberjack"
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-10_07-42-22_UTC.jpg",
@@ -6572,8 +4927,7 @@ const userCatchRecords = {
       "date": "2016-07-10",
       "catches": [
         {
-          "speciesId": "pacific-sierra",
-          "weight": 0
+          "speciesId": "pacific-sierra"
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-10_07-44-02_UTC.jpg",
@@ -6585,8 +4939,7 @@ const userCatchRecords = {
       "date": "2016-07-10",
       "catches": [
         {
-          "speciesId": "greater-amberjack",
-          "weight": 0
+          "speciesId": "greater-amberjack"
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-10_07-44-23_UTC.jpg",
@@ -6598,8 +4951,7 @@ const userCatchRecords = {
       "date": "2016-07-10",
       "catches": [
         {
-          "speciesId": "striped-bass",
-          "weight": 0
+          "speciesId": "striped-bass"
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-10_07-45-05_UTC.jpg",
@@ -6611,8 +4963,7 @@ const userCatchRecords = {
       "date": "2016-07-10",
       "catches": [
         {
-          "speciesId": "tarpon",
-          "weight": 0
+          "speciesId": "tarpon"
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-10_07-46-34_UTC.jpg",
@@ -6624,8 +4975,7 @@ const userCatchRecords = {
       "date": "2016-07-10",
       "catches": [
         {
-          "speciesId": "almaco-jack",
-          "weight": 0
+          "speciesId": "almaco-jack"
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-10_07-50-12_UTC.jpg",
@@ -6637,8 +4987,7 @@ const userCatchRecords = {
       "date": "2016-07-09",
       "catches": [
         {
-          "speciesId": "roosterfish",
-          "weight": 0
+          "speciesId": "roosterfish"
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-09_08-04-59_UTC.jpg",
@@ -6650,8 +4999,7 @@ const userCatchRecords = {
       "date": "2016-07-09",
       "catches": [
         {
-          "speciesId": "yellowfin-tuna",
-          "weight": 0
+          "speciesId": "yellowfin-tuna"
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-09_22-29-08_UTC.jpg",
@@ -6663,8 +5011,7 @@ const userCatchRecords = {
       "date": "2016-07-09",
       "catches": [
         {
-          "speciesId": "red-snapper",
-          "weight": 0
+          "speciesId": "red-snapper"
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-09_22-31-44_UTC.jpg",
@@ -6676,8 +5023,7 @@ const userCatchRecords = {
       "date": "2016-07-09",
       "catches": [
         {
-          "speciesId": "bluefish",
-          "weight": 0
+          "speciesId": "bluefish"
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-09_22-32-55_UTC.jpg",
@@ -6689,8 +5035,7 @@ const userCatchRecords = {
       "date": "2016-07-09",
       "catches": [
         {
-          "speciesId": "tarpon",
-          "weight": 0
+          "speciesId": "tarpon"
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-09_22-33-52_UTC.jpg",
@@ -6702,8 +5047,7 @@ const userCatchRecords = {
       "date": "2016-07-09",
       "catches": [
         {
-          "speciesId": "blackfin-tuna",
-          "weight": 0
+          "speciesId": "blackfin-tuna"
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-09_22-34-28_UTC.jpg",
@@ -6715,8 +5059,7 @@ const userCatchRecords = {
       "date": "2016-07-09",
       "catches": [
         {
-          "speciesId": "jack-crevalle",
-          "weight": 0
+          "speciesId": "jack-crevalle"
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-09_22-35-06_UTC.jpg",
@@ -6728,8 +5071,7 @@ const userCatchRecords = {
       "date": "2016-07-09",
       "catches": [
         {
-          "speciesId": "greater-amberjack",
-          "weight": 0
+          "speciesId": "greater-amberjack"
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-09_22-35-30_UTC.jpg",
@@ -6741,8 +5083,7 @@ const userCatchRecords = {
       "date": "2016-07-09",
       "catches": [
         {
-          "speciesId": "roosterfish",
-          "weight": 0
+          "speciesId": "roosterfish"
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-09_22-36-02_UTC.jpg",
@@ -6754,8 +5095,7 @@ const userCatchRecords = {
       "date": "2016-07-09",
       "catches": [
         {
-          "speciesId": "red-snapper",
-          "weight": 0
+          "speciesId": "red-snapper"
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-09_22-36-29_UTC.jpg",
@@ -6767,8 +5107,7 @@ const userCatchRecords = {
       "date": "2016-07-09",
       "catches": [
         {
-          "speciesId": "nurse-shark",
-          "weight": 0
+          "speciesId": "nurse-shark"
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-09_22-37-57_UTC.jpg",
@@ -6780,8 +5119,7 @@ const userCatchRecords = {
       "date": "2016-07-09",
       "catches": [
         {
-          "speciesId": "common-snook",
-          "weight": 0
+          "speciesId": "common-snook"
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-09_22-38-29_UTC.jpg",
@@ -6793,8 +5131,7 @@ const userCatchRecords = {
       "date": "2016-07-09",
       "catches": [
         {
-          "speciesId": "tarpon",
-          "weight": 0
+          "speciesId": "tarpon"
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-09_22-38-53_UTC.jpg",
@@ -6806,8 +5143,7 @@ const userCatchRecords = {
       "date": "2016-07-09",
       "catches": [
         {
-          "speciesId": "yellowtail-amberjack",
-          "weight": 0
+          "speciesId": "yellowtail-amberjack"
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-09_22-39-50_UTC.jpg",
@@ -6819,12 +5155,10 @@ const userCatchRecords = {
       "date": "2016-07-09",
       "catches": [
         {
-          "speciesId": "chinook-salmon",
-          "weight": 0
+          "speciesId": "chinook-salmon"
         },
         {
-          "speciesId": "pacific-halibut",
-          "weight": 0
+          "speciesId": "pacific-halibut"
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-09_22-40-16_UTC.jpg",
@@ -6836,8 +5170,7 @@ const userCatchRecords = {
       "date": "2016-07-09",
       "catches": [
         {
-          "speciesId": "lingcod",
-          "weight": 0
+          "speciesId": "lingcod"
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-09_22-41-04_UTC.jpg",
@@ -6849,8 +5182,7 @@ const userCatchRecords = {
       "date": "2016-07-09",
       "catches": [
         {
-          "speciesId": "chinook-salmon",
-          "weight": 0
+          "speciesId": "chinook-salmon"
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-09_22-41-28_UTC.jpg",
@@ -6862,8 +5194,7 @@ const userCatchRecords = {
       "date": "2016-07-09",
       "catches": [
         {
-          "speciesId": "striped-bass",
-          "weight": 0
+          "speciesId": "striped-bass"
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-09_22-42-08_UTC.jpg",
@@ -6875,8 +5206,7 @@ const userCatchRecords = {
       "date": "2016-07-09",
       "catches": [
         {
-          "speciesId": "striped-bass",
-          "weight": 0
+          "speciesId": "striped-bass"
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-09_22-42-36_UTC.jpg",
@@ -6888,12 +5218,10 @@ const userCatchRecords = {
       "date": "2016-07-09",
       "catches": [
         {
-          "speciesId": "yellowtail-amberjack",
-          "weight": 0
+          "speciesId": "yellowtail-amberjack"
         },
         {
-          "speciesId": "white-seabass",
-          "weight": 0
+          "speciesId": "white-seabass"
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-09_22-43-13_UTC.jpg",
@@ -6905,8 +5233,7 @@ const userCatchRecords = {
       "date": "2016-07-09",
       "catches": [
         {
-          "speciesId": "red-drum",
-          "weight": 0
+          "speciesId": "red-drum"
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-09_22-44-53_UTC.jpg",
@@ -6918,8 +5245,7 @@ const userCatchRecords = {
       "date": "2016-07-09",
       "catches": [
         {
-          "speciesId": "mahi-mahi",
-          "weight": 0
+          "speciesId": "mahi-mahi"
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-09_22-46-10_UTC.jpg",
@@ -6931,8 +5257,7 @@ const userCatchRecords = {
       "date": "2016-07-09",
       "catches": [
         {
-          "speciesId": "lemon-shark",
-          "weight": 0
+          "speciesId": "lemon-shark"
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-09_22-47-35_UTC.jpg",
@@ -6944,8 +5269,7 @@ const userCatchRecords = {
       "date": "2016-07-09",
       "catches": [
         {
-          "speciesId": "bluefish",
-          "weight": 0
+          "speciesId": "bluefish"
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-09_22-48-02_UTC.jpg",
@@ -6953,3 +5277,5 @@ const userCatchRecords = {
     }
   ]
 };
+
+
