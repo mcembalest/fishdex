@@ -1,0 +1,890 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-dark: #0a0a1a;
+    --bg-panel: rgba(20, 20, 40, 0.95);
+    --accent: #00d4ff;
+    --accent-hover: #00a8cc;
+    --text-primary: #ffffff;
+    --text-secondary: #a0a0c0;
+    --border-glow: rgba(0, 212, 255, 0.3);
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: var(--bg-dark);
+    color: var(--text-primary);
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+/* ============================================
+   HEADER WITH STATS BAR
+   ============================================ */
+.app-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    padding: 1rem 2rem;
+    background: linear-gradient(to bottom, var(--bg-dark) 0%, var(--bg-dark) 60%, transparent 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    pointer-events: none;
+}
+
+.header-main {
+    pointer-events: auto;
+}
+
+.app-header h1 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--accent);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.tagline {
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+    margin-top: 0.25rem;
+}
+
+.stats-bar {
+    display: flex;
+    gap: 2rem;
+    pointer-events: auto;
+}
+
+.stat-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.stat-value {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--accent);
+}
+
+.stat-label {
+    font-size: 0.65rem;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 2px;
+}
+
+/* ============================================
+   MAIN CONTAINER
+   ============================================ */
+.app-container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+#globe-container {
+    flex: 1;
+    position: relative;
+    cursor: grab;
+}
+
+#globe-container:active {
+    cursor: grabbing;
+}
+
+/* ============================================
+   SIDE PANEL (Tabbed)
+   ============================================ */
+.side-panel {
+    width: 340px;
+    background: var(--bg-panel);
+    backdrop-filter: blur(10px);
+    border-left: 1px solid var(--border-glow);
+    display: flex;
+    flex-direction: column;
+    padding-top: 5rem;
+}
+
+.panel-tabs {
+    display: flex;
+    border-bottom: 1px solid var(--border-glow);
+    flex-shrink: 0;
+}
+
+.tab-btn {
+    flex: 1;
+    background: transparent;
+    border: none;
+    color: var(--text-secondary);
+    padding: 0.875rem 0.5rem;
+    cursor: pointer;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    border-bottom: 2px solid transparent;
+}
+
+.tab-btn:hover {
+    color: var(--text-primary);
+    background: rgba(0, 212, 255, 0.05);
+}
+
+.tab-btn.active {
+    color: var(--accent);
+    border-bottom: 2px solid var(--accent);
+}
+
+.tab-content {
+    display: none;
+    flex: 1;
+    overflow-y: auto;
+    padding: 1rem;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+/* ============================================
+   RECENT CATCHES TAB
+   ============================================ */
+.catch-card {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.75rem;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    border: 1px solid transparent;
+}
+
+.catch-card:hover {
+    background: rgba(0, 212, 255, 0.1);
+    border-color: var(--border-glow);
+}
+
+.catch-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25rem;
+    flex-shrink: 0;
+}
+
+.catch-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    min-width: 0;
+}
+
+.catch-species {
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: var(--text-primary);
+}
+
+.catch-location {
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+}
+
+.catch-date {
+    font-size: 0.7rem;
+    color: var(--text-secondary);
+    opacity: 0.7;
+}
+
+.catch-weight {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--accent);
+    white-space: nowrap;
+}
+
+/* ============================================
+   FISH CATALOG TAB
+   ============================================ */
+.catalog-filters {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.catalog-filters select {
+    flex: 1;
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid var(--border-glow);
+    color: var(--text-primary);
+    padding: 0.5rem;
+    border-radius: 6px;
+    font-size: 0.75rem;
+    cursor: pointer;
+}
+
+.catalog-filters select:focus {
+    outline: none;
+    border-color: var(--accent);
+}
+
+#fish-catalog {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+}
+
+.catalog-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    border: 1px solid transparent;
+}
+
+.catalog-item:hover {
+    background: rgba(0, 212, 255, 0.1);
+    border-color: var(--border-glow);
+}
+
+.catalog-item.uncaught {
+    opacity: 0.5;
+}
+
+.catalog-item.uncaught:hover {
+    opacity: 0.7;
+}
+
+.catalog-icon {
+    width: 28px;
+    height: 28px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+    flex-shrink: 0;
+}
+
+.catalog-name {
+    flex: 1;
+    font-size: 0.7rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* ============================================
+   PERSONAL RECORDS TAB
+   ============================================ */
+.records-section {
+    margin-bottom: 1.5rem;
+}
+
+.records-section h4 {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--text-secondary);
+    margin-bottom: 0.75rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.record-item {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.5rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.record-item:hover {
+    background: rgba(0, 212, 255, 0.1);
+}
+
+.record-icon {
+    font-size: 1rem;
+    width: 28px;
+    text-align: center;
+}
+
+.record-name {
+    flex: 1;
+    font-size: 0.85rem;
+}
+
+.record-value {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--accent);
+}
+
+.location-progress {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+    cursor: pointer;
+    transition: background 0.2s ease;
+    border-radius: 4px;
+    padding: 0.5rem;
+}
+
+.location-progress:hover {
+    background: rgba(0, 212, 255, 0.1);
+}
+
+.loc-name {
+    font-size: 0.8rem;
+    font-weight: 500;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.loc-stats {
+    font-size: 0.7rem;
+    color: var(--text-secondary);
+    white-space: nowrap;
+}
+
+.empty-state {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    text-align: center;
+    padding: 1rem;
+    font-style: italic;
+}
+
+/* ============================================
+   MODALS - BASE
+   ============================================ */
+.modal {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.85);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 200;
+    backdrop-filter: blur(5px);
+}
+
+.modal.hidden {
+    display: none;
+}
+
+.modal-content {
+    background: var(--bg-panel);
+    border-radius: 16px;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid var(--border-glow);
+    box-shadow: 0 0 40px rgba(0, 212, 255, 0.2);
+    max-height: 90vh;
+    overflow-y: auto;
+}
+
+.close-btn {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: var(--text-primary);
+    font-size: 1.5rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 10;
+    transition: background 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.close-btn:hover {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+/* ============================================
+   LOCATION MODAL
+   ============================================ */
+.location-modal-content {
+    width: 90%;
+    max-width: 600px;
+}
+
+.location-header {
+    padding: 1.5rem;
+    background: linear-gradient(135deg, rgba(0, 212, 255, 0.1), transparent);
+    border-bottom: 1px solid var(--border-glow);
+}
+
+.location-header h2 {
+    font-size: 1.5rem;
+    color: var(--accent);
+    margin-bottom: 0.5rem;
+    padding-right: 2.5rem;
+}
+
+.location-header p {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.location-stats {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.location-stat-row {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1rem;
+    color: var(--text-primary);
+}
+
+.location-stat-row .stat-icon {
+    font-size: 1.1rem;
+}
+
+.location-stat-row span:last-child {
+    color: var(--accent);
+    font-weight: 600;
+}
+
+.section-title {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--text-secondary);
+    padding: 1rem 1.5rem 0.5rem;
+}
+
+/* ============================================
+   FISH GRID (Pokédex Style)
+   ============================================ */
+.fish-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
+    gap: 0.75rem;
+    padding: 0.5rem 1.5rem 1rem;
+}
+
+.fish-card {
+    position: relative;
+    background: rgba(0, 0, 0, 0.3);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 0.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.fish-card.caught {
+    border-color: var(--border-glow);
+}
+
+.fish-card.caught:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0, 212, 255, 0.3);
+    border-color: var(--accent);
+}
+
+.fish-card.uncaught {
+    border-color: rgba(100, 100, 100, 0.3);
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.fish-card.uncaught:hover {
+    border-color: rgba(150, 150, 150, 0.4);
+}
+
+.fish-card-image {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto 0.5rem;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.75rem;
+}
+
+
+.fish-card-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.35rem;
+}
+
+.fish-card-name {
+    font-size: 0.7rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 70px;
+}
+
+.fish-card.uncaught .fish-card-name {
+    color: var(--text-secondary);
+}
+
+.fish-card .catch-count {
+    position: absolute;
+    top: 0.25rem;
+    right: 0.25rem;
+    font-size: 0.6rem;
+    background: var(--accent);
+    color: var(--bg-dark);
+    padding: 0.1rem 0.35rem;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+/* ============================================
+   TRIP HISTORY
+   ============================================ */
+.trip-history {
+    border-top: 1px solid var(--border-glow);
+    padding-bottom: 1rem;
+}
+
+.trip-card {
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 0 1.5rem 0.75rem;
+    border-left: 3px solid var(--accent);
+}
+
+.trip-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.trip-date {
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: var(--accent);
+}
+
+.trip-catch-count {
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+}
+
+.trip-catches {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.trip-fish {
+    font-size: 0.75rem;
+    background: rgba(0, 212, 255, 0.1);
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    color: var(--text-primary);
+}
+
+.trip-notes {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    font-style: italic;
+    margin-top: 0.5rem;
+}
+
+/* ============================================
+   FISH DETAIL MODAL
+   ============================================ */
+.fish-modal-content {
+    width: 90%;
+    max-width: 420px;
+}
+
+.fish-detail {
+    display: flex;
+    flex-direction: column;
+}
+
+.fish-image-container {
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fish-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+}
+
+.fish-image.uncaught {
+    background: rgba(50, 50, 50, 0.5);
+}
+
+
+.fish-info {
+    padding: 0 1.5rem 1.5rem;
+}
+
+.fish-header {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 0.25rem;
+}
+
+.fish-header h2 {
+    font-size: 1.5rem;
+    color: var(--text-primary);
+}
+
+.scientific-name {
+    font-style: italic;
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+    margin-bottom: 1rem;
+}
+
+.fish-desc {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+.fish-stats {
+    padding-top: 1rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.stat-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.stat-row:last-child {
+    border-bottom: none;
+}
+
+.stat-row .label {
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+}
+
+.stat-row .value {
+    color: var(--text-primary);
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+.personal-stats {
+    margin-top: 1rem;
+    padding: 1rem;
+    background: rgba(0, 212, 255, 0.1);
+    border-radius: 10px;
+    border: 1px solid var(--border-glow);
+}
+
+.personal-stats h4 {
+    color: var(--accent);
+    font-size: 0.85rem;
+    margin-bottom: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.personal-stats .stat-row {
+    border-bottom-color: rgba(0, 212, 255, 0.1);
+}
+
+.hidden {
+    display: none !important;
+}
+
+/* ============================================
+   RESPONSIVE
+   ============================================ */
+@media (max-width: 768px) {
+    .app-container {
+        flex-direction: column;
+    }
+
+    .app-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.75rem;
+        padding: 0.75rem 1rem;
+    }
+
+    .stats-bar {
+        gap: 1.5rem;
+    }
+
+    .stat-value {
+        font-size: 1rem;
+    }
+
+    #globe-container {
+        height: 50vh;
+        flex: none;
+    }
+
+    .side-panel {
+        width: 100%;
+        height: 50vh;
+        border-left: none;
+        border-top: 1px solid var(--border-glow);
+        padding-top: 0;
+    }
+
+    .app-header h1 {
+        font-size: 1.25rem;
+    }
+
+    .location-modal-content,
+    .fish-modal-content {
+        width: 95%;
+        max-height: 85vh;
+    }
+
+    .fish-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* ============================================
+   FISH PHOTOS
+   ============================================ */
+
+/* Catch card photo thumbnail */
+.catch-photo {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+/* Trip history photo */
+.trip-photo-container {
+    margin-bottom: 0.75rem;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.trip-photo {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+/* Fish modal photo */
+.fish-modal-photo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Empty placeholder for uncaught/missing photos */
+.fish-placeholder {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px dashed rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+}
+
+.catch-placeholder {
+    width: 40px;
+    height: 40px;
+}
+
+.catalog-placeholder {
+    width: 32px;
+    height: 32px;
+}
+
+.record-placeholder {
+    width: 24px;
+    height: 24px;
+}
+
+.fish-card-placeholder {
+    width: 50px;
+    height: 50px;
+}
+
+.fish-modal-placeholder {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+/* Catalog photo thumbnail */
+.catalog-photo {
+    width: 32px;
+    height: 32px;
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+/* Record photo thumbnail */
+.record-photo {
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+    object-fit: cover;
+}
+
+/* Fish card photo (location grid) */
+.fish-card-photo {
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    object-fit: cover;
+}
