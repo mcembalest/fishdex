@@ -1,0 +1,7 @@
+scrape/
+fishial-guide/
+images/
+__pycache__/
+*.py
+.env
+.env.local

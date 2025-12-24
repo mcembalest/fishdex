@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+
+# API keys and secrets
+scrape/config_local.py
+.env
+.env.local
+
+# Processing artifacts
+scrape/checkpoint.json
+scrape/errors.log
+scrape/*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large image assets (served locally, not in git)
+images/catches/
+.vercel

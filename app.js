@@ -734,8 +734,13 @@ function formatDate(dateString) {
     });
 }
 
+const IMAGE_BASE_URL = 'https://pub-4100134b33df405781be0ad11631634d.r2.dev';
+
 function getImagePath(photoUrl) {
-    return photoUrl ? `scrape/${photoUrl}` : null;
+    if (!photoUrl) return null;
+    // Strip the michaelcembalest/ prefix since images are in bucket root
+    const filename = photoUrl.replace('michaelcembalest/', '');
+    return `${IMAGE_BASE_URL}/${filename}`;
 }
 
 function getRepresentativePhotoForSpecies(speciesId) {
