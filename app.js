@@ -35,7 +35,8 @@ const editState = {
     addedCatches: {},        // tripId -> [{speciesId}]
     deletedCatches: new Set(), // "tripId-catchIndex"
     newTrips: [],            // [{id, locationId, date, catches, photoUrl, notes}]
-    newLocations: {}         // locationId -> {id, name, lat, lng, ...}
+    newLocations: {},         // locationId -> {id, name, lat, lng, ...}
+    hiddenTrips: new Set()    // tripId -> hidden (bad photo/wrong species)
 };
 
 const EDIT_STATE_KEY = 'fishdex_edits';
@@ -50,7 +51,8 @@ function saveEditState() {
         addedCatches: editState.addedCatches,
         deletedCatches: [...editState.deletedCatches],
         newTrips: editState.newTrips,
-        newLocations: editState.newLocations
+        newLocations: editState.newLocations,
+        hiddenTrips: [...editState.hiddenTrips]
     };
     localStorage.setItem(EDIT_STATE_KEY, JSON.stringify(serializable));
 }
@@ -66,6 +68,7 @@ function loadEditState() {
             editState.deletedCatches = new Set(data.deletedCatches || []);
             editState.newTrips = data.newTrips || [];
             editState.newLocations = data.newLocations || {};
+            editState.hiddenTrips = new Set(data.hiddenTrips || []);
         } catch (e) {
             console.error('Failed to load edit state:', e);
         }
@@ -132,6 +135,19 @@ function isTripEdited(tripId) {
 
 function isNewTrip(tripId) {
     return editState.newTrips.some(t => t.id === tripId);
+}
+
+function isTripHidden(tripId) {
+    return editState.hiddenTrips.has(tripId);
+}
+
+function toggleTripHidden(tripId) {
+    if (editState.hiddenTrips.has(tripId)) {
+        editState.hiddenTrips.delete(tripId);
+    } else {
+        editState.hiddenTrips.add(tripId);
+    }
+    saveEditState();
 }
 
 function getEditSummary() {
@@ -349,37 +365,35 @@ function createMarkerElement(location) {
     const totalCatches = tripsHere.reduce((sum, t) => sum + t.catches.length, 0);
     const color = getLocationColor(totalCatches);
 
-    // Calculate marker size based on catches (24-40px)
-    const baseSize = 24;
-    const maxSize = 40;
+    // Calculate marker size based on catches (20-32px) - simplified for performance
+    const baseSize = 20;
+    const maxSize = 32;
     const size = baseSize + Math.min(totalCatches, 20) / 20 * (maxSize - baseSize);
 
     const el = document.createElement('div');
     el.className = 'globe-marker';
     el.dataset.locationId = location.id;
 
-    // SVG pin marker - scales perfectly at any zoom
+    // Simple CSS-based marker - much faster than SVG with filters
     el.innerHTML = `
-        <svg viewBox="0 0 24 36" width="${size}" height="${size * 1.5}" style="overflow: visible;">
-            <defs>
-                <filter id="shadow-${location.id}" x="-50%" y="-50%" width="200%" height="200%">
-                    <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="rgba(0,0,0,0.5)"/>
-                </filter>
-                <linearGradient id="grad-${location.id}" x1="0%" y1="0%" x2="100%" y2="100%">
-                    <stop offset="0%" style="stop-color:${lightenColor(color, 30)}" />
-                    <stop offset="100%" style="stop-color:${color}" />
-                </linearGradient>
-            </defs>
-            <path
-                d="M12 0C5.4 0 0 5.4 0 12c0 9 12 24 12 24s12-15 12-24c0-6.6-5.4-12-12-12z"
-                fill="url(#grad-${location.id})"
-                filter="url(#shadow-${location.id})"
-            />
-            <circle cx="12" cy="12" r="6" fill="white" opacity="0.9"/>
-            <text x="12" y="15" text-anchor="middle" font-size="8" font-weight="bold" fill="${color}">
-                ${totalCatches > 99 ? '99+' : totalCatches}
-            </text>
-        </svg>
+        <div class="marker-dot" style="
+            width: ${size}px;
+            height: ${size}px;
+            background: ${color};
+            border: 2px solid rgba(255,255,255,0.9);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.4);
+        ">
+            <span style="
+                font-size: ${Math.max(9, size / 3)}px;
+                font-weight: bold;
+                color: white;
+                text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+            ">${totalCatches > 99 ? '99+' : totalCatches}</span>
+        </div>
     `;
 
     // Tooltip on hover
@@ -401,15 +415,6 @@ function createMarkerElement(location) {
     });
 
     return el;
-}
-
-function lightenColor(color, percent) {
-    const num = parseInt(color.replace('#', ''), 16);
-    const amt = Math.round(2.55 * percent);
-    const R = Math.min(255, (num >> 16) + amt);
-    const G = Math.min(255, ((num >> 8) & 0x00FF) + amt);
-    const B = Math.min(255, (num & 0x0000FF) + amt);
-    return '#' + (0x1000000 + R * 0x10000 + G * 0x100 + B).toString(16).slice(1);
 }
 
 // ============================================
@@ -769,6 +774,36 @@ function showFishModal(fishId) {
         personalSection.classList.add('hidden');
     }
 
+    // Photo gallery
+    const galleryContainer = document.getElementById('fish-photo-gallery');
+    if (isCaught) {
+        const allPhotos = getAllPhotosForSpecies(fishId);
+        if (allPhotos.length > 0) {
+            galleryContainer.classList.remove('hidden');
+            galleryContainer.innerHTML = `
+                <div class="photo-gallery-scroll">
+                    ${allPhotos.map(photo => {
+                        const location = fishingLocationsLookup[photo.locationId];
+                        const locationName = location ? location.name.split(',')[0] : 'Unknown';
+                        return `
+                            <div class="gallery-photo-item">
+                                <img src="${photo.url}" alt="${fish.name}" onerror="this.style.opacity='0';">
+                                <div class="gallery-photo-info">
+                                    <div class="gallery-photo-date">${formatDate(photo.date)}</div>
+                                    <div class="gallery-photo-location">${locationName}</div>
+                                </div>
+                            </div>
+                        `;
+                    }).join('')}
+                </div>
+            `;
+        } else {
+            galleryContainer.classList.add('hidden');
+        }
+    } else {
+        galleryContainer.classList.add('hidden');
+    }
+
     document.getElementById('fish-modal').classList.remove('hidden');
 }
 
@@ -805,17 +840,41 @@ function getImagePath(photoUrl) {
 
 function getRepresentativePhotoForSpecies(speciesId) {
     const tripsWithSpecies = userCatchRecords.trips
-        .filter(trip => trip.catches.some(c => c.speciesId === speciesId) && trip.photoUrl)
+        .filter(trip =>
+            trip.catches.some(c => c.speciesId === speciesId) &&
+            trip.photoUrl &&
+            !isTripHidden(trip.id)
+        )
         .sort((a, b) => new Date(b.date) - new Date(a.date));
     return tripsWithSpecies[0] ? getImagePath(tripsWithSpecies[0].photoUrl) : null;
 }
 
 function getLocationCatchPhotos(locationId, limit = 4) {
     return userCatchRecords.trips
-        .filter(trip => trip.locationId === locationId && trip.photoUrl)
+        .filter(trip =>
+            trip.locationId === locationId &&
+            trip.photoUrl &&
+            !isTripHidden(trip.id)
+        )
         .sort((a, b) => new Date(b.date) - new Date(a.date))
         .slice(0, limit)
         .map(trip => getImagePath(trip.photoUrl));
+}
+
+function getAllPhotosForSpecies(speciesId) {
+    return userCatchRecords.trips
+        .filter(trip =>
+            trip.catches.some(c => c.speciesId === speciesId) &&
+            trip.photoUrl &&
+            !isTripHidden(trip.id)
+        )
+        .sort((a, b) => new Date(b.date) - new Date(a.date))
+        .map(trip => ({
+            url: getImagePath(trip.photoUrl),
+            date: trip.date,
+            locationId: trip.locationId,
+            tripId: trip.id
+        }));
 }
 
 // ============================================
@@ -909,6 +968,13 @@ function renderTripEditForm(tripId, trip, catches) {
                 <label>Notes</label>
                 <textarea class="edit-textarea edit-trip-notes" data-trip-id="${tripId}"
                           placeholder="Trip notes...">${trip.notes || ''}</textarea>
+            </div>
+            <div class="form-row hide-photo-row">
+                <label>
+                    <input type="checkbox" class="hide-photo-checkbox" data-trip-id="${tripId}"
+                           ${isTripHidden(tripId) ? 'checked' : ''}>
+                    <span>Hide Photo (wrong species or bad photo)</span>
+                </label>
             </div>
             <div class="edit-trip-actions">
                 ${!isNewTrip(tripId) ? `<button class="action-btn secondary revert-trip-btn" data-trip-id="${tripId}">Revert Changes</button>` : ''}
@@ -1353,6 +1419,11 @@ function setupEditEventListeners() {
             const tripId = parseInt(row.dataset.tripId);
             const catchIndex = row.dataset.catchIndex;
             handleCatchSpeciesEdit(tripId, isNaN(parseInt(catchIndex)) ? catchIndex : parseInt(catchIndex), e.target.value);
+        }
+
+        if (e.target.classList.contains('hide-photo-checkbox')) {
+            const tripId = parseInt(e.target.dataset.tripId);
+            toggleTripHidden(tripId);
         }
 
     });

@@ -1,5 +1,5 @@
 // Fishdex Data - Generated from Instagram content
-// Generated: 2025-12-24T13:46:18.232420
+// Generated: 2025-12-25T01:54:50.590020
 // Source: michaelcembalest Instagram (225 trips, 100 species)
 
 const fishSpecies = [
@@ -2204,7 +2204,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2025-12-13_14-18-42_UTC.jpg",
-      "notes": "Caught using Hobie kayak and Penn reels, mentions Monster Tarpon"
+      "notes": "#tarpon #instafish #hobiekayak @monstatarpon @pennreels @hobiefishing"
     },
     {
       "id": 224,
@@ -2216,7 +2216,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2025-09-07_19-35-40_UTC.jpg",
-      "notes": "Kayak fishing using Hobie kayak, catch and release, Fraser River sturgeon fishing"
+      "notes": "#saltlife #hobiekayak #kayakfishing #instafish #fishing #catchandrelease #sturgeon #fraserriver #vancouver #britishcolumbia #sturgeonfishing @sturgeonseeker @hobiefishing"
     },
     {
       "id": 223,
@@ -2231,7 +2231,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2025-06-28_12-21-10_UTC.jpg",
-      "notes": "Saltwater fishing targeting species suitable for sushi and sashimi preparation"
+      "notes": "#panama #fishing #instafish #sushi #sashimi #saltlife #cubera #dorado"
     },
     {
       "id": 222,
@@ -2243,7 +2243,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2025-03-29_17-51-50_UTC.jpg",
-      "notes": "Heavy rains and high waters affected fishing conditions. Over 400 insect bites sustained. Peacock bass fishing was poor due to conditions."
+      "notes": "#Colombia #Amazon #Survivor Trip.  Heavy rains and high waters ruined the peacock bass fishing and I have over 400 insect bites.  But I did catch one nice #vampirefish #payara.  Back to #saltwater #fishing for me\u2026"
     },
     {
       "id": 221,
@@ -2255,7 +2255,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2024-12-31_14-43-01_UTC.jpg",
-      "notes": "Kayak fishing using Hobie kayak, popper fishing technique, catch and release"
+      "notes": "Best #fish of #2024 #gianttrevally #gtfishing #sturgeon #wahoo #roosterfish #tarpon #stripedbass #bluefish #blackfish #costarica\ud83c\udde8\ud83c\uddf7 #trinidad #britishcolumbia #longisland #kenya #hobiekayak #kayakfishing #fishporn #instafish #popperfishing #catchandrelease #saltlife @petercembalest"
     },
     {
       "id": 220,
@@ -2267,7 +2267,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2024-08-29_13-10-09_UTC.jpg",
-      "notes": "Annual kayak fishing trip using Hobie kayak and Penn reels, catch and release fishing"
+      "notes": "My annual #pilgrimage to #trinidad to fish for #tarpon on #hobiekayak with @monstatarpon #silverking #saltlife #goprofishing #kayakfishing #instafish #catchandrelease @hobiefishing @pennreels"
     },
     {
       "id": 219,
@@ -2282,7 +2282,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2024-06-23_14-41-07_UTC_9.jpg",
-      "notes": "Family fishing trip using Hobie kayak, light tackle and popper fishing techniques. Caught using GoPro for documentation."
+      "notes": "#familyfishing #stripedbass #bluefish #hobiekayak #goprofishing #kayakfishing #jeepwrangler #hamptonbays #fishpics #saltlife #lighttackle #popperfishing #instafish @petercembalest @willcembalest"
     },
     {
       "id": 218,
@@ -2294,7 +2294,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2024-05-25_13-41-04_UTC.jpg",
-      "notes": "Kayak fishing with Hobie kayak, light tackle, bluefish prepared as ceviche over crispy rice"
+      "notes": "#bluefish #ceviche over #crispyrice #kayakfishing #hobiekayak #hamptonbays #appetizers #oscarpeterson #saltlife #cookingvideo #lighttackle #instafish #goprofishing #instafood #yakangler"
     },
     {
       "id": 217,
@@ -2306,7 +2306,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2024-03-16_16-03-32_UTC_6.jpg",
-      "notes": "Popperfish fishing in tough conditions due to green tide and river flooding, catch and release, using @nomadtackle_usa gear"
+      "notes": "Tough conditions due to green tide and river flooding in #lamu #kenya but a few nice #gianttrevally were landed #gtfishing #popperfishing #catchandrelease #fishpics #saltlife #inshorefishing @nomadtackle_usa"
     },
     {
       "id": 216,
@@ -2342,7 +2342,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2023-12-29_21-54-37_UTC_2.jpg",
-      "notes": "Year's best catches compilation featuring kayak fishing with Hobie kayak, popper fishing methods across multiple locations including Trinidad and Tobago, Canada, Panama, and Kenya"
+      "notes": "Best #fish of #2023 #sturgeon #gianttrevally #tarpon #yellowfintuna #roosterfish #stripedbass #bluefish #rainbowtrout #pompano #pinksalmon #hobiekayak #kayakfishing #saltlife #fishpics #fishinglife #popperfishing #trinidadandtobago #canada #panama #kenya\ud83c\uddf0\ud83c\uddea"
     },
     {
       "id": 215,
@@ -2357,7 +2357,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2023-11-18_12-35-48_UTC_5.jpg",
-      "notes": "Poppers and jigging used for GT and grouper fishing. Catch and release. Gear mentions: Shimano reels, Nomad Tackle. Location: Mandabay Hotel area."
+      "notes": "#gianttrevally and #grouper #fishing in #lamu #kenya\ud83c\uddf0\ud83c\uddea #popperfishing #jigging #catchandrelease #gtfishing #saltlife #fishpics #instafish #chugnorris @mandabay_hotel @willcembalest @shimanoreels_ @fish_shimano_north_america @nomadtackle_usa"
     },
     {
       "id": 214,
@@ -2381,7 +2381,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2023-10-13_23-02-44_UTC.jpg",
-      "notes": "Annual fishing trip using Hobie kayak and Penn reels, catch and release big game fishing"
+      "notes": "My annual #pilgrimage to #trinidad #fishing for #tarpon  with @monstatarpon #catchandrelease #biggamefishing #kayakfishing #hobiekayakfishing #hobiekayak #saltlife #silverking #kayakangler #instafish #goprofishing #pinkfloyd #pennreels @hobiefishing"
     },
     {
       "id": 212,
@@ -2393,7 +2393,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2023-09-10_14-46-33_UTC.jpg",
-      "notes": "Caught from Hobie kayak using GoPro for documentation, catch and release fishing on Fraser River"
+      "notes": "#sturgeon #sturgeonfishing on the #fraserriver in #britishcolumbia #catchandrelease #biggamefishing #hobiefishing #hobiekayak #goprofishing #fishingbc #kayakfishing #kayakangler #gershwin @willcembalest @hobiefishing"
     },
     {
       "id": 211,
@@ -2408,7 +2408,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2023-06-04_19-04-29_UTC.jpg",
-      "notes": "Kayak fishing using Hobie kayak, Penn reels, light tackle and popper fishing methods. Fish prepared as tartare with crispy rice."
+      "notes": "#crispy #rice with #fish #tartare #stripedbass #bluefish #cookingvideo #hobiefishing #hobiekayak #longislandfishing #saltlife #goprofishing #kayakfishing #pennreels #instafish #lighttackle #popperfishing"
     },
     {
       "id": 210,
@@ -2423,7 +2423,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2023-04-29_13-20-51_UTC.jpg",
-      "notes": "Saltwater fishing using poppers, GoPro footage, adventure travel experience at Zancudo Lodge"
+      "notes": "#costarica #zancudo #fishing #yellowfintuna #roosterfish #pezgallo #goprofishing #saltwaterfishing #popperfishing #saltlife #whaleshark #tuna #adventuretravel @zancudolodge @willcembalest"
     },
     {
       "id": 209,
@@ -2444,7 +2444,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2023-03-12_15-17-58_UTC.jpg",
-      "notes": "Popper fishing targeting pelagic and coastal gamefish species"
+      "notes": "#panama #fishing #yellowfin #fishpics #popperfishing #roosterfish #cubera #trevally #snapper #pelagicfishing #saltlife #sportfishing #gamefish @panamafishing"
     },
     {
       "id": 208,
@@ -2456,7 +2456,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2023-03-09_20-32-12_UTC_8.jpg",
-      "notes": "Light tackle fishing, took 2.5 hours with 3 people to land"
+      "notes": "It took all three of us 2.5 hours to land this 180 pound #yellowfintuna on #lighttackle in #panama near #islaparida #tunafishing #gamefish #sportfishing #saltlife #wickedtuna #pelagicfishing #tuna @panamafishing"
     },
     {
       "id": 207,
@@ -2471,7 +2471,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2023-01-28_16-12-32_UTC.jpg",
-      "notes": "Ice fishing using jawjacker equipment in winter conditions, catch and release practiced"
+      "notes": "#icefishing #utah #rainbowtrout #perch #winterfishing #jawjacker #catchandrelease @utahicefishingguides @brandon.j.tillotson"
     },
     {
       "id": 206,
@@ -2504,7 +2504,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2022-12-30_16-34-34_UTC_7.jpg",
-      "notes": "Best fish of 2022 compilation, caught via kayak fishing using Hobie kayak, saltwater fishing"
+      "notes": "#bestfish of #2022 #tarpon #stripedbass #blackfish #sailfish #yellowfin #tuna #amberjack #mackerel #dorado #mahi #kayakfishing #saltlife #sportfishing #bigfish #hobiekayak #saltwaterfishing @hobiefishing #fishing"
     },
     {
       "id": 205,
@@ -2516,7 +2516,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2022-11-27_16-58-25_UTC.jpg",
-      "notes": "Kayak fishing using Hobie kayak, Penn and Ugly Stik gear, family vacation catch during Thanksgiving"
+      "notes": "#tarpon #thanksgiving in #trinidad #familyvacation #goprofishing #silverking #saltwaterfishing #sportfishing #saltlife #kayakfishing #bigfish #hobiekayak #fishingvideos #instafish @monstatarpon @rhines1717 @maxcembalest @willcembalest @petercembalest @uglystik @pennfishing @hobiefishing"
     },
     {
       "id": 204,
@@ -2528,7 +2528,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2022-11-06_17-55-19_UTC.jpg",
-      "notes": "Kayak fishing with Hobie kayak, light tackle, fall fishing conditions, GoPro documentation"
+      "notes": "#fallfishing #newsweater #fishdinner #kayakfishing #hobiefishing #hobiekayakfishing #blackfish #goprofishing #lighttackle #stripedbass #orientpoint #instafish #saltlife #vanmorrison @whitewateroutfitters"
     },
     {
       "id": 203,
@@ -2540,7 +2540,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2022-09-10_13-09-46_UTC.jpg",
-      "notes": "Kayak fishing using Hobie kayak, fish was processed into smoked p\u00e2t\u00e9 using Traeger grill"
+      "notes": "#smoked #bluefish #pat\u00e9 #hobiekayak #kayakfishing  #goprofishing #saltlife #hamptonbays #appetizers #smokedfish @traegergrills"
     },
     {
       "id": 202,
@@ -2552,7 +2552,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2022-06-10_23-50-07_UTC.jpg",
-      "notes": "Kayak fishing using Hobie Outback kayak, catch and release fishing with three sons"
+      "notes": "#mythreesons #bassfishing #catchandrelease #hobiefishing #kayakfishing #yakangler #instafish #saltlife #hamptonbays #catstevens #hobieoutback #stripedbass #hobiekayak #hobiekayakfishing @maxcembalest @petercembalest @willcembalest"
     },
     {
       "id": 201,
@@ -2564,7 +2564,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2022-05-13_18-02-45_UTC.jpg",
-      "notes": "Kayak fishing from Hobie kayak, catch and release, big game fishing on 60th birthday with charter service"
+      "notes": "Not a bad way to turn #60 #sailfish in a #hobiekayak #kayakfishing #hobiekayakfishing #biggamefishing #catchandrelease #kayakangler #yakangler #goprofishing #fishingvideos #instafish #saltwaterfishing #saltlife #fishingvideos #sportfishing #trophyfish #bobbydarin @pushinwater_kayakcharters in #boyntonbeach @hobiefishing"
     },
     {
       "id": 200,
@@ -2576,7 +2576,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2022-04-16_20-51-19_UTC.jpg",
-      "notes": "Kayak fishing using Hobie Outback kayak, catch and release, saltwater fishing. Gear mentions: @hobiefishing @daiwausa @tsunamitackle @uglystik"
+      "notes": "#thusspokezarathustra #kayakfishing for #tarpon in #trinidad #hobiekayak #hobieoutback #goprofishing #instafish #fishingvideos #silverking #saltwaterfishing #catchandrelease #sportfishing #bigfish #reelmonsters #saltlife #tarponfishing #trophyfish @monstatarpon @hobiefishing @daiwausa @tsunamitackle @uglystik @fishguyphotos @whitewateroutfitters"
     },
     {
       "id": 199,
@@ -2588,7 +2588,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2022-04-09_14-13-39_UTC.jpg",
-      "notes": "Kayak fishing from Hobie Outback kayak, using Daiwa/Tsunami/Uglystik gear, catch and release sportfishing"
+      "notes": "#kayakfishing for #tarpon in #trinidad with @monstatarpon #hobiekayak #hobiekayakfishing #hobiefishing #hobieoutback #goprofishing #instafish #fishingphotography #fishingvideos #silverking #yakangler #saltwaterfishing #catchandrelease #sportfishing #bigfish #reelmonster #fishinglife #saltlife #tarponfishing @hobiefishing @daiwausa @tsunamitackle @uglystik  @whitewateroutfitters"
     },
     {
       "id": 198,
@@ -2618,7 +2618,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2022-03-19_16-52-07_UTC_8.jpg",
-      "notes": "Popper fishing and jigging in Colombian waters for multiple pelagic and coastal species. GoPro fishing documentation."
+      "notes": "#colombia #popperfishing and #jigging for #yellowfintuna #dorado #mahimahi #cubera #snapper #bluetrevally #trevally #sierramackerel #mackerel #amberjack and #jackcrevalle #saltwaterfishing #goprofishing #sportfishing #gamefish #fishpics #tunafishing #inshorefishing @fishcolombia @fishguyphotos @kylemeyer31 @bagamin @stmaclin"
     },
     {
       "id": 197,
@@ -2630,7 +2630,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2021-12-29_14-27-48_UTC.jpg",
-      "notes": "Year-end best fish compilation featuring multiple species. Kayak fishing with Hobie Outback, light tackle, catch and release practice. GoPro filming involved."
+      "notes": "#bestfish of 2021 #tarpon #silverking #redfish #stripedbass #bluefish #sturgeon #tuna #bigeye #salmon #blackdrum #redsnapper #rainbowtrout #amberjack #goprofishing #kayakfishing #catchandrelease #hobiefishing #hobieoutback #inshorefishing #instafish #saltlife #hobiekayak #sportfishing #lighttackle #fishpics #saltwaterfishing #hamptonbays #seaisland @maxcembalest @willcembalest @petercembalest @monstatarpon @kylemeyer31 @fraserriverlodge @fishguyphotos @madison_double_r @fraserriverlodge_fishing @seaisland"
     },
     {
       "id": 196,
@@ -2642,7 +2642,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2021-11-10_00-57-26_UTC.jpg",
-      "notes": "Kayak fishing with light tackle and poppers, using Hobie kayak and Penn reels, catch and release, mentioned broken leg from freak accident"
+      "notes": "#lasthurrah #brokenleg #freakaccident #kayakfishing #yakfishing #catchandrelease #goprofishing #hobiefishing #lighttackle #yakangler #tightlines #inshorefishing #instafish #popperfishing #pennreels #stripedbass #saltlife #fishingvideos #fishpics @hssresidency"
     },
     {
       "id": 195,
@@ -2654,7 +2654,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2021-10-10_14-47-31_UTC.jpg",
-      "notes": "Kayak fishing using Hobie kayak (Hobie Outback), gear from Daiwa, Tsunami Tackle, Ugly Stik, filmed with GoPro, catch and release"
+      "notes": "#epicadventure #kayakfishing for #tarpon in #trinidad #hobiekayak #hobiekayakfishing #hobiefishing #hobieoutback #goprofishing #fishingphotography #instafish #fishingvideos #silverking #biggamefishing #yakangler #kayakangler #saltwaterfishing #catchandrelease #sportfishing #bigfish #reelmonsters #instagramfishing #fishinglife #saltlife #tarponfishing #trophyfish @monstatarpon @hobiefishing @daiwausa @tsunamitackle @bimini_bay_outfitters @uglystik @whitewateroutfitters"
     },
     {
       "id": 194,
@@ -2666,7 +2666,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2021-09-03_15-07-36_UTC.jpg",
-      "notes": "9-foot rod used, catch and release fishing at Fraser River Lodge"
+      "notes": "#catchandrelease #ninefooter #freshwaterfishing #sturgeon #sturgeonfishing #fishinglife #fishingvideos #fishingpics #instafish #sportfishing #bigfish #rivermonsters #fishingbc #canadafishing #biggamefishing #canada #goprofishing @fraserriverlodge @fraserriverlodge_fishing"
     },
     {
       "id": 193,
@@ -2678,7 +2678,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2021-07-29_23-45-13_UTC_8.jpg",
-      "notes": "Canyon fishing for bigeye tuna steaks using Nomad Lures, no live bait needed"
+      "notes": "#recipe for #bigeye #tuna #steaks #saltwaterfishing #bigeyetuna #nomadlures #saltlife #fishingpics #instafish #nolivebaitneeded #montauk #tunafishing #canyonfishing #wickedtuna #meetmeinmontauk #sportfishing #smokedfish"
     },
     {
       "id": 192,
@@ -2693,7 +2693,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2021-05-15_12-41-06_UTC.jpg",
-      "notes": "Kayak fishing using Hobie kayak with poppers, catch and release saltwater fishing"
+      "notes": "#delicious #kayakfishing #bluefish #stripedbass #catchandrelease #saltwaterfishing \n#goprofishing #hobiefishing #instafish #popperfishing #hamptonbays #kayakangler #fishrecipes #fishingvideos #ceviche #tartare #foodlover #instafood #fishinglife #amateurchef #pescatarian @jefflomonaco @hobiefishing"
     },
     {
       "id": 191,
@@ -2705,7 +2705,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2021-05-09_13-09-03_UTC.jpg",
-      "notes": "Kayak fishing with Hobie kayak, using poppers, catch and release saltwater fishing with GoPro documentation"
+      "notes": "I know this is not really #flyfishing #stripedbass #kayakfishing #goprofishing #catchandrelease #hobiefishing #hobiekayak #instafish #popperfishing #saltwaterfishing #kayakangler"
     },
     {
       "id": 190,
@@ -2717,7 +2717,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2021-05-01_11-49-55_UTC.jpg",
-      "notes": "34-inch redfish caught from Hobie kayak in creek, described as Sea Island record, catch and release, using GoPro for filming"
+      "notes": "Another #seaisland #record 34 inch creek #redfish on #kayak #goprofishing #kayakfishing #catchandrelease #hobiefishing #hobiekayak #fishingvideos #fishing #hobieoutback #instafish #instafishing #goldenisles #malague\u00f1a @kylemeyer31"
     },
     {
       "id": 189,
@@ -2729,7 +2729,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2021-04-24_13-32-12_UTC.jpg",
-      "notes": "Inshore jigging, no live bait used, catch and release, filmed with GoPro. Tagged @costasunglasses and @kylemeyer31"
+      "notes": "A once in a lifetime fishing day in #SeaIsland #Georgia #goprofishing #saltwaterfishing #sportfishing #fishingvideos #blackdrum #fishing #jiggingfishing #redfish #tripletail #goldenisles #instafish #nolivebaitneeded #instafishing #saltlife #jekyllisland #jigfishing #bigfish #inshorefishing #catchandrelease @kylemeyer31 @costasunglasses"
     },
     {
       "id": 188,
@@ -2759,7 +2759,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2021-02-09_00-45-50_UTC_6.jpg",
-      "notes": "Top ten catches compilation from 2013-2021, kayak fishing with Hobie kayak, multiple locations including Fanning Island, Zambia, Montauk, La Jolla, Sea Island, Trinidad, Costa Rica, and Patagonia"
+      "notes": "Long winter in NY. I hope to get back out fishing in 2021.  Until then, here are my top ten catches since 2013.  #fishingwithdrawal #tarpon #tarponfishing #sturgeon #sturgeonfishing #tigerfish #gianttrevally #chinooksalmon #roosterfish #sailfish #whiteseabass #stripedbass #redfish #kayakfishing #hobiekayak #hobiekayakfishing #saltwaterfishing #goprofishing #fishporn #fishinglife #fishpics #fanningisland #zambia #montauk #lajolla #seaisland #trinidad #costarica #patagonia @pushinwater_kayakcharters @seasamurai @brycepoyer @kylemeyer31 @monstatarpon @thezancudolodge @zancudolodge @fraserriversturgeon @matoya_fishing_lodge_ @budgealexander @pegasus_lodges @rioserranohotelspa"
     },
     {
       "id": 187,
@@ -2780,7 +2780,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2020-10-15_12-57-15_UTC.jpg",
-      "notes": "Kayak fishing during blitz conditions using Hobie kayak, Penn reels, popper fishing technique, catch and release, saltwater fishing with GoPro recording"
+      "notes": "#northfork #blitz #stripedbass #albacore #albies #bluefish #goprofishing #kayakfishing #rossini #williamtelloverture #longisland #popperfishing #catchandrelease #saltwaterfishing #hobiefishing #hobiekayak #hobiekayakfishing #falsealbacore #yakfishing #fishing #fishingvideos #fishpics @gallant.chad @whitewateroutfitters @pennreels @hobiefishing"
     },
     {
       "id": 186,
@@ -2792,7 +2792,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2020-09-06_14-10-05_UTC.jpg",
-      "notes": "Kayak fishing with Hobie kayak, using popper lures (Yo-Zuri brand), catch and release, saltwater fishing with GoPro documentation"
+      "notes": "#stripedbass #stripedbassfishing #malague\u00f1a #goldendoodle #hamptonbays #popperfishing #yozuri #catchandrelease #saltwaterfishing #kayakfishing #goprofishing #hobiefishing #spearfishing #hobiekayak #hobiekayakfishing"
     },
     {
       "id": 185,
@@ -2807,7 +2807,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2020-07-24_19-18-30_UTC.jpg",
-      "notes": "Kayak fishing with Hobie kayak, using popper lures (Yo-Zuri), saltwater fishing, catch and release, filmed with GoPro"
+      "notes": "#stripedbass #flowerduet #leodelibes #lakme #stripedbassfishing #triggerfish #hamptonbays #popperfishing #yozuri #catchandrelease #saltwaterfishing #kayakfishing #kayakangler #goprofishing #hobiefishing #fishingvideo #hobiekayak #hobiekayakfishing #yakfishing @hobiefishing"
     },
     {
       "id": 184,
@@ -2819,7 +2819,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2020-06-26_13-12-35_UTC.jpg",
-      "notes": "Kayak fishing with Hobie kayak, saltwater fishing, catch and release, filmed with GoPro"
+      "notes": "#allaboutthatbass #stripedbass #stripedbassfishing #vivaldi #fourseasons #hamptonbays #catchandrelease #saltwaterfishing #kayakfishing #kayakangler #goprofishing #hobiefishing #fishingvideo #hobiekayak #hobiekayakfishing #yakfishing @maxcembalest @willcembalest @hobiefishing"
     },
     {
       "id": 183,
@@ -2831,7 +2831,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2020-06-07_15-51-46_UTC.jpg",
-      "notes": "Triple header catch during blitz on poppers at sunset, kayak fishing with Hobie kayak and Penn reels, catch and release"
+      "notes": "#tripleheader #stripedbass #blitz on #poppers at #sunset with the boys #popperfishing #hamptonbays #catchandrelease #saltwaterfishing #kayakfishing #kayakangler #goprofishing #pennreels #hobiefishing #hobiekayak #hobiekayakfishing #yakfishing @maxcembalest @willcembalest @hobiefishing"
     },
     {
       "id": 182,
@@ -2846,7 +2846,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2020-05-30_15-31-49_UTC.jpg",
-      "notes": "Kayak fishing using Hobie kayak, Penn reels, popper fishing method, saltwater fishing, catch and release"
+      "notes": "#thusspakezarathustra #stripedbass #bluefish #fishing in #hamptonbays #catchandrelease #saltwaterfishing #kayakfishing #kayakangler #goprofishing #pennreels #hobiefishing #hobiekayak #hobiekayakfishing #yakfishing #popperfishing #fishingvideo @hobiefishing"
     },
     {
       "id": 181,
@@ -2861,7 +2861,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2020-05-23_22-51-13_UTC.jpg",
-      "notes": "Kayak fishing using Hobie kayak, Penn reels, poppers, catch and release, saltwater fishing with multiple anglers"
+      "notes": "#bluefish and #stripedbass #fishing in #hamptonbays #catchandrelease #saltwaterfishing #kayakfishing #kayakangler #goprofishing #pennreels #hobiefishing #hobiekayak #hobiekayakfishing #yakfishing #popperfishing #fishingvideo @maxcembalest @willcembalest @peteyc71 @hobiethedog"
     },
     {
       "id": 180,
@@ -2873,7 +2873,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2020-05-03_21-43-40_UTC_1.jpg",
-      "notes": "Kayak fishing with Hobie kayak and Penn reels, catch and release, accompanied by golden doodle named Hobie, saltwater fishing"
+      "notes": "New #Fishing Season New #Dog #hobiethedog #kayakfishing #yakfishing #stripedbass #goprofishing #catchandrelease #fishpics #kayakangler #saltwaterfishing #hamptonbays #pennreels #hobiekayak #hobiefishing #goldendoodle"
     },
     {
       "id": 179,
@@ -2888,7 +2888,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2020-04-21_01-45-55_UTC_1.jpg",
-      "notes": "Caught using frog lure in pond, angler targeting striped bass but caught largemouth bass and pickerel instead"
+      "notes": "Not the right kind of #bass ... still waiting for the #stripedbass to arrive #pickerel #pond #largemouthbass #freshwaterfishing  #froglure #largemouth #waitingforspring"
     },
     {
       "id": 178,
@@ -2903,7 +2903,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2020-03-18_15-22-57_UTC_2.jpg",
-      "notes": "Anticipatory post about future fishing from Hobie kayak, saltwater fishing planned when species show up seasonally"
+      "notes": "I might have to #fish for #food in a couple of months when the #stripedbass and #bluefish show up.  I\u2019ll be ready.  To see what I\u2019ve written on the Coronavirus  so far, click on the link in my bio.  #hobiekayak #hobiekayakfishing #kayakfishing #fishing #coronavirus #jeepwrangler #eatwhatyoukill #survivalist #saltwaterfishing  #saltlife #pescatarian"
     },
     {
       "id": 177,
@@ -2915,7 +2915,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2020-02-16_13-53-05_UTC.jpg",
-      "notes": "Kayak fishing using Hobie kayak and Daiwa reels, catch and release trip"
+      "notes": "Another incredible #tarpon #kayakfishing trip in #Trinidad with @monstatarpon #bocasdeldragon #silverking #megalopsatlanticus #yakangler #hobiefishing #hobiekayak #kayakangler #daiwareels #daiwa #saltwaterfishing #catchandrelease #sportfishing #goprofishing #bigfish #costa #fishingvideos #reelmonsters #instagramfishing #hobiekayakfishing #fishinglife #fishing #saltlife"
     },
     {
       "id": 176,
@@ -2948,7 +2948,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2020-01-01_21-57-29_UTC_9.jpg",
-      "notes": "Top 10 fish compilation from 2019. Kayak fishing using Hobie kayak. Saltwater fishing targeting multiple species across various locations including Mexico, Galapagos Islands, Trinidad, and Hampton Bays. Used Daiwa reels and Ugly Stik rods."
+      "notes": "#TopTen #Fish of #2019 #yellowfintuna #stripedbass #bluefish #grouper #jackcrevalle #tarpon #silverking #cuberasnapper #bluemarlin #mexico #galapagosislands #trinidad #hamptonbays #kayakfishing #kayakangler #hobiefishing #hobiekayakfishing #hobiefishing #jeepwrangler #saltwaterfishing #fishpics #instagramfishing #daiwareels #uglystick #goprofishing #sportfishing #fishinglife"
     },
     {
       "id": 175,
@@ -2972,7 +2972,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2019-12-26_23-46-56_UTC_10.jpg",
-      "notes": "First permit caught. Kayak fishing using Hobie kayak. Catch and release fishing."
+      "notes": "@willcembalest and I got our first #permit #palometa and some #bonefish #triggerfish #barracuda #nurseshark #akumal #mexico #kayakfishing #hobiekayak #hobiekayakfishing #fishpics #saltwaterfishing #siankaan #catchandrelease #yakangler #instagramfishing #kayakangler"
     },
     {
       "id": 174,
@@ -2984,7 +2984,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2019-10-19_12-38-16_UTC.jpg",
-      "notes": "Kayak fishing using Hobie kayak, Daiwa reels, Ugly Stik rod. Saltwater fishing with catch and release. GoPro fishing video."
+      "notes": "Day Two in #trinidad #bocasdeldragon #fishing for #tarpon #tarponfishing #silverking #megalopsatlanticus #kayakfishing #yakangler #hobiefishing #hobiekayak #kayakangler #daiwa #daiwareels #uglystick #saltwaterfishing #catchandrelease #sportfishing #goprofishing #gopro #bigfish #costa #fishingvideos #billabong #reelmonsters #instagramfishing #hobiekayakfishing #fishinglife #saltlife @monstatarpon"
     },
     {
       "id": 173,
@@ -2996,7 +2996,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2019-10-11_00-33-07_UTC.jpg",
-      "notes": "Kayak fishing using Hobie kayak, Daiwa reels, and Ugly Stik rod. Catch and release fishing with GoPro documentation."
+      "notes": "#trinidad #bocasdeldragon #fishing #tarponfishing #kayakfishing #yakangler #hobiefishing #hobiekayak #kayakangler #daiwa #daiwareels #tarpon #uglystick #saltwaterfishing #megalopsatlanticus #sabalo #catchandrelease #silverking #sportfishing #goprofishing #gopro #bigfish #costa #fishingvideo #billabong @monstatarpon #reelmonsters #instagramfishing #hobiekayakfishing #fishinglife #saltlife"
     },
     {
       "id": 171,
@@ -3026,7 +3026,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2019-08-17_20-53-44_UTC_8.jpg",
-      "notes": "Inshore fishing using poppers and jigging techniques with Daiwa and Accurate reels. Fresh tuna prepared as sashimi."
+      "notes": "#fatherandson #inshore #fishing in #panama @cebacobaypanama #bluetrevally #yellowfintuna #tuna #broomtail #grouper #jackcrevalle #roosterfish #pezgallo #cubera #cuberasnapper #falsealbacore #inshorefishing #saltwaterfishing #gamefishing #gamefish #popperfishing #jigging #daiwareels #accuratereels #sashimi #freshtuna #goprofishing @willcembalest"
     },
     {
       "id": 172,
@@ -3047,7 +3047,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2019-08-17_22-10-17_UTC_7.jpg",
-      "notes": "Father and son offshore fishing trip using poppers and jigging techniques with Daiwa reels. Caught 150 lb yellowfin tuna on popper and 450 lb black marlin."
+      "notes": "#fatherandson #offshorefishing in #panama @cebacobaypanama with @seasamurai who caught 150 lb #yellowfintuna on a #popper and @kylemeyer31 who caught 450 lb #blackmarlin #mahi #tuna #amberjack #dorado #saltwaterfishing #gamefish #gamefishing #sportfishing #fishing #fishpics #popperfishing #jigging #daiwareels #bigfish #marlinfishing #tunafishing #deepseafishing #pelagic #goprofishing @willcembalest"
     },
     {
       "id": 170,
@@ -3059,7 +3059,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2019-07-27_14-03-54_UTC.jpg",
-      "notes": "Day two of tarpon fishing, catch and release, saltwater fishing with GoPro footage, sponsored gear from Costa and Billabong"
+      "notes": "#Fishing for #tarpon in #Trinidad Day Two... #tarponfishing #sabalo #megalopsatlanticus #catchandrelease #saltwaterfishing #bigfish #silverking #sportfishing #goprofishing #fishingvideo #fishpics #costa #billabong #offshoreadventures #calypso @monstatarpon"
     },
     {
       "id": 169,
@@ -3071,7 +3071,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2019-07-24_13-27-53_UTC.jpg",
-      "notes": "43 tarpon releases over 2.5 days, catch and release fishing, GoPro footage captured, sponsored by Costa and Billabong"
+      "notes": "Part One: 43 tarpon releases in 2.5 incredible days in #Trinidad #fishing #tarpon #tarponfishing #saltwaterfishing #megalopsatlanticus #sabalo #catchandrelease #silverking #sportfishing #goprofishing #bigfish #fishingvideo #fishpics #costa #billabong #offshoreadventures #calypso @monstatarpon"
     },
     {
       "id": 168,
@@ -3083,7 +3083,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2019-07-07_15-21-58_UTC_6.jpg",
-      "notes": "Kayak fishing at sunrise using poppers, catch and release, Penn reels and Hobie kayak, Creek Chub lures"
+      "notes": "#sunrise #stripedbass #fishing #creekchub #catchandrelease #saltwaterfishing #kayakfishing #kayakangler #jeep #jeepwrangler #goprofishing #pennreels #hobiekayak #hobiefishing #yakfishing #hamptonbays #popperfishing"
     },
     {
       "id": 167,
@@ -3095,7 +3095,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2019-07-04_17-42-35_UTC.jpg",
-      "notes": "Kayak fishing using Hobie kayak, Penn reels, popper fishing technique, with CreekChub lures and Pelagic gear"
+      "notes": "#sorry #stripedbass #kayakfishing #kayakangler #hobiekayak #hobiefishing #fishingvideo #saltwaterfishing #pennreels #peconicbay #popperfishing #goprofishing #creekchub #pelagicgear @jefflomonaco"
     },
     {
       "id": 166,
@@ -3107,7 +3107,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2019-05-29_13-38-01_UTC.jpg",
-      "notes": "Kayak fishing with Hobie kayak, using poppers, Penn reels, catch and release"
+      "notes": "#bluefish #fishingvideo #familyfishing #popperfishing  #yakfishing #goprofishing #hobiefishing #hobiekayak #hobiekayakfishing #catchandrelease #shinnecockbay #hamptonbays #pennreels #saltwaterfishing @willcembalest @peteyc71"
     },
     {
       "id": 165,
@@ -3119,7 +3119,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2019-05-26_23-42-13_UTC_8.jpg",
-      "notes": "Kayak fishing with Hobie kayak, using Penn reels and popper lures, saltwater fishing in bay, catch and release"
+      "notes": "It\u2019s bluefish season! #bluefish #kayakfishing #familyfishing #billabong #yakfishing #goprofishing #hobiekayak #hobiefishing #catchandrelease #hamptonbays #shinnecockbay #hobiekayakfishing #saltwaterfishing #kayakangler #popperfishing #pennreels @willcembalest @peteyc71"
     },
     {
       "id": 164,
@@ -3131,7 +3131,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2019-05-07_00-09-47_UTC_1.jpg",
-      "notes": "Kayak fishing in Peconic Bay using Hobie kayak, spring season fishing"
+      "notes": "#SpringIsHere #stripedbass #hamptonbays #yakfishing #saltwaterfishing #hobiekayak #hobiefishing #peconicbay #kayakfishing #kayakangler #goprofishing"
     },
     {
       "id": 163,
@@ -3155,7 +3155,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2019-03-30_14-11-30_UTC_8.jpg",
-      "notes": "Kayak fishing using Hobie kayak and Shimano reels in saltwater, catch and release"
+      "notes": "#jackcrevalle #redgrouper #grouper #grouperfishing #triggerfish #bonefish #barracuda #kayakfishing #hobiefishing #hobiekayak #yakfishing #saltwaterfishing #catchandrelease #quintanaroo #mexico #shimanoreels #goprofishing #hobiekayakfishing #kayakfishingphotos #kayakangler"
     },
     {
       "id": 161,
@@ -3167,7 +3167,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2019-03-02_15-26-28_UTC.jpg",
-      "notes": "Group of 4 anglers caught 16 striped marlin over 2 days. Deep sea fishing with catch and release. Mentioned outfitters: @whitewateroutfitters"
+      "notes": "Group of 4 landed 16 #stripedmarlin in 2 days at #sancristobal #ecuador @whitewateroutfitters @rjp1960 #gamefish #billfish #deepseafishing #biggamefishing #saltwaterfishing #marlinfishing #catchandrelease #offshorefishing"
     },
     {
       "id": 162,
@@ -3185,7 +3185,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2019-03-02_18-29-00_UTC_9.jpg",
-      "notes": "Group of 4 anglers landed 16 striped marlin over 2 days. Deep sea offshore fishing trip. Associated with @whitewateroutfitters and @rjp1960."
+      "notes": "Group of 4 landed 16 #stripedmarlin in 2 days at #sancristobal #ecuador #almacojack #wrasse #billfishing #gamefish #deepseafishing #marlinfishing #saltwaterfishing #offshorefishing @whitewateroutfitters @rjp1960"
     },
     {
       "id": 160,
@@ -3215,7 +3215,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2018-12-30_19-27-50_UTC_2.jpg",
-      "notes": "Top ten fish of 2018 summary post featuring kayak fishing with Hobie kayaks, saltwater sport fishing across multiple international locations including Zambia, Costa Rica, Great Barrier Reef, and various US East Coast spots"
+      "notes": "My #topten #fish of 2018 #tigerfish #roosterfish #tarpon #redfish #stripedbass #coraltrout #yellowfintuna #tuna #mahimahi #triggerfish #falsealbacore #albies #sportfishing #hobiekayakfishing #saltwaterfishing #goprofishing #zambia #costarica #greatbarrierreef #hamptonbays #miami #seaisland #orientpoint #inshorefishing #zambeziriver #osapeninsula #kayakfishing #adventurefishing"
     },
     {
       "id": 159,
@@ -3227,7 +3227,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2018-11-03_17-28-12_UTC.jpg",
-      "notes": "Kayak fishing with Hobie kayak, using Shimano reels, catch and release, filmed with GoPro"
+      "notes": "#redfish #bullreds #reddrum #seaisland #georgia #saltwaterfishing #hobiekayakfishing #generalsherman #kayakfishing #hobiefishing #yakfishing #shimanoreels #hobiekayak #goprofishing #catchandrelease #fishingvideo #costadelmar"
     },
     {
       "id": 158,
@@ -3239,7 +3239,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2018-10-14_22-09-03_UTC.jpg",
-      "notes": "First false albacore caught from kayak, using Hobie kayak with epoxy jigs, catch and release"
+      "notes": "myfirst #falsealbacore on #kayak #albies #hobiefishing #kayakfishing #yakfishing #goprofishing #catchandrelease #saltwaterfishing #inshorefishing #hobiekayakfishing #billabong #northfork #epoxyjigs"
     },
     {
       "id": 157,
@@ -3269,7 +3269,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2018-10-06_22-31-59_UTC_5.jpg",
-      "notes": "Birthday fishing trip using topwater/popping lures, catch and release fishing on the Great Barrier Reef"
+      "notes": "21st #birthday trip to the #greatbarrierreef #reeffish #coraltrout #maoriwrasse #napoleonwrasse #coralcod #flowerycod #redbass #emperorfish #saltwaterfishing #catchandrelease #fishing #australia #popping #topwaterfishing @willcembalest"
     },
     {
       "id": 156,
@@ -3290,7 +3290,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2018-09-29_21-22-04_UTC_9.jpg",
-      "notes": "Birthday fishing trip using jigging technique with Penn reels and Simrad electronics, targeting trevally and tuna species, catch and release"
+      "notes": "Happy 21st birthday trip with William #fishing for #trevally and #tuna at the #greatbarrierreef #australia (swipe left for more pix) #gt #gtfishing #jigging #gianttrevally #goldentrevally #goldspottrevally #brassytrevally #longtailtuna #falsealbacore #albies #pelagicfishing #saltwaterfishing #pennreels #gamefish #catchandrelease #simradelectronics #happy21stbirthday @willcembalest"
     },
     {
       "id": 155,
@@ -3302,7 +3302,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2018-08-23_19-28-20_UTC.jpg",
-      "notes": "Caught on Zambezi River using Shimano gear, catch and release fishing at Matoya Fishing Lodge, filmed with GoPro"
+      "notes": "#tigerfish in #zambia on the #zambezi #happyanniversary #matoyafishinglodge #freshwaterfishing #catchandrelease #shimanofishing #rivermonsters #fishinglife #goprofishing #instafish #gamefishing #rivermonster #fishingpicoftheday"
     },
     {
       "id": 154,
@@ -3314,7 +3314,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2018-08-13_17-57-06_UTC_7.jpg",
-      "notes": "Caught 11 tiger fish over 4 days at Matoya Lodge for 25th anniversary. Used Shimano reels and Rapala lures. Catch and release fishing on the Zambezi River."
+      "notes": "Eleven #tigerfish in 4 days on the #zambezi in #zambia for our 25th #anniversary at #matoya lodge (swipe to see the rest of the photos) #freshwaterfishing #catchandrelease #sunset #shimanoreels #shimanofishing #rivermonsters #zambeziriver #rapala #rapalalures #fishinglife #fishingtrip #riversafari #tigerfishing #adventurefishing #coupleswhofish #africa #instafish #gamefishing #matoyafishinglodge"
     },
     {
       "id": 153,
@@ -3326,7 +3326,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2018-07-28_20-19-01_UTC_1.jpg",
-      "notes": "Kayak fishing using Hobie kayak, catch and release, saltwater fishing in bay"
+      "notes": "#fishing for #triggerfish in #shinnecockbay #yakfishing #hobiefishing #hobiekayakfishing #catchandrelease #kayakfishing #saltwaterfishing"
     },
     {
       "id": 152,
@@ -3338,7 +3338,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2018-07-08_21-44-39_UTC_3.jpg",
-      "notes": "Kayak fishing using Hobie kayak in saltwater inshore environment"
+      "notes": "#fluke #fishing in #shinnecockbay #kayakfishing #yakfishing #hobiefishing #hobiekayakfishing #saltwaterfishing #inshorefishing"
     },
     {
       "id": 151,
@@ -3353,7 +3353,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2018-06-12_01-45-41_UTC.jpg",
-      "notes": "Kayak fishing with Hobie kayak, inshore saltwater fishing, catch and release, using bunker as bait"
+      "notes": "#bluefish #stripedbass #howto #kayakfishing #hobiekayakfishing #hobiefishing #saltwaterfishing #inshorefishing #catchandrelease #goprofishing #hamptonbays #bunker"
     },
     {
       "id": 150,
@@ -3368,7 +3368,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2018-05-26_15-32-42_UTC_6.jpg",
-      "notes": "Father and son kayak fishing during a feeding blitz, using Hobie kayak for inshore saltwater fishing, catch and release"
+      "notes": "#fatherandson #stripedbass and #bluefish #blitz (swipe left for more pix) #hobiefishing #hobiekayakfishing #kayakfishing #saltwaterfishing #goprofishing #fishinglife #hamptonbays #catchandrelease #inshorefishing"
     },
     {
       "id": 149,
@@ -3380,7 +3380,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2018-05-18_15-20-33_UTC.jpg",
-      "notes": "Kayak fishing with Hobie kayak, catch and release during bluefish blitz, GoPro footage captured"
+      "notes": "#bluefish #blitz #hamptonbays #yakfishing #hobiekayakfishing #hobiefishing #catchandrelease #goprofishing #happybirthdaytome"
     },
     {
       "id": 148,
@@ -3392,7 +3392,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2018-05-12_18-18-52_UTC.jpg",
-      "notes": "Kayak fishing using Hobie fishing gear, spring fishing during horseshoe crab spawning season, inshore fishing with GoPro documentation"
+      "notes": "#SpringIsHere #StripedBass #HorseshoeCrabsInLove #hobiefishing #kayakfishing #HamptonBays #goprofishing #inshorefishing"
     },
     {
       "id": 147,
@@ -3404,7 +3404,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2018-04-28_17-29-54_UTC_4.jpg",
-      "notes": "Kayak fishing using Hobie kayak with stickbait, saltwater fishing in La Jolla area"
+      "notes": "#yellowtail #amberjack #lajolla #hobiekayak #kayakfishing #hobiefishing #hobiekayakfishing #saltwaterfishing #seasamurai @seasamurai #stickbait"
     },
     {
       "id": 146,
@@ -3425,7 +3425,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2018-03-24_21-09-18_UTC_5.jpg",
-      "notes": "Kayak fishing using Hobie kayak and Shimano reels, jigging method, saltwater fishing in Mexican Caribbean waters"
+      "notes": "#akumal #mexico #triggerfish #grouper #kingfish #almacojack #saltwaterfishing #kayakfishing #hobiefishing #hobiekayakfishing #yakfishing #shimanoreels #jigging"
     },
     {
       "id": 145,
@@ -3437,7 +3437,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2018-02-11_16-52-31_UTC_1.jpg",
-      "notes": "Saltwater inshore fishing at Haulover Beach, catch and release"
+      "notes": "#tarpon #silverking #miami #hauloverbeach #saltwaterfishing #catchandrealease #floridafishing #inshorefishing"
     },
     {
       "id": 144,
@@ -3455,7 +3455,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2018-01-23_12-59-32_UTC.jpg",
-      "notes": "Kayak fishing with Hobie kayak, catch and release, inshore fishing"
+      "notes": "#kayakfishing for #yellowfin #jackcrevalle and #roosterfish at #zancudolodge #costarica #yakfishing #hobiefishing #kayakfishing #catchandrealease #hobiekayak #inshorefishing"
     },
     {
       "id": 142,
@@ -3470,7 +3470,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2018-01-17_13-45-10_UTC.jpg",
-      "notes": "Tournament fishing at White Water Outfitters tournament, saltwater sport fishing"
+      "notes": "Video of #marlin and #tuna fishing at the #whitewateroutfitters tournament at #zancudolodge #saltwaterfishing #yellowfintuna #bluemarlin #costarica #gamefish #sportfishing"
     },
     {
       "id": 143,
@@ -3500,7 +3500,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2018-01-17_23-17-01_UTC_7.jpg",
-      "notes": "2nd place finish in Whitewater Outfitters fishing tournament, saltwater sportfishing with catch and release practices, offshore fishing targeting gamefish"
+      "notes": "2nd place finish in the #whitewateroutfitters fishing tournament in #zancudolodge #osapeninsula #costarica #roosterfish #bluemarlin #sailfish #hammerheadshark #mahimahi #dorado #tuna #snapper #yellowfintuna #gamefish #saltwaterfishing #catchandrelease #jackcrevalle #sportfishing #offshorefishing #bigfish"
     },
     {
       "id": 141,
@@ -3539,7 +3539,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2017-12-30_19-33-23_UTC_6.jpg",
-      "notes": "Top ten best fish of 2017 compilation. Kayak fishing with Hobie kayak across multiple locations including saltwater and freshwater destinations."
+      "notes": "My #topten best fish of #2017 (swipe left to see them) #gianttrevally #sailfish #redfish #goldendorado #stripedbass #muskie #wahoo #peacockbass #snook #bonnethead #shark #GT #saltwaterfishing #kayakfishing #fanningisland #kiribati #seaisland #hobiekayak #hobiekayakfishing #montauk #whitewateroutfitters #pushinwaterkayakcharters #yakfishing #paranariver #musky #lakestclair #freshwaterfishing #backformorefishingcharters"
     },
     {
       "id": 140,
@@ -3551,7 +3551,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2017-11-19_00-18-24_UTC.jpg",
-      "notes": "Freshwater fishing in Paran\u00e1 River biosphere, noted for amazing jumping ability and beautiful colors"
+      "notes": "The famous #goldendorado of the #paranariver #biosphere #argentina. Amazing jumpers and beautiful colors. Related to the African tigerfish #freshwaterfishing #nervouswaters"
     },
     {
       "id": 139,
@@ -3563,7 +3563,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2017-11-16_21-11-04_UTC.jpg",
-      "notes": "Freshwater fishing for South American wolf fish in biosphere area"
+      "notes": "#tararira #traira #wolffish #freshwaterfishing #paranariver #biosphere #argentina ...the freshwater South American wolf fish is related to the bonefish"
     },
     {
       "id": 138,
@@ -3581,7 +3581,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2017-10-21_23-11-29_UTC_3.jpg",
-      "notes": "Beach fishing and surf casting in Orient Point and Peconic Bay. Caught 5 false albacore and over 20 striped bass including some on fly teaser. Penn reels used. Poppers and surf casting techniques employed. Catch and release."
+      "notes": "#amazingday #saltwaterfishing 5 #albies in #orientpoint then over 20 #stripedbass from the beach in #peconicbay including a few on a fly teaser #hamptonbays #pennreels #falsealbacore #albacore #bluefish #catchandrelease #popperfishing #surfcasting #stripedbassfishing #surffishing"
     },
     {
       "id": 137,
@@ -3593,7 +3593,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2017-10-15_03-28-25_UTC.jpg",
-      "notes": "Caught on fly fishing with teaser rig in saltwater"
+      "notes": "#falsealbacore #albacore on a fly teaser #shinnecockbay #saltwaterfishing #hamptonbays #albies"
     },
     {
       "id": 136,
@@ -3605,7 +3605,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2017-09-27_21-31-21_UTC_2.jpg",
-      "notes": "Guided charter fishing on Lake St. Clair, catch and release fishing for musky"
+      "notes": "#musky fishing on #lakestclair #muskie #muskellunge #freshwaterfishing #medicinemancharters #catchandrelease #muskyfishing #fishontario"
     },
     {
       "id": 135,
@@ -3617,7 +3617,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2017-09-11_14-19-32_UTC.jpg",
-      "notes": "Kayak fishing with Hobie kayak in Shinnecock Bay, mentioned as grand slam catch"
+      "notes": "#shinnecockbay #hamptonbays #grandslam #hobiekayak #hobiefishing #kayakfishing #yakfishing #saltwaterfishing #inshorefishing #stripedbass #tchaikovsky"
     },
     {
       "id": 134,
@@ -3629,7 +3629,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2017-08-25_22-46-21_UTC_6.jpg",
-      "notes": "Saltwater fishing in Montauk, using Daiwa reels, midnight fishing session, multiple striped bass caught"
+      "notes": "#stripedbass #saltwaterfishing #montauk #whitewateroutfitters #daiwareels #meetmeinmontauk #striperfishing #midnight #longislandfishing"
     },
     {
       "id": 133,
@@ -3641,7 +3641,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2017-08-11_14-32-17_UTC.jpg",
-      "notes": "Kayak fishing with Hobie kayak, jumped 10 tarpon, fought 3, landed 1, most fish over 100 lbs"
+      "notes": "Fishing for monster #tarpon in #seaisland #georgia from a kayak.  Most were over 100 lbs.  Jumped 10, fought 3, landed one.  Like trying to catch a freight train.  #kayakfishing #saltwaterfishing #hobiekayakfishing #hobiekayak #silverking #yakfishing #tarponfishing #inshorefishing"
     },
     {
       "id": 132,
@@ -3653,7 +3653,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2017-08-08_22-34-54_UTC_2.jpg",
-      "notes": "Caught kayak fishing using Hobie kayak in saltwater"
+      "notes": "#bonnetheadshark #seaisland #hobiekayak #hobiekayakfishing #saltwaterfishing #kayakfishing #yakfishing"
     },
     {
       "id": 131,
@@ -3668,7 +3668,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2017-08-01_19-23-06_UTC.jpg",
-      "notes": "Deep sea and saltwater fishing trip combining pelagic and flats fishing"
+      "notes": "#FanningIsland #bonefish #yellowfin #kiribati #deepseafishing #saltwaterfishing #adventurewife"
     },
     {
       "id": 130,
@@ -3683,7 +3683,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2017-07-26_12-48-17_UTC.jpg",
-      "notes": "Deep sea fishing using Shimano gear, sport fishing at Pegasus Lodges"
+      "notes": "#fanningisland #kiribati #deepseafishing #saltwaterfishing #mahi #wahoo #shimano  #pegasuslodges #sportfishing"
     },
     {
       "id": 129,
@@ -3710,7 +3710,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2017-07-14_22-21-43_UTC.jpg",
-      "notes": "Deep sea and saltwater fishing using Shimano reels in tropical Pacific waters"
+      "notes": "#fanningisland #kiribati #fishing #deepseafishing #saltwaterfishing #tuna #wahoo #GT #shimanoreels #mahi #bonefish #trevally"
     },
     {
       "id": 128,
@@ -3722,7 +3722,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2017-07-13_14-47-17_UTC.jpg",
-      "notes": "13 foot inflatable dingy, Shimano reels, GT popping method, coral atoll fishing"
+      "notes": "#gianttrevally fishing on #fanningisland #kiribati coral atoll in a 13 foot inflatable dingy #shimanoreels #deepseafishing #saltwaterfishing #GT #gtpopping #pegasuslodges #ulua"
     },
     {
       "id": 127,
@@ -3734,7 +3734,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2017-07-03_18-17-26_UTC_4.jpg",
-      "notes": "Anniversary trip to coral atoll targeting giant trevally and other pelagics, remote location with no phone/internet access"
+      "notes": "23.6 year anniversary trip to coral atoll #fanningisland in #kiribati to fish for #gianttrevally and other pelagics. No phone/internet. Back in 10 days with photos.  Swipe left for pix of rachel and I from 1991-93."
     },
     {
       "id": 125,
@@ -3746,7 +3746,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2017-06-18_21-35-25_UTC.jpg",
-      "notes": "Caught from kayak (Hobie kayak mentioned in hashtags)"
+      "notes": "#jeep #hobiekayak #stripedbass"
     },
     {
       "id": 126,
@@ -3758,7 +3758,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2017-06-18_21-41-23_UTC.jpg",
-      "notes": "Kayak fishing using Hobie kayak and Penn reels, targeting striped bass around bunker pod in foggy conditions"
+      "notes": "Fishing massive #bunker pod for #stripedbass #hobiekayak #pennreels #hobiefishing #yakgear #saltwaterfishing #fog #dontgowithoutacompass #kayakfishing #goprofishing"
     },
     {
       "id": 123,
@@ -3770,7 +3770,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2017-05-29_23-23-27_UTC.jpg",
-      "notes": "First striped bass catch, kayak fishing using Hobie kayak in Peconic Bay"
+      "notes": "Peter's first #stripedbass #Peconicbay #hobiekayak #kayakfishing"
     },
     {
       "id": 124,
@@ -3785,7 +3785,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2017-05-29_23-33-18_UTC.jpg",
-      "notes": "Kayak fishing in saltwater using Penn reels and Wilderness Systems kayak with RadPole setup"
+      "notes": "#stripedbass and #bluefish #peconicbay #hamptonbays #pennreels #wildernesssystems #radpole #kayakfishing #saltwaterfishing #yakfishing #goprofishing"
     },
     {
       "id": 121,
@@ -3800,7 +3800,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2017-05-06_19-58-11_UTC_4.jpg",
-      "notes": "Kayak fishing using Hobie kayak and light tackle gear at Driftwood Beach"
+      "notes": "#seaisland #kayakfishing #redfish #blackdrum #hobiekayak #lighttackle #driftwoodbeach #georgia #yakgear #yakfishing. Multiple pictures:swipe right"
     },
     {
       "id": 122,
@@ -3812,7 +3812,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2017-05-06_20-04-41_UTC.jpg",
-      "notes": "Kayak fishing with Hobie kayak during low tide conditions in shallow water"
+      "notes": "#seaisland #redfish #bigfish #smallpond #hobiekayak #kayakfishing #lowtide #georgia #yakfishing"
     },
     {
       "id": 120,
@@ -3824,7 +3824,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2017-04-06_01-52-39_UTC.jpg",
-      "notes": "Kayak fishing using Hobie kayak with Shimano gear, saltwater fishing in Boynton Beach area, video documentation with GoPro"
+      "notes": "#sailfish #video #kayakfishing #hobiekayak #shimano #saltwaterfishing #bigfish #boyntonbeach #hobiefishing #pushinwaterkayakcharters #goprofishing #yakgear #weekendbrag"
     },
     {
       "id": 116,
@@ -3836,7 +3836,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2017-04-04_01-20-12_UTC.jpg",
-      "notes": "Caught from kayak, Florida Gar with sharp teeth"
+      "notes": "#Florida #gar #kayakfishing #sharpteeth"
     },
     {
       "id": 117,
@@ -3848,7 +3848,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2017-04-04_01-21-32_UTC.jpg",
-      "notes": "Kayak fishing with Pushin Water Kayak Charters using YakGear equipment"
+      "notes": "#boyntonbeach #peacockbass #kayakfishing #pushinwaterkayakcharters #yakgear"
     },
     {
       "id": 118,
@@ -3860,7 +3860,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2017-04-04_01-27-23_UTC.jpg",
-      "notes": "Caught from kayak using kayak fishing charter services, targeting unusual freshwater species"
+      "notes": "#Florida #clownknifefish #clownfeatherback #kayakfishing #weirdfish #pushinwaterkayakcharters #yakgear"
     },
     {
       "id": 119,
@@ -3872,7 +3872,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2017-04-04_01-29-37_UTC.jpg",
-      "notes": "Kayak fishing using Hobie kayak and Shimano gear, saltwater fishing charter"
+      "notes": "#boyntonbeach #kayakfishing #sailfish #shimano #hobiekayak #pushinwaterkayakcharters #saltwaterfishing #yakgear"
     },
     {
       "id": 115,
@@ -3884,7 +3884,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2017-04-02_19-10-49_UTC.jpg",
-      "notes": "Kayak fishing using Hobie kayak and Shimano gear in saltwater"
+      "notes": "#sailfish #boyntonbeach #hobiekayak #kayakfishing #shimano #briannelli #saltwaterfishing #yakgear"
     },
     {
       "id": 112,
@@ -3896,7 +3896,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2017-03-29_20-23-48_UTC.jpg",
-      "notes": "Kayak fishing in Florida Keys flats with guide Randy Morrow"
+      "notes": "#bonefish #floridakeys #kayakfishing #cudjoekey guide:Randy Morrow"
     },
     {
       "id": 113,
@@ -3908,7 +3908,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2017-03-29_20-32-50_UTC.jpg",
-      "notes": "Kayak fishing using Jackson Kayaks in Florida Keys"
+      "notes": "#lemonshark #kayakfishing #floridakeys #cudjoekey #jacksonkayaks"
     },
     {
       "id": 114,
@@ -3920,7 +3920,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2017-03-29_20-33-34_UTC.jpg",
-      "notes": "Kayak fishing with Jackson Kayaks and Yak Gear, guided by Randy Morrow in the Florida Keys"
+      "notes": "#lemonshark #kayakfishing #floridakeys #cudjoekey #jacksonkayaks guide:Randy Morrow #yakgear"
     },
     {
       "id": 109,
@@ -3932,7 +3932,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2017-02-10_22-16-32_UTC.jpg",
-      "notes": "Caught while kayak fishing"
+      "notes": "#peacockbass #delraybeach #kayakfishing"
     },
     {
       "id": 110,
@@ -3944,7 +3944,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2017-02-10_22-18-05_UTC.jpg",
-      "notes": ""
+      "notes": "#Miami #kingmackerel"
     },
     {
       "id": 111,
@@ -3956,7 +3956,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2017-02-10_22-23-03_UTC.jpg",
-      "notes": "Caught in Biscayne Bay near Miami"
+      "notes": "#Miami #biscaynebay #snook"
     },
     {
       "id": 108,
@@ -3968,7 +3968,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2017-01-07_19-01-30_UTC.jpg",
-      "notes": ""
+      "notes": "#snook #miami #balharbor"
     },
     {
       "id": 107,
@@ -3980,7 +3980,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-12-25_13-13-09_UTC.jpg",
-      "notes": "Caught using jigging technique"
+      "notes": "#Akumal #AlmacoJack #Jigging"
     },
     {
       "id": 104,
@@ -3992,7 +3992,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-12-01_14-13-27_UTC.jpg",
-      "notes": "Kayak fishing during Thanksgiving period at Sea Island"
+      "notes": "#seaisland #thanksgiving #kayakfishing"
     },
     {
       "id": 105,
@@ -4004,7 +4004,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-12-01_14-15-47_UTC.jpg",
-      "notes": ""
+      "notes": "#seaisland #redfish"
     },
     {
       "id": 106,
@@ -4016,7 +4016,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-12-01_14-16-54_UTC.jpg",
-      "notes": "Kayak fishing during Thanksgiving period at Sea Island"
+      "notes": "#seaisland #thanksgiving #redfish #kayakfishing"
     },
     {
       "id": 101,
@@ -4028,7 +4028,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-10-21_22-07-34_UTC.jpg",
-      "notes": "Kayak fishing with yak gear"
+      "notes": "#seaisland #georgia #kayakfishing #redfish #yakgear"
     },
     {
       "id": 102,
@@ -4040,7 +4040,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-10-21_22-08-28_UTC.jpg",
-      "notes": "Double catch of bull redfish while kayak fishing using Hobie kayak and Yak Gear equipment"
+      "notes": "#bull #redfish double #seaisland #georgia #kayakfishing #hobiekayak #yakgear"
     },
     {
       "id": 103,
@@ -4052,7 +4052,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-10-21_22-10-20_UTC.jpg",
-      "notes": "Kayak fishing using Hobie kayak with Yak Gear equipment"
+      "notes": "#redfish #kayakfishing #seaisland #georgia #adventure #hobiekayak #yakgear"
     },
     {
       "id": 100,
@@ -4067,7 +4067,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-10-10_18-37-07_UTC.jpg",
-      "notes": "Blackfin tuna prepared as sashimi for dinner, wahoo given to boat captains"
+      "notes": "#blackfintuna #sashimi #dinner #bermuda. gave the #wahoo to the captains"
     },
     {
       "id": 98,
@@ -4079,7 +4079,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-10-09_21-08-11_UTC.jpg",
-      "notes": "Caught at Challenger Bank offshore fishing grounds"
+      "notes": "#wahoo #challengerbank #bermuda"
     },
     {
       "id": 99,
@@ -4091,7 +4091,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-10-09_21-13-12_UTC.jpg",
-      "notes": ""
+      "notes": "#blackfintuna #bermuda"
     },
     {
       "id": 97,
@@ -4103,7 +4103,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-09-18_00-08-30_UTC.jpg",
-      "notes": "Caught at sunset in Lafitte, Louisiana coastal waters"
+      "notes": "#lafitte #louisiana #redfish at #sunset"
     },
     {
       "id": 96,
@@ -4115,7 +4115,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-09-16_02-58-08_UTC.jpg",
-      "notes": "Caught in Louisiana bayou near Lafitte"
+      "notes": "#redfish #Louisiana #bayou #lafitte"
     },
     {
       "id": 95,
@@ -4130,7 +4130,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-09-02_19-44-29_UTC.jpg",
-      "notes": "Popper fishing with toy snapper rod, caught 10 inch bluefish and 28 inch striped bass, rod broke during catch"
+      "notes": "#Popper Fishing for small 10 inch cocktail #bluefish with toy snapper rod + 28 inch #striper = #brokenrod"
     },
     {
       "id": 94,
@@ -4142,7 +4142,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-08-31_22-35-56_UTC.jpg",
-      "notes": "Kayak fishing in Shinnecock Bay using Wilderness Systems kayak and Yak Gear equipment. Fish tagged as keeper size fluke."
+      "notes": "#keeper #fluke #shinnecockbay #kayakfishing #wildernesssystems #yakgear"
     },
     {
       "id": 87,
@@ -4154,7 +4154,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-08-22_17-28-34_UTC.jpg",
-      "notes": "Cutthroat trout caught in Jackson Hole area waters"
+      "notes": "Peter #cutthroattrout #jacksonhole"
     },
     {
       "id": 88,
@@ -4166,7 +4166,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-08-22_17-31-24_UTC.jpg",
-      "notes": "Horse-eye jack caught in Panama waters"
+      "notes": "William #horseeyedjack #panamafishing"
     },
     {
       "id": 89,
@@ -4178,7 +4178,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-08-22_17-37-17_UTC.jpg",
-      "notes": "Roosterfish catch at Osa Peninsula, Costa Rica"
+      "notes": "#costarica #roosterfish #osapeninsula"
     },
     {
       "id": 90,
@@ -4190,7 +4190,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-08-22_17-47-02_UTC.jpg",
-      "notes": "Marlin caught off Osa Peninsula, Costa Rica"
+      "notes": "#Marlin #osapeninsula #rachel #costarica"
     },
     {
       "id": 91,
@@ -4202,7 +4202,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-08-22_18-08-45_UTC.jpg",
-      "notes": "Catch from Boca Paila area in Quintana Roo"
+      "notes": "#barracuda #bocapaila #quintanaroo"
     },
     {
       "id": 92,
@@ -4214,7 +4214,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-08-22_18-21-05_UTC.jpg",
-      "notes": "Accidental catch of stingray, angler appears unhappy with the result"
+      "notes": "#oops #hiltonhead unhappy #stingray"
     },
     {
       "id": 93,
@@ -4226,7 +4226,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-08-22_18-25-32_UTC.jpg",
-      "notes": "Caught using Hobie kayak with yak gear in La Jolla waters"
+      "notes": "#yellowtail #lajolla #hobiekayak #yakgear"
     },
     {
       "id": 86,
@@ -4238,7 +4238,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-08-18_00-15-01_UTC.jpg",
-      "notes": "Caught at The Race near Orient Point, known for strong currents and good striper fishing"
+      "notes": "#stripedbass #orientpoint #TheRace"
     },
     {
       "id": 83,
@@ -4250,7 +4250,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-08-09_23-48-53_UTC.jpg",
-      "notes": "First time fly fishing experience"
+      "notes": "#FirstTimeFlyFishing #Cutthroat #Trout #JacksonHole"
     },
     {
       "id": 84,
@@ -4262,7 +4262,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-08-09_23-50-59_UTC.jpg",
-      "notes": "First fish caught on fly fishing tackle, cutthroat trout in Jackson Hole area"
+      "notes": "#FirstFishonaFly #cutthroattrout #jacksonhole"
     },
     {
       "id": 85,
@@ -4274,7 +4274,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-08-09_23-52-18_UTC.jpg",
-      "notes": "Cutthroat trout caught in Jackson Hole area"
+      "notes": "#cutthroattrout #jacksonhole"
     },
     {
       "id": 81,
@@ -4286,7 +4286,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-08-04_00-43-59_UTC.jpg",
-      "notes": "Monster prehistoric sturgeon catch"
+      "notes": "#monster #prehistoric #sturgeon #britishcolumbia #fraserriver"
     },
     {
       "id": 82,
@@ -4298,7 +4298,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-08-04_00-49-26_UTC.jpg",
-      "notes": "Kayak fishing on Hobie kayak with guide Sea Samurai, battle with sea lion for the fish, using Seeker Beacon and Yak Gear equipment"
+      "notes": "#amazing #battle between me and a #sealion for #yellowtail while #kayakfishing on a #hobiekayak with awesome guide #seasamurai in #LaJolla #seekerbeacon #yakgear\nYou can see the sea lion below the surface of the water holding the fish, and again at the end when it made a last grab for the fish next to the boat"
     },
     {
       "id": 80,
@@ -4313,7 +4313,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-25_13-18-45_UTC.jpg",
-      "notes": "Kayak fishing behind house, caught fluke and porgy"
+      "notes": "#fluke #porgy in back of the house #kayakfishing"
     },
     {
       "id": 66,
@@ -4325,7 +4325,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-15_00-57-16_UTC.jpg",
-      "notes": "Fluke caught at Shinnecock Inlet"
+      "notes": "Peter catches a #fluke in #shinnecockinlet"
     },
     {
       "id": 67,
@@ -4337,7 +4337,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-15_01-00-07_UTC.jpg",
-      "notes": "Houndfish catch, noted for sharp teeth"
+      "notes": "#houndfish #sharpteeth"
     },
     {
       "id": 68,
@@ -4349,7 +4349,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-15_01-00-55_UTC.jpg",
-      "notes": "Caught using jigging technique"
+      "notes": "#horseeyejack #jigging #panamafishing"
     },
     {
       "id": 69,
@@ -4361,7 +4361,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-15_01-02-02_UTC.jpg",
-      "notes": "Nurse shark catch in St. John, USVI waters"
+      "notes": "Peter #nurseshark in #stjohnusvi"
     },
     {
       "id": 70,
@@ -4373,7 +4373,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-15_01-03-40_UTC.jpg",
-      "notes": "Father and son fishing trip"
+      "notes": "#stjohnusvi #tarpon #fatherandson"
     },
     {
       "id": 71,
@@ -4385,7 +4385,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-15_01-06-49_UTC.jpg",
-      "notes": "Tiger rockfish caught in Sitka waters"
+      "notes": "#tigerrockfish #sitka #alaska"
     },
     {
       "id": 72,
@@ -4397,7 +4397,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-15_01-08-45_UTC.jpg",
-      "notes": "Fighting sturgeon at Fraser River Lodge"
+      "notes": "Rachel fights a #sturgeon #fraserriverlodge #strongwife"
     },
     {
       "id": 73,
@@ -4409,7 +4409,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-15_01-10-21_UTC.jpg",
-      "notes": "Couple fishing together at Fraser River Lodge, chum salmon run"
+      "notes": "#couple that #fishes #together stays #together #chumsalmon #britishcolumbia #fraserriverlodge"
     },
     {
       "id": 74,
@@ -4421,7 +4421,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-15_01-12-33_UTC.jpg",
-      "notes": "Catch at Boca Paila flats"
+      "notes": "Rachel #bonefish #bocapaila"
     },
     {
       "id": 75,
@@ -4433,7 +4433,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-15_01-15-58_UTC.jpg",
-      "notes": "Caught on popper lure in rainy conditions"
+      "notes": "#fishing #intherain #yellowfin on #popper #panama"
     },
     {
       "id": 76,
@@ -4445,7 +4445,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-15_01-18-19_UTC.jpg",
-      "notes": "Father and son fishing trip on Fraser River"
+      "notes": "#fatherandson #sturgeon #fraserriver #differenthair"
     },
     {
       "id": 77,
@@ -4457,7 +4457,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-15_01-22-46_UTC.jpg",
-      "notes": "Catch by angler named William at private club location"
+      "notes": "William #pike #wausaukeeclub"
     },
     {
       "id": 78,
@@ -4469,7 +4469,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-15_01-25-31_UTC.jpg",
-      "notes": "Caught on 12 lb test line using Rapala deep tail dancer lure in Patagonian waters"
+      "notes": "#chinook #kingsalmon in #TorresDelPaine #Chile #patagonia on 12 lb test on #Rapala #deeptaildancer lure"
     },
     {
       "id": 79,
@@ -4481,7 +4481,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-15_01-50-05_UTC.jpg",
-      "notes": "Kayak fishing using Hobie kayak with live bait targeting sailfish"
+      "notes": "#kayakfishing for #sailfish in #boyntonbeach on #livebait on #hobie"
     },
     {
       "id": 56,
@@ -4493,7 +4493,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-14_03-09-28_UTC.jpg",
-      "notes": "Jigging method used for catching red snapper"
+      "notes": "#panamafishing #redsnapper #cutewife #jigging"
     },
     {
       "id": 57,
@@ -4505,7 +4505,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-14_03-10-18_UTC.jpg",
-      "notes": "Caught using popper lure"
+      "notes": "#hamptonbays #bluefish #popper"
     },
     {
       "id": 58,
@@ -4517,7 +4517,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-14_03-12-00_UTC.jpg",
-      "notes": "Caught using live pilchards as bait"
+      "notes": "#puertorico #tarpon on live pilchards"
     },
     {
       "id": 59,
@@ -4529,7 +4529,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-14_03-15-24_UTC.jpg",
-      "notes": "Catch and release sailfish from Hobie kayak - reviving the fish before release"
+      "notes": "#hobiekayak #kayakfishing reviving a #sailfish"
     },
     {
       "id": 60,
@@ -4541,7 +4541,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-14_03-16-17_UTC.jpg",
-      "notes": "Fraser River salmon fishing, appears to be multiple fish caught"
+      "notes": "#fraserriver #salmon #bestwife #fraserriverlodge"
     },
     {
       "id": 61,
@@ -4553,7 +4553,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-14_03-19-04_UTC.jpg",
-      "notes": "Kayak fishing with sea lion interaction during the catch, using yakgear equipment"
+      "notes": "#sealion on the right attacking my #yellowtail #kayakfishing in #LaJolla #yakgear"
     },
     {
       "id": 62,
@@ -4565,7 +4565,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-14_12-12-49_UTC.jpg",
-      "notes": "Caught at Wausaukee Club location"
+      "notes": "#rainbowtrout #wausaukeeclub"
     },
     {
       "id": 63,
@@ -4577,7 +4577,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-14_12-14-47_UTC.jpg",
-      "notes": "Caught at Wausaukee Club in Wisconsin"
+      "notes": "#browntrout #wausaukeeclub #wisconsin"
     },
     {
       "id": 64,
@@ -4589,7 +4589,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-14_12-15-25_UTC.jpg",
-      "notes": "Tarpon catch at Bahia Honda, large fish specimen"
+      "notes": "William #bahiahonda #tarpon #bigfish"
     },
     {
       "id": 65,
@@ -4601,7 +4601,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-14_12-16-25_UTC.jpg",
-      "notes": "Caught at sunset at Red Cedar Point"
+      "notes": "#stripedbass #redcedarpoint at #sunset #hamptonbays"
     },
     {
       "id": 51,
@@ -4613,7 +4613,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-12_01-59-05_UTC.jpg",
-      "notes": "Exceptional 100lb roosterfish described as 'fish of a lifetime'"
+      "notes": "#panamafishing #roosterfish #fishofalifetime #100lbs"
     },
     {
       "id": 52,
@@ -4625,7 +4625,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-12_02-00-18_UTC.jpg",
-      "notes": "Kayak fishing using Wilderness Systems kayak and Yak Gear equipment"
+      "notes": "#Kayakfishing #bluefish #wildernesssystems #yakgear"
     },
     {
       "id": 53,
@@ -4637,7 +4637,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-12_02-01-32_UTC.jpg",
-      "notes": "Jigging method used, fish prepared for ceviche"
+      "notes": "#redsnapper #ceviche #panamafishing #jigging"
     },
     {
       "id": 54,
@@ -4649,7 +4649,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-12_02-10-34_UTC.jpg",
-      "notes": "Caught at Fraser River Lodge"
+      "notes": "#fraserriver #sturgeon #bestwife #fraserriverlodge"
     },
     {
       "id": 55,
@@ -4661,7 +4661,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-12_22-03-44_UTC.jpg",
-      "notes": "Hammerhead shark catch in Key West waters"
+      "notes": "#hammerhead #shark caught in #keywest"
     },
     {
       "id": 25,
@@ -4673,7 +4673,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-10_03-13-24_UTC.jpg",
-      "notes": "Multiple Mahi-Mahi caught in Puerto Aventuras, Mexico"
+      "notes": "Lots of #Mahi #PuertoAventuras Mexico #quintanaroo"
     },
     {
       "id": 26,
@@ -4685,7 +4685,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-10_03-14-06_UTC.jpg",
-      "notes": "Flats fishing in Ascension Bay"
+      "notes": "Mexico Ascension Bay #Bonefish #quintanaroo"
     },
     {
       "id": 27,
@@ -4697,7 +4697,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-10_03-14-57_UTC.jpg",
-      "notes": "Chum salmon caught at Fraser River Lodge"
+      "notes": "#ChumSalmon #FraserRiver Canada #fraserriverlodge"
     },
     {
       "id": 28,
@@ -4709,7 +4709,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-10_03-15-52_UTC.jpg",
-      "notes": "Caught at Fraser River Lodge during coho salmon run"
+      "notes": "#FraserRiver  #cohosalmon #fraserriverlodge"
     },
     {
       "id": 29,
@@ -4721,7 +4721,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-10_03-16-47_UTC.jpg",
-      "notes": "Fraser River Lodge fishing, river monster catch"
+      "notes": "#FraserRiver #sturgeon #rivermonster #bigfish #fraserriverlodge"
     },
     {
       "id": 30,
@@ -4733,7 +4733,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-10_07-07-30_UTC.jpg",
-      "notes": "Caught at Boca Paila, a known fishing destination in the Riviera Maya"
+      "notes": "#Barracuda #BocaPaila Mexico"
     },
     {
       "id": 31,
@@ -4745,7 +4745,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-10_07-08-20_UTC.jpg",
-      "notes": "Fraser River Lodge fishing trip"
+      "notes": "#FraserRiver Canada #sturgeon #fraserriverlodge"
     },
     {
       "id": 32,
@@ -4757,7 +4757,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-10_07-09-09_UTC.jpg",
-      "notes": "Large bigeye tuna catch described as monster fish"
+      "notes": "#BigEyeTuna #Montauk #monsterfish"
     },
     {
       "id": 33,
@@ -4769,7 +4769,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-10_07-12-10_UTC.jpg",
-      "notes": "Caught in Torres del Paine National Park, Patagonia region"
+      "notes": "#BrownTrout in Chile #torresdelpaine #patagonia"
     },
     {
       "id": 34,
@@ -4781,7 +4781,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-10_07-14-03_UTC.jpg",
-      "notes": "Sea-run trout caught in Patagonian waters near Torres del Paine"
+      "notes": "#SeaRunTrout in Chile #torresdelpaine #patagonia"
     },
     {
       "id": 35,
@@ -4793,7 +4793,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-10_07-14-56_UTC.jpg",
-      "notes": "Multiple blackfish caught at Orient Point, Long Island"
+      "notes": "#Blackfish #orientpoint Long Island"
     },
     {
       "id": 36,
@@ -4805,7 +4805,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-10_07-16-16_UTC.jpg",
-      "notes": ""
+      "notes": "#Yellowfin tuna #Montauk"
     },
     {
       "id": 37,
@@ -4817,7 +4817,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-10_07-16-56_UTC.jpg",
-      "notes": "Northern Pike catch in Wisconsin waters"
+      "notes": "#NorthernPike Wisconsin"
     },
     {
       "id": 38,
@@ -4829,7 +4829,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-10_07-17-58_UTC.jpg",
-      "notes": "Blue marlin catch from Costa Rica's Osa Peninsula region"
+      "notes": "#BlueMarlin #CostaRicaFishing #osapeninsula"
     },
     {
       "id": 39,
@@ -4844,7 +4844,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-10_07-19-15_UTC.jpg",
-      "notes": "Multiple yellowfin tuna caught in Costa Rica waters"
+      "notes": "#CostaRicaFishing #yellowfin tuna"
     },
     {
       "id": 40,
@@ -4856,7 +4856,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-10_07-20-07_UTC.jpg",
-      "notes": "Multiple striped bass caught at Orient Point"
+      "notes": "#Stripedbass On orient point"
     },
     {
       "id": 41,
@@ -4871,7 +4871,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-10_07-25-20_UTC.jpg",
-      "notes": "Jigging method used"
+      "notes": "#Blackfintuna and crevalle jack in Mexico #jigging"
     },
     {
       "id": 42,
@@ -4883,7 +4883,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-10_07-26-04_UTC.jpg",
-      "notes": ""
+      "notes": "#Panamafishing #roosterfish"
     },
     {
       "id": 43,
@@ -4895,7 +4895,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-10_07-38-37_UTC.jpg",
-      "notes": "Caught from Hobie kayak, kayak fishing in Pacific waters off La Jolla"
+      "notes": "Pacific #WhiteSeaBass in #LaJolla on #hobiekayak #kayakfishing #yakgear"
     },
     {
       "id": 44,
@@ -4907,7 +4907,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-10_07-40-24_UTC.jpg",
-      "notes": ""
+      "notes": "#Cobia #keywest"
     },
     {
       "id": 45,
@@ -4919,7 +4919,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-10_07-42-22_UTC.jpg",
-      "notes": "Caught from Hobie kayak using yak fishing gear"
+      "notes": "#Yellowtail in #LaJolla on #hobiekayak #kayakfishing #yakgear"
     },
     {
       "id": 46,
@@ -4931,7 +4931,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-10_07-44-02_UTC.jpg",
-      "notes": "Spanish Mackerel caught in Panama waters"
+      "notes": "#SpanishMackerel #Panamafishing"
     },
     {
       "id": 47,
@@ -4943,7 +4943,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-10_07-44-23_UTC.jpg",
-      "notes": "Jigging method used, FC Labo gear mentioned"
+      "notes": "William #amberjack #panamafishing #jigging #fclabo"
     },
     {
       "id": 48,
@@ -4955,7 +4955,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-10_07-45-05_UTC.jpg",
-      "notes": "Caught from kayak using live bunker as bait"
+      "notes": "#stripedbass Hampton bays in kayak on live #bunker"
     },
     {
       "id": 49,
@@ -4967,7 +4967,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-10_07-46-34_UTC.jpg",
-      "notes": ""
+      "notes": "#tarpon #stjohnusvi"
     },
     {
       "id": 50,
@@ -4979,7 +4979,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-10_07-50-12_UTC.jpg",
-      "notes": "Caught using jigging method"
+      "notes": "#AlmacoJack #Panamafishing #jigging"
     },
     {
       "id": 1,
@@ -4991,7 +4991,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-09_08-04-59_UTC.jpg",
-      "notes": "Large roosterfish caught in Panama waters near Pedas\u00ed"
+      "notes": "#Roosterfish in #Panamafishing #bigfish #pedasi"
     },
     {
       "id": 2,
@@ -5003,7 +5003,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-09_22-29-08_UTC.jpg",
-      "notes": "Caught using poppers in Panama waters near Pedasi"
+      "notes": "#Yellowfin tuna on #poppers in #Panamafishing #pedasi"
     },
     {
       "id": 3,
@@ -5015,7 +5015,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-09_22-31-44_UTC.jpg",
-      "notes": "Caught using jigging technique in Panama waters"
+      "notes": "#Redsnapper #panamafishing #jigging"
     },
     {
       "id": 4,
@@ -5027,7 +5027,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-09_22-32-55_UTC.jpg",
-      "notes": "Caught from kayak using bunker as bait in Peconic Bay"
+      "notes": "#peconicbay #bluefish on #kayak with #bunker"
     },
     {
       "id": 5,
@@ -5039,7 +5039,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-09_22-33-52_UTC.jpg",
-      "notes": "Large tarpon catch, described as 'big' by angler"
+      "notes": "William and big #tarpon in Florida #bahiahonda"
     },
     {
       "id": 6,
@@ -5051,7 +5051,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-09_22-34-28_UTC.jpg",
-      "notes": "Jigging method used in Akumal waters"
+      "notes": "Mexico #blackfintuna #akumal #jigging #quintanaroo"
     },
     {
       "id": 7,
@@ -5063,7 +5063,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-09_22-35-06_UTC.jpg",
-      "notes": "Caught using jigging technique in Akumal, Quintana Roo"
+      "notes": "Mexico #jackcrevalle on #jigging #akumal #quintanaroo"
     },
     {
       "id": 8,
@@ -5075,7 +5075,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-09_22-35-30_UTC.jpg",
-      "notes": "Caught using jigging technique in Mexican Caribbean waters off Akumal"
+      "notes": "Mexico #amberjack on #jigging #akumal #quintanaroo"
     },
     {
       "id": 9,
@@ -5087,7 +5087,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-09_22-36-02_UTC.jpg",
-      "notes": ""
+      "notes": "#Panamafishing #roosterfish #panafishing"
     },
     {
       "id": 10,
@@ -5099,7 +5099,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-09_22-36-29_UTC.jpg",
-      "notes": "Caught using jigging method in Panama waters"
+      "notes": "#RedSnapper #Panamafishing #jigging"
     },
     {
       "id": 11,
@@ -5111,7 +5111,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-09_22-37-57_UTC.jpg",
-      "notes": "Nurse shark catch in St. John, USVI waters"
+      "notes": "#nurseshark #stjohnusvi"
     },
     {
       "id": 12,
@@ -5123,7 +5123,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-09_22-38-29_UTC.jpg",
-      "notes": ""
+      "notes": "Puerto Rico #snook"
     },
     {
       "id": 13,
@@ -5135,7 +5135,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-09_22-38-53_UTC.jpg",
-      "notes": ""
+      "notes": "Puerto Rico #tarpon"
     },
     {
       "id": 14,
@@ -5147,7 +5147,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-09_22-39-50_UTC.jpg",
-      "notes": "Caught from Hobie kayak using yak gear"
+      "notes": "La Jolla #yellowtail on #hobiekayak #kayakfishing #yakgear"
     },
     {
       "id": 15,
@@ -5162,7 +5162,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-09_22-40-16_UTC.jpg",
-      "notes": "Alaska fishing trip targeting salmon and halibut in Sitka waters"
+      "notes": "Alaska #salmon and #halibut #sitka"
     },
     {
       "id": 16,
@@ -5174,7 +5174,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-09_22-41-04_UTC.jpg",
-      "notes": "Lingcod caught in Sitka, Alaska waters"
+      "notes": "Alaska #lingcod #sitka"
     },
     {
       "id": 17,
@@ -5186,7 +5186,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-09_22-41-28_UTC.jpg",
-      "notes": "King salmon catch in Alaska waters near Sitka"
+      "notes": "Alaska #kingsalmon #sitka"
     },
     {
       "id": 18,
@@ -5198,7 +5198,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-09_22-42-08_UTC.jpg",
-      "notes": "Caught on lure at summer house, two anglers (William and Patrick)"
+      "notes": "William and Patrick #stripedbass at the summer house on lure #hamptonbays"
     },
     {
       "id": 19,
@@ -5210,7 +5210,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-09_22-42-36_UTC.jpg",
-      "notes": "Caught on live bunker from kayak"
+      "notes": "#Stripedbass on live bunker on kayak"
     },
     {
       "id": 20,
@@ -5225,7 +5225,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-09_22-43-13_UTC.jpg",
-      "notes": "Kayak fishing using Hobie kayak in La Jolla waters"
+      "notes": "#Yellowtail and pacific #whiteseabass on #hobiekayak in #LaJolla #kayakfishing"
     },
     {
       "id": 21,
@@ -5237,7 +5237,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-09_22-44-53_UTC.jpg",
-      "notes": "Caught in Hilton Head with fishing companion Peter"
+      "notes": "#Redfish in #HiltonHead with Peter"
     },
     {
       "id": 22,
@@ -5249,7 +5249,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-09_22-46-10_UTC.jpg",
-      "notes": "Kayak fishing using Hobie kayak"
+      "notes": "#Mahi in Florida #kayakfishing #hobie"
     },
     {
       "id": 23,
@@ -5261,7 +5261,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-09_22-47-35_UTC.jpg",
-      "notes": "Lemon shark catch in Key West waters"
+      "notes": "#LemonShark in key west"
     },
     {
       "id": 24,
@@ -5273,7 +5273,7 @@ const userCatchRecords = {
         }
       ],
       "photoUrl": "michaelcembalest/2016-07-09_22-48-02_UTC.jpg",
-      "notes": "Peter's first bluefish catch"
+      "notes": "Peter and his first #bluefish"
     }
   ]
 };
